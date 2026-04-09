@@ -1,0 +1,58 @@
+{
+    "dataset": "Qasper",
+    "model": "Qwen/Qwen2.5-7B-Instruct",
+    "pipeline": "vanilla",
+    "avg_score": 37.651515151515156,
+    "avg_tokens": 3952.0,
+    "avg_latency": 73.14944982528687,
+    "samples": [
+        {
+            "gold_answer": [
+                "Ground truth is not established in the paper"
+            ],
+            "predicted_answer": "unanswerable",
+            "score": 0,
+            "tokens": 4105,
+            "latency_seconds": 6.559302568435669
+        },
+        {
+            "gold_answer": [
+                "extension of the NetVLAD, adds Ghost clusters along with the NetVLAD clusters",
+                "An extension of NetVLAD which replaces hard assignment-based clustering with soft assignment-based clustering with the additon o fusing Ghost clusters to deal with noisy content."
+            ],
+            "predicted_answer": "An extension of the NetVLAD approach that adds ghost clusters to map noisy or irrelevant content into ghost clusters, which are excluded during feature aggregation.",
+            "score": 0.42424242424242425,
+            "tokens": 3468,
+            "latency_seconds": 7.150609016418457
+        },
+        {
+            "gold_answer": [
+                "the attention model, MDREA, also outperforms the best existing research results (WAP 0.690 to 0.688)"
+            ],
+            "predicted_answer": "68.8% to 71.8%",
+            "score": 0.125,
+            "tokens": 4501,
+            "latency_seconds": 107.76801013946533
+        },
+        {
+            "gold_answer": [
+                "using tweets that one has replied or quoted to as contextual information",
+                "text sequences of context tweets"
+            ],
+            "predicted_answer": "Context tweets are proposed as additional features.",
+            "score": 0.3333333333333333,
+            "tokens": 3098,
+            "latency_seconds": 60.23442554473877
+        },
+        {
+            "gold_answer": [
+                "FoxNews, CNN, ESPN, New York Times, Time magazine, Huffington Post Weird News, The Guardian, Cartoon Network, Cooking Light, Home Cooking Adventure, Justin Bieber, Nickelodeon, Spongebob, Disney",
+                "FoxNews, CNN, ESPN, New York Times, Time magazine, Huffington Post Weird News, The Guardian, Cartoon Network, Cooking Light, Home Cooking Adventure, Justin Bieber, Nickelodeon, Spongebob, Disney."
+            ],
+            "predicted_answer": "FoxNews, CNN, ESPN, New York Times, Time magazine, Huffington Post Weird News, The Guardian, Cartoon Network, Cooking Light, Home Cooking Adventure, Justin Bieber, Nickelodeon, Spongebob, Disney.",
+            "score": 1.0,
+            "tokens": 4588,
+            "latency_seconds": 184.0349018573761
+        }
+    ]
+}

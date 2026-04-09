@@ -1,0 +1,58 @@
+{
+    "dataset": "Qasper",
+    "model": "google/gemma-2-9b-it",
+    "pipeline": "coa",
+    "avg_score": 0.0,
+    "avg_tokens": 2544.6,
+    "avg_latency": 32.66883811950684,
+    "samples": [
+        {
+            "gold_answer": [
+                "Ground truth is not established in the paper"
+            ],
+            "predicted_answer": "unanswerable",
+            "score": 0,
+            "tokens": 2545,
+            "latency_seconds": 31.070476055145264
+        },
+        {
+            "gold_answer": [
+                "extension of the NetVLAD, adds Ghost clusters along with the NetVLAD clusters",
+                "An extension of NetVLAD which replaces hard assignment-based clustering with soft assignment-based clustering with the additon o fusing Ghost clusters to deal with noisy content."
+            ],
+            "predicted_answer": "unanswerable",
+            "score": 0,
+            "tokens": 2543,
+            "latency_seconds": 30.726313591003418
+        },
+        {
+            "gold_answer": [
+                "the attention model, MDREA, also outperforms the best existing research results (WAP 0.690 to 0.688)"
+            ],
+            "predicted_answer": "unanswerable",
+            "score": 0,
+            "tokens": 2549,
+            "latency_seconds": 30.859012603759766
+        },
+        {
+            "gold_answer": [
+                "using tweets that one has replied or quoted to as contextual information",
+                "text sequences of context tweets"
+            ],
+            "predicted_answer": "unanswerable",
+            "score": 0,
+            "tokens": 2543,
+            "latency_seconds": 32.887434005737305
+        },
+        {
+            "gold_answer": [
+                "FoxNews, CNN, ESPN, New York Times, Time magazine, Huffington Post Weird News, The Guardian, Cartoon Network, Cooking Light, Home Cooking Adventure, Justin Bieber, Nickelodeon, Spongebob, Disney",
+                "FoxNews, CNN, ESPN, New York Times, Time magazine, Huffington Post Weird News, The Guardian, Cartoon Network, Cooking Light, Home Cooking Adventure, Justin Bieber, Nickelodeon, Spongebob, Disney."
+            ],
+            "predicted_answer": "unanswerable",
+            "score": 0,
+            "tokens": 2543,
+            "latency_seconds": 37.80095434188843
+        }
+    ]
+}

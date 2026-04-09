@@ -1,0 +1,11 @@
+# Chain of Agents — Local Dependencies
+# Install with: pip install -r requirements.txt
+# PyTorch must be installed separately first:
+#   pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
+
+transformers>=5.0.0
+accelerate>=1.10.0
+bitsandbytes>=0.49.0
+datasets>=3.0.0,<4.0.0
+sentence-transformers>=5.0.0
+tqdm>=4.60.0
