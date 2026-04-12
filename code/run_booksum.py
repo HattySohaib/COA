@@ -7,7 +7,7 @@ from coa import run_coa
 
 MODELS = [
     "meta-llama/Meta-Llama-3-8B-Instruct",
-    "google/gemma-2-9b-it",
+    "google/gemma-4-e4b-it",
     "Qwen/Qwen2.5-7B-Instruct"
 ]
 
@@ -46,14 +46,14 @@ def main():
     print("Loading booksum dataset from kmfoda/booksum...")
     dataset = load_dataset("kmfoda/booksum", split="test")
     dataset = dataset.filter(lambda x: x['chapter'] is not None and len(x['chapter']) > 0)
-    dataset = dataset.select(range(min(2, len(dataset))))
+    # dataset = dataset.select(range(...)) # Removed truncation for full eval
 
     for model_id in MODELS:
         print(f"\n{'='*50}\nTesting Model: {model_id}\n{'='*50}")
         model, tokenizer = load_model(model_id)
 
         run_vanilla(model, tokenizer, dataset, "BookSum", build_vanilla_prompt, compute_rouge, model_id)
-        run_coa(model, tokenizer, dataset, "BookSum", get_context, build_worker_prompt, build_manager_prompt, compute_rouge, model_id)
+            # run_coa(model, tokenizer, dataset, "BookSum", get_context, build_worker_prompt, build_manager_prompt, compute_rouge, model_id)
         
         cleanup_memory(model, tokenizer)
 

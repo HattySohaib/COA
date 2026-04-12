@@ -5,6 +5,8 @@ import json
 import string
 import collections
 from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig
+import transformers
+transformers.logging.set_verbosity_error()
 import nltk
 from rouge_score import rouge_scorer
 
@@ -25,7 +27,7 @@ def load_model(model_name):
     tokenizer = AutoTokenizer.from_pretrained(model_name)
     if tokenizer.pad_token is None:
         tokenizer.pad_token = tokenizer.eos_token
-
+    tokenizer.truncation_side = 'left'
     model = AutoModelForCausalLM.from_pretrained(
         model_name,
         quantization_config=bnb_config,
@@ -42,20 +44,33 @@ def cleanup_memory(model, tokenizer):
     torch.cuda.empty_cache()
     print("[utils] Memory cleaned.")
 
-def generate_answer(model, tokenizer, prompt_text, max_new_tokens=150):
+def generate_answer(model, tokenizer, prompt_text, max_new_tokens=150, max_tokens=8192):
     messages = [{"role": "user", "content": prompt_text}]
     chat_prompt = tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
     
-    inputs = tokenizer(chat_prompt, return_tensors="pt", truncation=True, max_length=12000).to(model.device)
-    input_length = inputs.input_ids.shape[1]
+    # Left truncate the prompt text if it's too long, so that we always keep the task instructions and questions at the end
+    tokens = tokenizer(chat_prompt, return_tensors="pt")
+    input_ids = tokens.input_ids
+    
+    if input_ids.shape[1] > max_tokens:
+        input_ids = input_ids[:, -max_tokens:]
+        
+    inputs = {'input_ids': input_ids.to(model.device)}
+    
+    # Needs attention mask for generation if truncating
+    if 'attention_mask' in tokens:
+        attention_mask = tokens.attention_mask
+        if attention_mask.shape[1] > max_tokens:
+            attention_mask = attention_mask[:, -max_tokens:]
+        inputs['attention_mask'] = attention_mask.to(model.device)
+        
+    input_length = inputs['input_ids'].shape[1]
     
     with torch.no_grad():
         outputs = model.generate(
             **inputs,
             max_new_tokens=max_new_tokens,
-            max_length=None,
-            temperature=0.1,
-            do_sample=True,
+            do_sample=False,
             pad_token_id=tokenizer.eos_token_id,
         )
     generated_tokens = outputs[0][input_length:]
@@ -116,7 +131,7 @@ def extract_json_from_response(text):
 def parse_final_answer(response):
     return response.strip()
 
-def chunk_text(text, chunk_size=1200):
+def chunk_text(text, chunk_size=500):
     raw_paragraphs = text.split("\n\n")
     chunks = []
     current_chunk = ""
@@ -129,4 +144,8 @@ def chunk_text(text, chunk_size=1200):
             current_chunk = p + "\n\n"
     if current_chunk.strip():
         chunks.append(current_chunk.strip())
+    # Fallback: if text didn't split on \n\n, split by word count directly
+    if len(chunks) <= 1 and len(text.split()) > chunk_size * 2:
+        words = text.split()
+        chunks = [" ".join(words[i:i+chunk_size]) for i in range(0, len(words), chunk_size)]
     return chunks

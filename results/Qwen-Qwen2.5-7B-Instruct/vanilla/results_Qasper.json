@@ -4,7 +4,7 @@
     "pipeline": "vanilla",
     "avg_score": 37.651515151515156,
     "avg_tokens": 3952.0,
-    "avg_latency": 73.14944982528687,
+    "avg_latency": 14.948095560073853,
     "samples": [
         {
             "gold_answer": [
@@ -13,7 +13,7 @@
             "predicted_answer": "unanswerable",
             "score": 0,
             "tokens": 4105,
-            "latency_seconds": 6.559302568435669
+            "latency_seconds": 6.818450450897217
         },
         {
             "gold_answer": [
@@ -23,7 +23,7 @@
             "predicted_answer": "An extension of the NetVLAD approach that adds ghost clusters to map noisy or irrelevant content into ghost clusters, which are excluded during feature aggregation.",
             "score": 0.42424242424242425,
             "tokens": 3468,
-            "latency_seconds": 7.150609016418457
+            "latency_seconds": 7.246423721313477
         },
         {
             "gold_answer": [
@@ -32,7 +32,7 @@
             "predicted_answer": "68.8% to 71.8%",
             "score": 0.125,
             "tokens": 4501,
-            "latency_seconds": 107.76801013946533
+            "latency_seconds": 8.068527221679688
         },
         {
             "gold_answer": [
@@ -42,7 +42,7 @@
             "predicted_answer": "Context tweets are proposed as additional features.",
             "score": 0.3333333333333333,
             "tokens": 3098,
-            "latency_seconds": 60.23442554473877
+            "latency_seconds": 5.039142608642578
         },
         {
             "gold_answer": [
@@ -52,7 +52,7 @@
             "predicted_answer": "FoxNews, CNN, ESPN, New York Times, Time magazine, Huffington Post Weird News, The Guardian, Cartoon Network, Cooking Light, Home Cooking Adventure, Justin Bieber, Nickelodeon, Spongebob, Disney.",
             "score": 1.0,
             "tokens": 4588,
-            "latency_seconds": 184.0349018573761
+            "latency_seconds": 47.567933797836304
         }
     ]
 }

@@ -7,7 +7,7 @@ from coa import run_coa
 
 MODELS = [
     "meta-llama/Meta-Llama-3-8B-Instruct",
-    "google/gemma-2-9b-it",
+    "google/gemma-4-e4b-it",
     "Qwen/Qwen2.5-7B-Instruct"
 ]
 
@@ -43,14 +43,14 @@ Answer:"""
 def main():
     print("Loading quality dataset from tau/scrolls...")
     dataset = load_dataset("tau/scrolls", "quality", split="validation", trust_remote_code=True)
-    dataset = dataset.select(range(min(2, len(dataset))))
+    # dataset = dataset.select(range(...)) # Removed truncation for full eval
 
     for model_id in MODELS:
         print(f"\n{'='*50}\nTesting Model: {model_id}\n{'='*50}")
         model, tokenizer = load_model(model_id)
 
         run_vanilla(model, tokenizer, dataset, "QuALITY", build_vanilla_prompt, compute_exact_match, model_id)
-        run_coa(model, tokenizer, dataset, "QuALITY", get_context, build_worker_prompt, build_manager_prompt, compute_exact_match, model_id)
+            # run_coa(model, tokenizer, dataset, "QuALITY", get_context, build_worker_prompt, build_manager_prompt, compute_exact_match, model_id)
         
         cleanup_memory(model, tokenizer)
 
