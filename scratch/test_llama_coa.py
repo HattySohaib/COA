@@ -31,7 +31,7 @@ def get_context(sample):
     return sample['context'], sample['answers']
 
 print("Loading qasper...")
-dataset = load_dataset("THUDM/LongBench", "qasper", split="test")
+dataset = load_dataset("THUDM/LongBench", "qasper", split="test", trust_remote_code=True)
 dataset = dataset.select(range(5))
 
 for model_id in MODELS:

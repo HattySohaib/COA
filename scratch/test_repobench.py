@@ -14,7 +14,7 @@ def main():
     args = parser.parse_args()
 
     print("Loading RepoBench-P...")
-    dataset = load_dataset("THUDM/LongBench", "repobench-p", split="test")
+    dataset = load_dataset("THUDM/LongBench", "repobench-p", split="test", trust_remote_code=True)
     if args.mode == "test":
         # Selecting the NEXT 5 samples (indices 10 through 14) to avoid the previous ones
         dataset = dataset.select(range(10, min(15, len(dataset))))

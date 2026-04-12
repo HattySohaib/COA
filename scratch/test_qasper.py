@@ -14,7 +14,7 @@ def main():
     args = parser.parse_args()
 
     print("Loading Qasper...")
-    dataset = load_dataset("THUDM/LongBench", "qasper", split="test")
+    dataset = load_dataset("THUDM/LongBench", "qasper", split="test", trust_remote_code=True)
     if args.mode == "test":
         dataset = dataset.select(range(min(5, len(dataset))))
 
