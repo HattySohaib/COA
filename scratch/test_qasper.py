@@ -41,6 +41,12 @@ def main():
             print(f"Failed: {e}")
         finally:
             cleanup_memory(model, tokenizer)
+            del model
+            del tokenizer
+            import gc
+            gc.collect()
+            import torch
+            torch.cuda.empty_cache()
 
 if __name__ == "__main__":
     main()

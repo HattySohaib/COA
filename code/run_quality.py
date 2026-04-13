@@ -14,7 +14,7 @@ MODELS = [
 TASK_REQUIREMENT = "Answer the multiple choice question based strictly on the provided text by providing the correct option."
 
 def build_vanilla_prompt(sample):
-    context = sample['input']
+    context = sample.get('context', sample['input'])
     gold_answer = sample['output']
     prompt = f"""{TASK_REQUIREMENT}
 
@@ -26,7 +26,7 @@ def get_context(sample):
     return sample['input'], sample['output']
 
 def build_worker_prompt(sample, chunk, previous_msg):
-    return f"""Worker W_i:
+    return f"""Worker Wi:
 {chunk}
 Here is the summary of the previous source text: {previous_msg}
 Question: {sample['input'][-2000:]}
@@ -53,6 +53,12 @@ def main():
             # run_coa(model, tokenizer, dataset, "QuALITY", get_context, build_worker_prompt, build_manager_prompt, compute_exact_match, model_id)
         
         cleanup_memory(model, tokenizer)
+        del model
+        del tokenizer
+        import gc
+        gc.collect()
+        import torch
+        torch.cuda.empty_cache()
 
 if __name__ == "__main__":
     main()

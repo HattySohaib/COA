@@ -14,7 +14,7 @@ MODELS = [
 TASK_REQUIREMENT = "You are given a meeting transcript and a query containing a question or instruction. Answer the query in one or more sentences."
 
 def build_vanilla_prompt(sample):
-    context = sample['input']
+    context = sample.get('context', sample['input'])
     gold_answer = sample['output']
     prompt = f"""{TASK_REQUIREMENT}
 
@@ -31,7 +31,7 @@ def get_context(sample):
     return sample['input'], sample['output']
 
 def build_worker_prompt(sample, chunk, previous_msg):
-    return f"""Worker W_i:
+    return f"""Worker Wi:
 {chunk}
 Here is the summary of the previous source text: {previous_msg}
 Question: {sample['input']}
@@ -58,6 +58,12 @@ def main():
             # run_coa(model, tokenizer, dataset, "QMSum", get_context, build_worker_prompt, build_manager_prompt, compute_rouge, model_id)
         
         cleanup_memory(model, tokenizer)
+        del model
+        del tokenizer
+        import gc
+        gc.collect()
+        import torch
+        torch.cuda.empty_cache()
 
 if __name__ == "__main__":
     main()

@@ -20,8 +20,8 @@ def main():
         dataset = dataset.select(range(10, min(15, len(dataset))))
 
     MODELS = [
-        "meta-llama/Meta-Llama-3-8B-Instruct",
-        "google/gemma-4-e4b-it",
+        # "meta-llama/Meta-Llama-3-8B-Instruct",
+        # "google/gemma-4-e4b-it",
         "Qwen/Qwen2.5-7B-Instruct"
     ]
     
@@ -30,18 +30,24 @@ def main():
         model, tokenizer = load_model(model_id)
 
         try:
-            print("\n--- 1. VANILLA Pipeline ---")
-            run_vanilla(model, tokenizer, dataset, "HotpotQA", build_vanilla_prompt, compute_f1, model_id)
+            # print("\n--- 1. VANILLA Pipeline ---")
+            # run_vanilla(model, tokenizer, dataset, "HotpotQA", build_vanilla_prompt, compute_f1, model_id)
             
             print("\n--- 2. COA Pipeline ---")
             run_coa(model, tokenizer, dataset, "HotpotQA", get_context, build_worker_prompt, build_manager_prompt, compute_f1, model_id)
             
-            print("\n--- 3. RAG Pipeline ---")
-            run_rag(model, tokenizer, dataset, "HotpotQA", build_vanilla_prompt, compute_f1, model_id)
+            # print("\n--- 3. RAG Pipeline ---")
+            # run_rag(model, tokenizer, dataset, "HotpotQA", build_vanilla_prompt, compute_f1, model_id)
         except Exception as e:
             print(f"Failed: {e}")
         finally:
             cleanup_memory(model, tokenizer)
+            del model
+            del tokenizer
+            import gc
+            gc.collect()
+            import torch
+            torch.cuda.empty_cache()
 
 if __name__ == "__main__":
     main()

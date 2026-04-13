@@ -10,6 +10,14 @@ def run_vanilla(model, tokenizer, dataset, dataset_name, build_prompt_fn, metric
     total_latency = 0
     results = []
 
+    safe_model_id = model_id.replace("/", "-")
+    out_dir = os.path.join("results", safe_model_id, "vanilla")
+    os.makedirs(out_dir, exist_ok=True)
+    
+    # Protect full benchmarks from being overwritten by small test runs
+    suffix = "_TEST" if len(dataset) < 20 else ""
+    out_path = os.path.join(out_dir, f"results_{dataset_name}{suffix}.json")
+
     for i, sample in enumerate(dataset):
         # Apply Middle-Truncation to the context document so instructions aren't right-truncated
         # We cap the context string itself to ~6500 tokens to perfectly fit the rigid 8192 budget.
@@ -26,7 +34,7 @@ def run_vanilla(model, tokenizer, dataset, dataset_name, build_prompt_fn, metric
         prompt, gold_answer = build_prompt_fn(truncated_sample)
         
         start_time = time.time()
-        response, tokens = generate_answer(model, tokenizer, prompt, max_new_tokens=2048)
+        response, tokens = generate_answer(model, tokenizer, prompt, max_new_tokens=1024)
         latency = time.time() - start_time
         
         predicted = parse_final_answer(response)
@@ -54,6 +62,19 @@ def run_vanilla(model, tokenizer, dataset, dataset_name, build_prompt_fn, metric
         current_avg_scale = (total_score / (i + 1)) * 100 if not is_f1 else (total_score / (i + 1)) * 100
         
         print(f"Sample {i+1}/{len(dataset)} | Cur. Score: {score:.3f} | Avg. Score: {current_avg_scale:.2f} | Latency: {latency:.2f}s")
+        
+        # Incremental save
+        output_dict = {
+            "dataset": dataset_name,
+            "model": model_id,
+            "pipeline": "vanilla",
+            "avg_score": (total_score / (i + 1)) * 100,
+            "avg_tokens": (total_tokens / (i + 1)),
+            "avg_latency": (total_latency / (i + 1)),
+            "samples": results
+        }
+        with open(out_path, "w") as f:
+            json.dump(output_dict, f, indent=4)
 
     n = len(dataset)
     avg_score = (total_score / n) * 100 if n > 0 else 0
@@ -61,22 +82,5 @@ def run_vanilla(model, tokenizer, dataset, dataset_name, build_prompt_fn, metric
     avg_latency = total_latency / n if n > 0 else 0
     print(f"[{dataset_name}] VANILLA Result: {avg_score:.2f} | Avg Tokens: {avg_tokens:.1f} | Avg Latency: {avg_latency:.2f}s")
     
-    # Save results
-    safe_model_id = model_id.replace("/", "-")
-    out_dir = os.path.join("results", safe_model_id, "vanilla")
-    os.makedirs(out_dir, exist_ok=True)
-    out_path = os.path.join(out_dir, f"results_{dataset_name}.json")
-    
-    output_dict = {
-        "dataset": dataset_name,
-        "model": model_id,
-        "pipeline": "vanilla",
-        "avg_score": avg_score,
-        "avg_tokens": avg_tokens,
-        "avg_latency": avg_latency,
-        "samples": results
-    }
-    with open(out_path, "w") as f:
-        json.dump(output_dict, f, indent=4)
         
     return avg_score

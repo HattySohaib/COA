@@ -39,12 +39,31 @@ def run_rag(model, tokenizer, dataset, dataset_name, build_prompt_fn, metric_fn,
         words = text.split()
         return [" ".join(words[i:i+chunk_size]) for i in range(0, len(words), chunk_size)]
 
+    safe_model_id = model_id.replace("/", "-")
+    out_dir = os.path.join("results", safe_model_id, "rag")
+    os.makedirs(out_dir, exist_ok=True)
+    
+    # Protect full benchmarks from being overwritten by small test runs
+    suffix = "_TEST" if len(dataset) < 20 else ""
+    out_path = os.path.join(out_dir, f"results_{dataset_name}{suffix}.json")
+
     for i, sample in enumerate(dataset):
         if i < len(results):
             continue
 
-        context, question, gold_answer = sample['context'], sample['input'], sample['answers']
+        context = sample.get('context', sample.get('chapter', sample.get('input', '')))
+        question = sample.get('input', '')
         
+        # Handle LongBench answers vs scrolls/booksum outputs
+        if 'answers' in sample:
+            gold_answer = sample['answers']
+        elif 'output' in sample:
+            gold_answer = [sample['output']]
+        elif 'summary_text' in sample:
+            gold_answer = [sample['summary_text']]
+        else:
+            gold_answer = []
+            
         # Implement pseudo-query fallback for empty queries (e.g. GovReport)
         if not question or str(question).strip() == "":
             question = "Summarize the main points and key details of the document."
@@ -68,7 +87,7 @@ def run_rag(model, tokenizer, dataset, dataset_name, build_prompt_fn, metric_fn,
         prompt, _ = build_prompt_fn({**sample, 'context': retrieved_context})
 
         start_time = time.time()
-        response, tokens = generate_answer(model, tokenizer, prompt, max_new_tokens=2048)
+        response, tokens = generate_answer(model, tokenizer, prompt, max_new_tokens=1024)
         latency = time.time() - start_time
         
         predicted = parse_final_answer(response)
@@ -88,16 +107,23 @@ def run_rag(model, tokenizer, dataset, dataset_name, build_prompt_fn, metric_fn,
         
         current_avg_scale = (total_score / (i + 1)) * 100
         print(f"Sample {i+1}/{len(dataset)} | Cur. Score: {score:.3f} | Avg. Score: {current_avg_scale:.2f} | Latency: {latency:.2f}s")
-
-        # Incremental Save
+        
+        # Incremental save
         output_dict = {
             "dataset": dataset_name,
             "model": model_id,
             "pipeline": "rag",
             "avg_score": (total_score / (i + 1)) * 100,
+            "avg_tokens": (total_tokens / (i + 1)),
+            "avg_latency": (total_latency / (i + 1)),
             "samples": results
         }
         with open(out_path, "w") as f:
             json.dump(output_dict, f, indent=4)
+
+    import gc
+    del retriever_model
+    gc.collect()
+    torch.cuda.empty_cache()
 
     return (total_score / len(dataset)) * 100 if len(dataset) > 0 else 0

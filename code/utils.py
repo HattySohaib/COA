@@ -38,8 +38,11 @@ def load_model(model_name):
 
 def cleanup_memory(model, tokenizer):
     print("\n[utils] Cleaning up memory...")
-    del model
-    del tokenizer
+    try:
+        del model
+        del tokenizer
+    except:
+        pass
     gc.collect()
     torch.cuda.empty_cache()
     print("[utils] Memory cleaned.")

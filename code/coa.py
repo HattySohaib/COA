@@ -33,6 +33,14 @@ def run_coa(model, tokenizer, dataset, dataset_name, get_context_fn, build_worke
     total_latency = 0
     results = []
 
+    safe_model_id = model_id.replace("/", "-")
+    out_dir = os.path.join("results", safe_model_id, "coa")
+    os.makedirs(out_dir, exist_ok=True)
+    
+    # Protect full benchmarks from being overwritten by small test runs
+    suffix = "_TEST" if len(dataset) < 20 else ""
+    out_path = os.path.join(out_dir, f"results_{dataset_name}{suffix}.json")
+
     for i, sample in enumerate(dataset):
         context, gold_answer = get_context_fn(sample)
 
@@ -48,6 +56,9 @@ def run_coa(model, tokenizer, dataset, dataset_name, get_context_fn, build_worke
         # W_i reads chunk c_i + CU_{i-1} and produces CU_i
         for j, chunk in enumerate(chunks):
             worker_prompt = build_worker_prompt_fn(sample, chunk, previous_msg)
+            
+            # Tune the prompt for instruction models to eliminate conversational padding
+            worker_prompt += "\n\nImportant: Write the summary directly. Do not include any conversational filler, such as 'Here is the summary', 'Based on the text', or 'Sure'."
 
             messages = [{"role": "user", "content": worker_prompt}]
             chat_prompt = tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
@@ -98,6 +109,19 @@ def run_coa(model, tokenizer, dataset, dataset_name, get_context_fn, build_worke
 
         current_avg_scale = (total_score / (i + 1)) * 100
         print(f"Sample {i+1}/{len(dataset)} | Cur. Score: {score:.3f} | Avg. Score: {current_avg_scale:.2f} | Latency: {latency:.2f}s")
+        
+        # Incremental save
+        output_dict = {
+            "dataset": dataset_name,
+            "model": model_id,
+            "pipeline": "coa",
+            "avg_score": (total_score / (i + 1)) * 100,
+            "avg_tokens": (total_tokens / (i + 1)),
+            "avg_latency": (total_latency / (i + 1)),
+            "samples": results
+        }
+        with open(out_path, "w") as f:
+            json.dump(output_dict, f, indent=4)
 
     n = len(dataset)
     avg_score = (total_score / n) * 100 if n > 0 else 0
@@ -105,22 +129,5 @@ def run_coa(model, tokenizer, dataset, dataset_name, get_context_fn, build_worke
     avg_latency = total_latency / n if n > 0 else 0
     print(f"\n[{dataset_name}] COA Result: {avg_score:.2f}% | Avg Tokens: {avg_tokens:.0f} | Avg Latency: {avg_latency:.2f}s")
 
-    # Save results
-    safe_model_id = model_id.replace("/", "-")
-    out_dir = os.path.join("results", safe_model_id, "coa")
-    os.makedirs(out_dir, exist_ok=True)
-    out_path = os.path.join(out_dir, f"results_{dataset_name}.json")
-
-    output_dict = {
-        "dataset": dataset_name,
-        "model": model_id,
-        "pipeline": "coa",
-        "avg_score": avg_score,
-        "avg_tokens": avg_tokens,
-        "avg_latency": avg_latency,
-        "samples": results
-    }
-    with open(out_path, "w") as f:
-        json.dump(output_dict, f, indent=4)
 
     return avg_score

@@ -14,7 +14,7 @@ MODELS = [
 TASK_REQUIREMENT = "You are given a report by a government agency. Write a one-page summary of the report."
 
 def build_vanilla_prompt(sample):
-    context = sample['input']
+    context = sample.get('context', sample['input'])
     gold_answer = sample['output']
     prompt = f"""{TASK_REQUIREMENT}
 
@@ -30,7 +30,7 @@ def get_context(sample):
     return sample['input'], sample['output']
 
 def build_worker_prompt(sample, chunk, previous_msg):
-    return f"""Worker W_i:
+    return f"""Worker Wi:
 {chunk}
 Here is the summary of the previous source text: {previous_msg}
 You need to read the current source text and summary of previous source text (if any) and generate a summary to include them both. Later, this summary will be used for other agents to generate a summary for the whole text. Thus, your generated summary should be relatively long."""
@@ -55,6 +55,12 @@ def main():
             # run_coa(model, tokenizer, dataset, "GovReport", get_context, build_worker_prompt, build_manager_prompt, compute_rouge, model_id)
         
         cleanup_memory(model, tokenizer)
+        del model
+        del tokenizer
+        import gc
+        gc.collect()
+        import torch
+        torch.cuda.empty_cache()
 
 if __name__ == "__main__":
     main()

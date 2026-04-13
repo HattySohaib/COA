@@ -32,7 +32,7 @@ def get_context(sample):
     return sample['context'], sample['answers']
 
 def build_worker_prompt(sample, chunk, previous_msg):
-    return f"""Worker W_i:
+    return f"""Worker Wi:
 {chunk}
 Here is the summary of the previous source text: {previous_msg}
 Question: {sample['input']}
@@ -58,12 +58,22 @@ def main():
             run_vanilla(model, tokenizer, dataset, "Qasper", build_vanilla_prompt, compute_f1, model_id)
             # run_coa(model, tokenizer, dataset, "Qasper", get_context, build_worker_prompt, build_manager_prompt, compute_f1, model_id)
             cleanup_memory(model, tokenizer)
+            del model, tokenizer
+            import gc
+            gc.collect()
+            import torch
+            torch.cuda.empty_cache()
         except Exception as e:
             import traceback
             print(f"ERROR with {model_id}: {e}")
             traceback.print_exc()
             try:
                 cleanup_memory(model, tokenizer)
+                del model, tokenizer
+                import gc
+                gc.collect()
+                import torch
+                torch.cuda.empty_cache()
             except:
                 pass
 
