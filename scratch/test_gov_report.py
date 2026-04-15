@@ -22,7 +22,7 @@ def main():
     MODELS = [
         "Qwen/Qwen2.5-7B-Instruct",
         "meta-llama/Meta-Llama-3-8B-Instruct",
-        "google/gemma-2-9b-it"
+        "google/gemma-4-e4b-it",
     ]
     
     for model_id in MODELS:

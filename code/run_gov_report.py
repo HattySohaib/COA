@@ -5,12 +5,6 @@ from utils import load_model, cleanup_memory, compute_rouge
 from vanilla import run_vanilla
 from coa import run_coa
 
-MODELS = [
-    "meta-llama/Meta-Llama-3-8B-Instruct",
-    "google/gemma-2-9b-it",
-    "Qwen/Qwen2.5-7B-Instruct"
-]
-
 TASK_REQUIREMENT = "You are given a report by a government agency. Write a one-page summary of the report."
 
 def build_vanilla_prompt(sample):

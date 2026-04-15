@@ -5,12 +5,6 @@ from utils import load_model, cleanup_memory, compute_f1
 from vanilla import run_vanilla
 from coa import run_coa
 
-MODELS = [
-    "meta-llama/Meta-Llama-3-8B-Instruct",
-    "google/gemma-4-e4b-it",
-    "Qwen/Qwen2.5-7B-Instruct"
-]
-
 TASK_REQUIREMENT = "You are given a story, which can be either a novel or a movie script, and a question. Answer the question asconcisely as you can, using a single phrase if possible. Do not provide any explanation."
 
 def build_vanilla_prompt(sample):

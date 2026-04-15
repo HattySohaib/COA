@@ -5,12 +5,6 @@ from utils import load_model, cleanup_memory, compute_f1
 from vanilla import run_vanilla
 from coa import run_coa
 
-MODELS = [
-    "meta-llama/Meta-Llama-3-8B-Instruct",
-    "google/gemma-4-e4b-it",
-    "Qwen/Qwen2.5-7B-Instruct"
-]
-
 TASK_REQUIREMENT = "Answer the question based on the given passages. Only give me the answer and do not output any other words."
 
 def build_vanilla_prompt(sample):
