@@ -32,11 +32,12 @@ def main():
             print("\n--- 1. VANILLA Pipeline ---")
             run_vanilla(model, tokenizer, dataset, "Qasper", build_vanilla_prompt, compute_f1, model_id)
             
-            print("\n--- 2. COA Pipeline ---")
-            run_coa(model, tokenizer, dataset, "Qasper", get_context, build_worker_prompt, build_manager_prompt, compute_f1, model_id)
             
-            print("\n--- 3. RAG Pipeline ---")
+            print("\n--- 2. RAG Pipeline ---") 
             run_rag(model, tokenizer, dataset, "Qasper", build_vanilla_prompt, compute_f1, model_id)
+            
+            print("\n--- 3. COA Pipeline ---")
+            run_coa(model, tokenizer, dataset, "Qasper", get_context, build_worker_prompt, build_manager_prompt, compute_f1, model_id)
         except Exception as e:
             print(f"Failed: {e}")
         finally:
