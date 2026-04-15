@@ -5,12 +5,6 @@ from utils import load_model, cleanup_memory, compute_f1
 from vanilla import run_vanilla
 from coa import run_coa
 
-MODELS = [
-    "meta-llama/Meta-Llama-3-8B-Instruct",
-    "google/gemma-4-e4b-it",
-    "Qwen/Qwen2.5-7B-Instruct"
-]
-
 TASK_REQUIREMENT = "Answer the question based on the given passages. Only give me the answer and do not output any other words."
 
 def build_vanilla_prompt(sample):
@@ -45,26 +39,3 @@ The following are given passages. However, the source text is too long and has b
 {final_worker_msg}
 Question: {sample['input']}
 Answer:"""
-
-def main():
-    print("Loading hotpotqa dataset from THUDM/LongBench...")
-    dataset = load_dataset("THUDM/LongBench", "hotpotqa", split="test")
-    # dataset = dataset.select(range(...)) # Removed truncation for full eval
-
-    for model_id in MODELS:
-        print(f"\n{'='*50}\nTesting Model: {model_id}\n{'='*50}")
-        model, tokenizer = load_model(model_id)
-
-        run_vanilla(model, tokenizer, dataset, "HotpotQA", build_vanilla_prompt, compute_f1, model_id)
-            # run_coa(model, tokenizer, dataset, "HotpotQA", get_context, build_worker_prompt, build_manager_prompt, compute_f1, model_id)
-        
-        cleanup_memory(model, tokenizer)
-        del model
-        del tokenizer
-        import gc
-        gc.collect()
-        import torch
-        torch.cuda.empty_cache()
-
-if __name__ == "__main__":
-    main()

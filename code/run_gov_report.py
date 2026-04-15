@@ -5,17 +5,11 @@ from utils import load_model, cleanup_memory, compute_rouge
 from vanilla import run_vanilla
 from coa import run_coa
 
-MODELS = [
-    "meta-llama/Meta-Llama-3-8B-Instruct",
-    "google/gemma-4-e4b-it",
-    "Qwen/Qwen2.5-7B-Instruct"
-]
-
 TASK_REQUIREMENT = "You are given a report by a government agency. Write a one-page summary of the report."
 
 def build_vanilla_prompt(sample):
-    context = sample.get('context', sample['input'])
-    gold_answer = sample['output']
+    context = sample['context']
+    gold_answer = sample['answers'][0]
     prompt = f"""{TASK_REQUIREMENT}
 
 Report:
@@ -27,7 +21,7 @@ Summary:"""
     return prompt, gold_answer
 
 def get_context(sample):
-    return sample['input'], sample['output']
+    return sample['context'], sample['answers'][0]
 
 def build_worker_prompt(sample, chunk, previous_msg):
     return f"""Worker Wi:
@@ -42,25 +36,3 @@ The following are given passages. However, the source text is too long and has b
 {final_worker_msg}
 Answer:"""
 
-def main():
-    print("Loading gov_report dataset from tau/scrolls...")
-    dataset = load_dataset("tau/scrolls", "gov_report", split="validation", trust_remote_code=True)
-    # dataset = dataset.select(range(...)) # Removed truncation for full eval
-
-    for model_id in MODELS:
-        print(f"\n{'='*50}\nTesting Model: {model_id}\n{'='*50}")
-        model, tokenizer = load_model(model_id)
-
-        run_vanilla(model, tokenizer, dataset, "GovReport", build_vanilla_prompt, compute_rouge, model_id)
-            # run_coa(model, tokenizer, dataset, "GovReport", get_context, build_worker_prompt, build_manager_prompt, compute_rouge, model_id)
-        
-        cleanup_memory(model, tokenizer)
-        del model
-        del tokenizer
-        import gc
-        gc.collect()
-        import torch
-        torch.cuda.empty_cache()
-
-if __name__ == "__main__":
-    main()

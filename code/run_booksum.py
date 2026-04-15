@@ -5,12 +5,6 @@ from utils import load_model, cleanup_memory, compute_rouge
 from vanilla import run_vanilla
 from coa import run_coa
 
-MODELS = [
-    "meta-llama/Meta-Llama-3-8B-Instruct",
-    "google/gemma-4-e4b-it",
-    "Qwen/Qwen2.5-7B-Instruct"
-]
-
 TASK_REQUIREMENT = "You are given a book chapter. Write a comprehensive summary of the chapter."
 
 def build_vanilla_prompt(sample):
@@ -41,27 +35,3 @@ def build_manager_prompt(sample, final_worker_msg):
 The following are given passages. However, the source text is too long and has been summarized. You need to answer based on the summary:
 {final_worker_msg}
 Answer:"""
-
-def main():
-    print("Loading booksum dataset from kmfoda/booksum...")
-    dataset = load_dataset("kmfoda/booksum", split="test")
-    dataset = dataset.filter(lambda x: x['chapter'] is not None and len(x['chapter']) > 0)
-    # dataset = dataset.select(range(...)) # Removed truncation for full eval
-
-    for model_id in MODELS:
-        print(f"\n{'='*50}\nTesting Model: {model_id}\n{'='*50}")
-        model, tokenizer = load_model(model_id)
-
-        run_vanilla(model, tokenizer, dataset, "BookSum", build_vanilla_prompt, compute_rouge, model_id)
-            # run_coa(model, tokenizer, dataset, "BookSum", get_context, build_worker_prompt, build_manager_prompt, compute_rouge, model_id)
-        
-        cleanup_memory(model, tokenizer)
-        del model
-        del tokenizer
-        import gc
-        gc.collect()
-        import torch
-        torch.cuda.empty_cache()
-
-if __name__ == "__main__":
-    main()

@@ -20,7 +20,6 @@ def main():
         dataset = dataset.select(range(10, min(15, len(dataset))))
 
     MODELS = [
-        "meta-llama/Meta-Llama-3-8B-Instruct",
         "google/gemma-4-e4b-it",
         "Qwen/Qwen2.5-7B-Instruct"
     ]
