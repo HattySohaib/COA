@@ -1,0 +1,157 @@
+{
+    "dataset": "QuALITY",
+    "model": "Qwen/Qwen2.5-7B-Instruct",
+    "pipeline": "vanilla",
+    "avg_score": 71.42857142857143,
+    "avg_tokens": 5871.857142857143,
+    "avg_latency": 60.18329882621765,
+    "samples": [
+        {
+            "gold_answer": "D",
+            "predicted_answer": "D",
+            "score": 1.0,
+            "tokens": 6531,
+            "latency_seconds": 72.29992508888245
+        },
+        {
+            "gold_answer": "D",
+            "predicted_answer": "D",
+            "score": 1.0,
+            "tokens": 6531,
+            "latency_seconds": 71.1068525314331
+        },
+        {
+            "gold_answer": "D",
+            "predicted_answer": "D",
+            "score": 1.0,
+            "tokens": 6312,
+            "latency_seconds": 66.96271061897278
+        },
+        {
+            "gold_answer": "D",
+            "predicted_answer": "D",
+            "score": 1.0,
+            "tokens": 6531,
+            "latency_seconds": 71.11087679862976
+        },
+        {
+            "gold_answer": "A",
+            "predicted_answer": "A",
+            "score": 1.0,
+            "tokens": 6531,
+            "latency_seconds": 71.16106677055359
+        },
+        {
+            "gold_answer": "C",
+            "predicted_answer": "(C)",
+            "score": 1.0,
+            "tokens": 6532,
+            "latency_seconds": 71.2921781539917
+        },
+        {
+            "gold_answer": "C",
+            "predicted_answer": "D",
+            "score": 0.0,
+            "tokens": 6531,
+            "latency_seconds": 71.09394931793213
+        },
+        {
+            "gold_answer": "B",
+            "predicted_answer": "D",
+            "score": 0.0,
+            "tokens": 6530,
+            "latency_seconds": 68.15872240066528
+        },
+        {
+            "gold_answer": "A",
+            "predicted_answer": "B",
+            "score": 0.0,
+            "tokens": 6531,
+            "latency_seconds": 71.16254377365112
+        },
+        {
+            "gold_answer": "B",
+            "predicted_answer": "(B)",
+            "score": 1.0,
+            "tokens": 2928,
+            "latency_seconds": 25.26148295402527
+        },
+        {
+            "gold_answer": "B",
+            "predicted_answer": "B",
+            "score": 1.0,
+            "tokens": 6531,
+            "latency_seconds": 71.15480923652649
+        },
+        {
+            "gold_answer": "B",
+            "predicted_answer": "B",
+            "score": 1.0,
+            "tokens": 6531,
+            "latency_seconds": 70.97549748420715
+        },
+        {
+            "gold_answer": "C",
+            "predicted_answer": "C",
+            "score": 1.0,
+            "tokens": 3667,
+            "latency_seconds": 22.714714527130127
+        },
+        {
+            "gold_answer": "D",
+            "predicted_answer": "B",
+            "score": 0.0,
+            "tokens": 6471,
+            "latency_seconds": 69.93285155296326
+        },
+        {
+            "gold_answer": "A",
+            "predicted_answer": "A",
+            "score": 1.0,
+            "tokens": 6531,
+            "latency_seconds": 71.00235295295715
+        },
+        {
+            "gold_answer": "B",
+            "predicted_answer": "A",
+            "score": 0.0,
+            "tokens": 6531,
+            "latency_seconds": 71.06757974624634
+        },
+        {
+            "gold_answer": "A",
+            "predicted_answer": "A",
+            "score": 1.0,
+            "tokens": 6531,
+            "latency_seconds": 71.19054937362671
+        },
+        {
+            "gold_answer": "C",
+            "predicted_answer": "(C) There are no situations where unconditional OA applies",
+            "score": 1.0,
+            "tokens": 4480,
+            "latency_seconds": 30.774615049362183
+        },
+        {
+            "gold_answer": "D",
+            "predicted_answer": "B",
+            "score": 0.0,
+            "tokens": 6531,
+            "latency_seconds": 71.11920690536499
+        },
+        {
+            "gold_answer": "D",
+            "predicted_answer": "D",
+            "score": 1.0,
+            "tokens": 3330,
+            "latency_seconds": 19.459485292434692
+        },
+        {
+            "gold_answer": "A",
+            "predicted_answer": "A",
+            "score": 1.0,
+            "tokens": 4687,
+            "latency_seconds": 34.847304821014404
+        }
+    ]
+}

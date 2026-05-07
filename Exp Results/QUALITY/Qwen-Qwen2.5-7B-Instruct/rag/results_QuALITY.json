@@ -1,0 +1,157 @@
+{
+    "dataset": "QuALITY",
+    "model": "Qwen/Qwen2.5-7B-Instruct",
+    "pipeline": "rag",
+    "avg_score": 85.71428571428571,
+    "avg_tokens": 6562.761904761905,
+    "avg_latency": 206.94850462958925,
+    "samples": [
+        {
+            "gold_answer": "D",
+            "predicted_answer": "D",
+            "score": 1.0,
+            "tokens": 7115,
+            "latency_seconds": 139.96393656730652
+        },
+        {
+            "gold_answer": "D",
+            "predicted_answer": "D",
+            "score": 1.0,
+            "tokens": 7447,
+            "latency_seconds": 260.1650969982147
+        },
+        {
+            "gold_answer": "D",
+            "predicted_answer": "D",
+            "score": 1.0,
+            "tokens": 6312,
+            "latency_seconds": 113.57583975791931
+        },
+        {
+            "gold_answer": "D",
+            "predicted_answer": "D",
+            "score": 1.0,
+            "tokens": 7084,
+            "latency_seconds": 151.04296779632568
+        },
+        {
+            "gold_answer": "A",
+            "predicted_answer": "A",
+            "score": 1.0,
+            "tokens": 6724,
+            "latency_seconds": 132.3902769088745
+        },
+        {
+            "gold_answer": "C",
+            "predicted_answer": "C",
+            "score": 1.0,
+            "tokens": 6936,
+            "latency_seconds": 143.35071396827698
+        },
+        {
+            "gold_answer": "C",
+            "predicted_answer": "D",
+            "score": 0.0,
+            "tokens": 7218,
+            "latency_seconds": 227.0191581249237
+        },
+        {
+            "gold_answer": "B",
+            "predicted_answer": "B",
+            "score": 1.0,
+            "tokens": 7897,
+            "latency_seconds": 287.54243874549866
+        },
+        {
+            "gold_answer": "A",
+            "predicted_answer": "A",
+            "score": 1.0,
+            "tokens": 7909,
+            "latency_seconds": 224.27698397636414
+        },
+        {
+            "gold_answer": "B",
+            "predicted_answer": "(B)",
+            "score": 1.0,
+            "tokens": 2928,
+            "latency_seconds": 41.99027180671692
+        },
+        {
+            "gold_answer": "B",
+            "predicted_answer": "B",
+            "score": 1.0,
+            "tokens": 7924,
+            "latency_seconds": 241.3272261619568
+        },
+        {
+            "gold_answer": "B",
+            "predicted_answer": "(B) For disabling the company's production abilities\n\nWalter was being served criminal charges at the trial for alleged acts of sabotage, specifically for disabling the company's production abilities by locking the machines into feedback circuits, which prevented them from functioning properly. This action was seen as a violation of management contracts and illegal fouling of managerial processes.",
+            "score": 1.0,
+            "tokens": 8260,
+            "latency_seconds": 315.8923234939575
+        },
+        {
+            "gold_answer": "C",
+            "predicted_answer": "C",
+            "score": 1.0,
+            "tokens": 3667,
+            "latency_seconds": 45.67304348945618
+        },
+        {
+            "gold_answer": "D",
+            "predicted_answer": "B",
+            "score": 0.0,
+            "tokens": 6471,
+            "latency_seconds": 145.88471484184265
+        },
+        {
+            "gold_answer": "A",
+            "predicted_answer": "(A) Production and sales are down.\n\nExplanation: The passage indicates that the reports are worse than Walter had ever dreamed, and when he enters Torkleson's office, Torkleson immediately points out that \"Just what do you think you're doing with this company, Towne?\" and then goes on to criticize the reports, saying \"Look at them! Sales at rock bottom. Receipts impossible. Big orders canceled. The worst reports in seven years, and you say you know your job!\" This clearly shows that the reports indicate a decline in production and sales, which is problematic for Walter as the production manager.",
+            "score": 1.0,
+            "tokens": 8319,
+            "latency_seconds": 387.45692205429077
+        },
+        {
+            "gold_answer": "B",
+            "predicted_answer": "B",
+            "score": 1.0,
+            "tokens": 7294,
+            "latency_seconds": 177.64666962623596
+        },
+        {
+            "gold_answer": "A",
+            "predicted_answer": "A",
+            "score": 1.0,
+            "tokens": 7112,
+            "latency_seconds": 186.19923281669617
+        },
+        {
+            "gold_answer": "C",
+            "predicted_answer": "(C) There are no situations where unconditional OA applies",
+            "score": 1.0,
+            "tokens": 4480,
+            "latency_seconds": 91.21334457397461
+        },
+        {
+            "gold_answer": "D",
+            "predicted_answer": "The correct answer is (A) Humans are happy to bring their women to Mars as another manipulation tactic against the race.\n\nExplanation:\nThe passage clearly states that \"Remember, you got this first from Lait and Mortimer. And we defy anyone to call us liars\u2014and prove it!\" indicating that the information provided is accurate. It also mentions, \"Did you ever see an Alaska klutch (pronounced klootch)? Probably not. Well, these Arctic horrors are Ziegfeld beauts compared to the Martian fair sex.\" This suggests that Martians find humans, particularly women, less attractive compared to their own kind.\n\nOption (B) is supported by the passage, which notes that \"Martians are strictly vegetarian: they bake, fry and stew these flowers and weeds and eat them raw with a goo made from fungus and called szchmortz which passes for a salad dressing.\" It also mentions that \"The difficulty was finding the means and method of corruption. All the cash in Jake Guzik's strong box meant nothing to a race of characters whose brats made mudpies of gold dust.\" This implies that Martians do not value gold and diamonds as much as humans do.\n\nOption (C) is also supported by the passage, which describes how the Mafia used sugar as a means to manipulate Martians, stating, \"The difficulty was finding the means and method of corruption. All the cash in Jake Guzik's strong box meant nothing to a race of characters whose brats made mudpies of gold dust. So it came out a dead heat. Thereupon the boys from the Syndicate sat down and declared the Martians in for a fifty-fifty partnership, which means they actually gave them one per cent, which is generous at that. The discovery came as an accident. The first Earthman to be eliminated on Mars was a two-bit hood from North Clark Street who sold a five-cent Hershey bar with almonds to a Martian for a gold piece worth 94 bucks.\"\n\nOption (D) is not supported by the passage. The text does not suggest that Martians value what humans bring to their planet in terms of teaching them new ways to conduct business or build structures. Instead, it indicates that the Mafia used these methods to manipulate Martians and corner the market on various goods and services.\n\nTherefore, option (A) is the statement that is not true according to the passage, as it suggests that humans are happy to bring their women to Mars as a manipulation tactic, which is not mentioned or implied in the text.",
+            "score": 0.0,
+            "tokens": 8704,
+            "latency_seconds": 896.9819161891937
+        },
+        {
+            "gold_answer": "D",
+            "predicted_answer": "D",
+            "score": 1.0,
+            "tokens": 3330,
+            "latency_seconds": 40.47721529006958
+        },
+        {
+            "gold_answer": "A",
+            "predicted_answer": "A",
+            "score": 1.0,
+            "tokens": 4687,
+            "latency_seconds": 95.84830403327942
+        }
+    ]
+}

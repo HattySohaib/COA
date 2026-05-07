@@ -1,0 +1,1960 @@
+{
+    "dataset": "Qasper",
+    "model": "Qwen/Qwen2.5-7B-Instruct",
+    "pipeline": "rag",
+    "avg_score": 42.576206533705076,
+    "avg_tokens": 4747.845,
+    "avg_latency": 62.21234805464744,
+    "samples": [
+        {
+            "gold_answer": [
+                "Ground truth is not established in the paper"
+            ],
+            "predicted_answer": "unanswerable",
+            "score": 0,
+            "tokens": 4106,
+            "latency_seconds": 40.993799924850464
+        },
+        {
+            "gold_answer": [
+                "extension of the NetVLAD, adds Ghost clusters along with the NetVLAD clusters",
+                "An extension of NetVLAD which replaces hard assignment-based clustering with soft assignment-based clustering with the additon o fusing Ghost clusters to deal with noisy content."
+            ],
+            "predicted_answer": "GhostVLAD is an extension of the NetVLAD approach that adds ghost clusters to map noisy or irrelevant content into ghost clusters, which are excluded during feature aggregation.",
+            "score": 0.4,
+            "tokens": 3476,
+            "latency_seconds": 31.211018085479736
+        },
+        {
+            "gold_answer": [
+                "the attention model, MDREA, also outperforms the best existing research results (WAP 0.690 to 0.688)"
+            ],
+            "predicted_answer": "68.8% to 71.8%",
+            "score": 0.125,
+            "tokens": 4505,
+            "latency_seconds": 53.16655731201172
+        },
+        {
+            "gold_answer": [
+                "using tweets that one has replied or quoted to as contextual information",
+                "text sequences of context tweets"
+            ],
+            "predicted_answer": "Context tweets are proposed as additional features.",
+            "score": 0.3333333333333333,
+            "tokens": 3089,
+            "latency_seconds": 25.66765260696411
+        },
+        {
+            "gold_answer": [
+                "FoxNews, CNN, ESPN, New York Times, Time magazine, Huffington Post Weird News, The Guardian, Cartoon Network, Cooking Light, Home Cooking Adventure, Justin Bieber, Nickelodeon, Spongebob, Disney",
+                "FoxNews, CNN, ESPN, New York Times, Time magazine, Huffington Post Weird News, The Guardian, Cartoon Network, Cooking Light, Home Cooking Adventure, Justin Bieber, Nickelodeon, Spongebob, Disney."
+            ],
+            "predicted_answer": "FoxNews, CNN, ESPN, New York Times, Time magazine, Huffington Post Weird News, The Guardian, Cartoon Network, Cooking Light, Home Cooking Adventure, Justin Bieber, Nickelodeon, Spongebob, Disney.",
+            "score": 1.0,
+            "tokens": 4592,
+            "latency_seconds": 57.93188428878784
+        },
+        {
+            "gold_answer": [
+                "Yes",
+                "Yes"
+            ],
+            "predicted_answer": "No",
+            "score": 0,
+            "tokens": 5582,
+            "latency_seconds": 93.89004683494568
+        },
+        {
+            "gold_answer": [
+                "Answer with content missing: (Evaluation Metrics section) Precision, Recall, F1-scores, Strict match, METEOR, ROUGE-2"
+            ],
+            "predicted_answer": "evaluation protocol and baseline",
+            "score": 0.11111111111111112,
+            "tokens": 5859,
+            "latency_seconds": 105.84746670722961
+        },
+        {
+            "gold_answer": [
+                "CNN/DailyMail news highlights, New York Times Annotated Corpus, XSum",
+                "the CNN/DailyMail news highlights dataset BIBREF24, the New York Times Annotated Corpus (NYT; BIBREF25), XSum BIBREF22"
+            ],
+            "predicted_answer": "CNN/DailyMail, NYT, XSum",
+            "score": 0.35294117647058826,
+            "tokens": 6702,
+            "latency_seconds": 148.13955116271973
+        },
+        {
+            "gold_answer": [
+                "GM$\\_$KL achieves better correlation than existing approaches for various metrics on SCWS dataset."
+            ],
+            "predicted_answer": "The proposed approach outperforms existing WSD approaches employing word embeddings on both word similarity and entailment datasets.",
+            "score": 0.20689655172413793,
+            "tokens": 3599,
+            "latency_seconds": 30.666807889938354
+        },
+        {
+            "gold_answer": [
+                "simply averaging the predictions from the constituent single models"
+            ],
+            "predicted_answer": "The ensemble method works by averaging the predictions from constituent single models.",
+            "score": 0.7058823529411764,
+            "tokens": 5462,
+            "latency_seconds": 87.6712875366211
+        },
+        {
+            "gold_answer": [
+                "Friends TV sitcom, Facebook messenger chats"
+            ],
+            "predicted_answer": "EmoryNLP for Friends, Twitter for EmotionPush",
+            "score": 0.16666666666666666,
+            "tokens": 4695,
+            "latency_seconds": 59.013787269592285
+        },
+        {
+            "gold_answer": [
+                "English",
+                "Simple English"
+            ],
+            "predicted_answer": "English",
+            "score": 1.0,
+            "tokens": 3360,
+            "latency_seconds": 25.89711570739746
+        },
+        {
+            "gold_answer": [
+                "IMDb dataset of movie reviews",
+                "IMDb"
+            ],
+            "predicted_answer": "IMDb dataset",
+            "score": 0.6666666666666666,
+            "tokens": 3524,
+            "latency_seconds": 28.032090425491333
+        },
+        {
+            "gold_answer": [
+                "F1 scores of 85.99 on the DL-PS data,  75.15 on the EC-MT data and 71.53 on the EC-UQ data ",
+                "F1 of 85.99 on the DL-PS dataset (dialog domain); 75.15 on EC-MT and 71.53 on EC-UQ (e-commerce domain)"
+            ],
+            "predicted_answer": "unanswerable",
+            "score": 0,
+            "tokens": 7262,
+            "latency_seconds": 183.77131628990173
+        },
+        {
+            "gold_answer": [
+                "No"
+            ],
+            "predicted_answer": "yes",
+            "score": 0,
+            "tokens": 4873,
+            "latency_seconds": 66.26981282234192
+        },
+        {
+            "gold_answer": [
+                "Custom dataset with user questions; set of documents, twitter posts and news articles, all related to finance.",
+                "a self-collected financial intents dataset in Portuguese"
+            ],
+            "predicted_answer": "unanswerable",
+            "score": 0,
+            "tokens": 6036,
+            "latency_seconds": 109.45834469795227
+        },
+        {
+            "gold_answer": [
+                "Energy with accuracy of 0.538",
+                "Energy"
+            ],
+            "predicted_answer": "HealthCare",
+            "score": 0,
+            "tokens": 6416,
+            "latency_seconds": 133.06971502304077
+        },
+        {
+            "gold_answer": [
+                "RNN-based NMT model, Transformer-NMT"
+            ],
+            "predicted_answer": "RNN-based NMT, Transformer-NMT",
+            "score": 0.8571428571428571,
+            "tokens": 5296,
+            "latency_seconds": 81.07722115516663
+        },
+        {
+            "gold_answer": [
+                "a regularization term associated with neutral features, the maximum entropy of class distribution regularization term, the KL divergence between reference and predicted class distribution",
+                "a regularization term associated with neutral features,  the maximum entropy of class distribution, KL divergence between reference and predicted class distribution"
+            ],
+            "predicted_answer": "a regularization term associated with neutral features, the maximum entropy of class distribution regularization term, and the KL divergence between reference and predicted class distribution.",
+            "score": 0.9767441860465117,
+            "tokens": 5198,
+            "latency_seconds": 79.47393703460693
+        },
+        {
+            "gold_answer": [
+                "SVM with unigram, bigram, and trigram features, SVM with average word embedding, SVM with average transformed word embeddings, CNN, ecurrent Convolutional Neural Networks, SVM and deep learning models with comment information",
+                "SVM with unigram, bigram, trigram features, with average word embedding, with average transformed word embeddings, CNN and RCNN, SVM, CNN, RCNN with comment information"
+            ],
+            "predicted_answer": "SVM with unigram, bigram, and trigram features, SVM with average word embedding, SVM with average transformed word embeddings, CNN, Recurrent Convolutional Neural Networks (RCNN), UTCNN without user information, UTCNN without topic information, UTCNN without comments, and oversampling on SVMs, CNN, and RCNN.",
+            "score": 0.6666666666666667,
+            "tokens": 6147,
+            "latency_seconds": 122.23512506484985
+        },
+        {
+            "gold_answer": [
+                "They decrease MAE in 0.34"
+            ],
+            "predicted_answer": "They improved the state-of-the-art performance.",
+            "score": 0.22222222222222224,
+            "tokens": 3782,
+            "latency_seconds": 32.91127061843872
+        },
+        {
+            "gold_answer": [
+                "the attention heads in the proposed adaptively sparse Transformer can specialize more and with higher confidence",
+                "We introduce sparse attention into the Transformer architecture"
+            ],
+            "predicted_answer": "Their model improves interpretability by allowing attention heads to learn different sparsity behaviors, leading to more diverse and specialized attention patterns.",
+            "score": 0.22857142857142854,
+            "tokens": 7244,
+            "latency_seconds": 182.6536967754364
+        },
+        {
+            "gold_answer": [
+                " MT system on the data released by BIBREF11",
+                "Transformer base, two-pass CADec model"
+            ],
+            "predicted_answer": "context-agnostic MT system",
+            "score": 0.4,
+            "tokens": 5299,
+            "latency_seconds": 81.08505392074585
+        },
+        {
+            "gold_answer": [
+                "translation probabilities, Labeled Attachment Scores (LAS)",
+                "accuracy, Labeled Attachment Scores (LAS)"
+            ],
+            "predicted_answer": "XNLI test accuracy, Labeled Attachment Scores (LAS), LAS",
+            "score": 0.7692307692307693,
+            "tokens": 5487,
+            "latency_seconds": 85.9329149723053
+        },
+        {
+            "gold_answer": [
+                "the model is pre-trained on CTC-based ASR task and MT task in the pre-training stage."
+            ],
+            "predicted_answer": "unanswerable",
+            "score": 0,
+            "tokens": 7149,
+            "latency_seconds": 182.91059398651123
+        },
+        {
+            "gold_answer": [
+                "Unanswerable"
+            ],
+            "predicted_answer": "Unanswerable",
+            "score": 1.0,
+            "tokens": 5039,
+            "latency_seconds": 71.3085126876831
+        },
+        {
+            "gold_answer": [
+                "LSTM",
+                "LSTM"
+            ],
+            "predicted_answer": "one LSTM layer",
+            "score": 0.5,
+            "tokens": 3223,
+            "latency_seconds": 23.725581645965576
+        },
+        {
+            "gold_answer": [
+                "Unanswerable",
+                "Yes"
+            ],
+            "predicted_answer": "yes",
+            "score": 1.0,
+            "tokens": 6609,
+            "latency_seconds": 146.61713314056396
+        },
+        {
+            "gold_answer": [
+                "Unanswerable",
+                "LF-MMI Attention\nSeq2Seq \nRNN-T \nChar E2E LF-MMI \nPhone E2E LF-MMI \nCTC + Gram-CTC"
+            ],
+            "predicted_answer": "unanswerable",
+            "score": 1.0,
+            "tokens": 2923,
+            "latency_seconds": 19.505281925201416
+        },
+        {
+            "gold_answer": [
+                "22,880 users",
+                "20,000"
+            ],
+            "predicted_answer": "22,880",
+            "score": 0.6666666666666666,
+            "tokens": 5485,
+            "latency_seconds": 88.54279160499573
+        },
+        {
+            "gold_answer": [
+                "Byte-Pair Encoding perplexity  (BPE PPL),\nBLEU-1,\nBLEU-4,\nROUGE-L,\npercentage of distinct unigram (D-1),\npercentage of distinct bigrams(D-2),\nuser matching accuracy(UMA),\nMean Reciprocal Rank(MRR)\nPairwise preference over baseline(PP)",
+                "BLEU-1/4 and ROUGE-L, likelihood of generated recipes using identical input specifications but conditioned on ten different user profiles, user matching accuracy (UMA), Mean Reciprocal Rank (MRR), neural scoring model from BIBREF33 to measure recipe-level coherence",
+                " Distinct-1/2, UMA = User Matching Accuracy, MRR\n= Mean Reciprocal Rank, PP = Pairwise preference over baseline (evaluated for 310 recipe pairs per model)"
+            ],
+            "predicted_answer": "BPE perplexity, BLEU-1/4, ROUGE-L, Distinct-1/2, user matching accuracy (UMA), Mean Reciprocal Rank (MRR), recipe-level coherence scores, step entailment scores",
+            "score": 0.45,
+            "tokens": 4168,
+            "latency_seconds": 46.86720037460327
+        },
+        {
+            "gold_answer": [
+                "(1) the time the patient has been experiencing the symptom, (2) activities that trigger the symptom (to occur or worsen), (3) the extent of seriousness, (4) the frequency occurrence of the symptom, and (5) the location of symptom, No Answer",
+                "the time the patient has been experiencing the symptom, activities that trigger the symptom, the extent of seriousness, the frequency occurrence of the symptom, the location of symptom, 9 symptoms"
+            ],
+            "predicted_answer": "No Answer",
+            "score": 0.11764705882352941,
+            "tokens": 4804,
+            "latency_seconds": 63.029306411743164
+        },
+        {
+            "gold_answer": [
+                "57,505 sentences",
+                "57,505 sentences"
+            ],
+            "predicted_answer": "unanswerable",
+            "score": 0,
+            "tokens": 5949,
+            "latency_seconds": 109.78462171554565
+        },
+        {
+            "gold_answer": [
+                "four machine translation tasks: German -> English, Japanese -> English, Romanian -> English, English -> German",
+                " four machine translation tasks, IWSLT 2017 German $\\rightarrow $ English BIBREF27, KFTT Japanese $\\rightarrow $ English BIBREF28, WMT 2016 Romanian $\\rightarrow $ English BIBREF29, WMT 2014 English $\\rightarrow $ German BIBREF30"
+            ],
+            "predicted_answer": "four machine translation tasks",
+            "score": 0.5,
+            "tokens": 6802,
+            "latency_seconds": 159.81985640525818
+        },
+        {
+            "gold_answer": [
+                "5 percent points.",
+                "0.05 F1"
+            ],
+            "predicted_answer": "unanswerable",
+            "score": 0,
+            "tokens": 4799,
+            "latency_seconds": 61.99063730239868
+        },
+        {
+            "gold_answer": [
+                "Unanswerable"
+            ],
+            "predicted_answer": "unanswerable",
+            "score": 1.0,
+            "tokens": 5534,
+            "latency_seconds": 90.27289009094238
+        },
+        {
+            "gold_answer": [
+                "No",
+                "No"
+            ],
+            "predicted_answer": "unanswerable",
+            "score": 0,
+            "tokens": 3790,
+            "latency_seconds": 32.93413996696472
+        },
+        {
+            "gold_answer": [
+                "Nguni languages (zul, xho, nbl, ssw), Sotho languages (nso, sot, tsn)",
+                "The Nguni languages are similar to each other, The same is true of the Sotho languages"
+            ],
+            "predicted_answer": "The Nguni languages and the Sotho languages are similar to each other.",
+            "score": 0.7826086956521738,
+            "tokens": 2805,
+            "latency_seconds": 18.691967487335205
+        },
+        {
+            "gold_answer": [
+                "Unidirectional LSTM networks with 2, 6, 7, 8, and  9 layers."
+            ],
+            "predicted_answer": "unanswerable",
+            "score": 0,
+            "tokens": 5731,
+            "latency_seconds": 99.92931890487671
+        },
+        {
+            "gold_answer": [
+                "a sample of  29,794 wikipedia articles and 2,794 arXiv papers "
+            ],
+            "predicted_answer": "29,794 articles",
+            "score": 0.3636363636363636,
+            "tokens": 5893,
+            "latency_seconds": 102.92481851577759
+        },
+        {
+            "gold_answer": [
+                "50 human annotators ranked a random sample of 100 translations by Adequacy, Fluency and overall ranking on a 5-point scale.",
+                "adequacy, precision and ranking values"
+            ],
+            "predicted_answer": "unanswerable",
+            "score": 0,
+            "tokens": 6016,
+            "latency_seconds": 109.53562140464783
+        },
+        {
+            "gold_answer": [
+                "Yes",
+                "Yes"
+            ],
+            "predicted_answer": "unanswerable",
+            "score": 0,
+            "tokens": 5941,
+            "latency_seconds": 107.49089455604553
+        },
+        {
+            "gold_answer": [
+                "by training an autocomplete system on 500K randomly sampled sentences from Yelp reviews",
+                "efficiency of a communication scheme $(q_{\\alpha },p_{\\beta })$ by the retention rate of tokens, which is measured as the fraction of tokens that are kept in the keywords, accuracy of a scheme is measured as the fraction of sentences generated by greedily decoding the model that exactly matches the target sentence"
+            ],
+            "predicted_answer": "Models are evaluated based on efficiency (retention rate) and accuracy (fraction of sentences exactly matching the target).",
+            "score": 0.3448275862068965,
+            "tokens": 2778,
+            "latency_seconds": 19.011600494384766
+        },
+        {
+            "gold_answer": [
+                "Precision, Recall, F-measure, accuracy",
+                "Precision, Recall and F-measure"
+            ],
+            "predicted_answer": "Accuracy, precision, recall, and F-measure.",
+            "score": 0.888888888888889,
+            "tokens": 4381,
+            "latency_seconds": 46.531081199645996
+        },
+        {
+            "gold_answer": [
+                "Book, electronics, beauty, music, IMDB, Yelp, cell phone, baby, DVDs, kitchen",
+                "we use set 1 of the source domain as the only source with sentiment label information during training, and we evaluate the trained model on set 1 of the target domain, Book (BK), Electronics (E), Beauty (BT), and Music (M)"
+            ],
+            "predicted_answer": "The source domain is the domain with labeled data, and the target domain is the domain with no or very few labeled data.",
+            "score": 0.2181818181818182,
+            "tokens": 6129,
+            "latency_seconds": 120.47053170204163
+        },
+        {
+            "gold_answer": [
+                "Variational LSTM, CharCNN, Pointer Sentinel-LSTM, RHN, NAS Cell, SRU, QRNN, RAN, 4-layer skip-connection LSTM, AWD-LSTM, Quantized LSTM"
+            ],
+            "predicted_answer": "unanswerable",
+            "score": 0,
+            "tokens": 4795,
+            "latency_seconds": 62.25027799606323
+        },
+        {
+            "gold_answer": [
+                "Embedding Layer, Neural Network Layers, Loss Function, Metrics",
+                "Embedding Layer, Neural Network Layers, Loss Function, Metrics"
+            ],
+            "predicted_answer": "Embedding Layer, Neural Network Layers, Loss Function, Metrics",
+            "score": 1.0,
+            "tokens": 2538,
+            "latency_seconds": 15.286165952682495
+        },
+        {
+            "gold_answer": [
+                "the Carnegie Mellon Pronouncing Dictionary BIBREF12, the multilingual pronunciation corpus collected by deri2016grapheme , ranscriptions extracted from Wiktionary",
+                "multilingual pronunciation corpus collected by deri2016grapheme"
+            ],
+            "predicted_answer": "deri2016grapheme's multilingual pronunciation corpus collected from Wiktionary and its automatically cleaned version.",
+            "score": 0.4444444444444445,
+            "tokens": 4468,
+            "latency_seconds": 53.44171071052551
+        },
+        {
+            "gold_answer": [
+                "varied from Maximum Entropy Classifiers (BIBREF4) to Support Vector Machines (BIBREF5,BIBREF6,BIBREF7,BIBREF8), Recursive Neural Networks (BIBREF9,BIBREF10), Convolutional Neural Networks (BIBREF11) and most recently transfer learning-based architectures like Bidirectional Encoder Representation from Transformers (BERT) (BIBREF12)"
+            ],
+            "predicted_answer": "unanswerable",
+            "score": 0,
+            "tokens": 3467,
+            "latency_seconds": 25.380894660949707
+        },
+        {
+            "gold_answer": [
+                "English\nFrench\nSpanish\nGerman\nGreek\nBulgarian\nRussian\nTurkish\nArabic\nVietnamese\nThai\nChinese\nHindi\nSwahili\nUrdu\nFinnish",
+                "English, Spanish, Finnish"
+            ],
+            "predicted_answer": "English, Spanish, Finnish",
+            "score": 1.0,
+            "tokens": 5704,
+            "latency_seconds": 97.60188555717468
+        },
+        {
+            "gold_answer": [
+                "None"
+            ],
+            "predicted_answer": "unanswerable",
+            "score": 0,
+            "tokens": 3658,
+            "latency_seconds": 30.111600637435913
+        },
+        {
+            "gold_answer": [
+                "Yes",
+                "Yes"
+            ],
+            "predicted_answer": "yes",
+            "score": 1.0,
+            "tokens": 6048,
+            "latency_seconds": 113.77544116973877
+        },
+        {
+            "gold_answer": [
+                "No",
+                "No"
+            ],
+            "predicted_answer": "Unanswerable",
+            "score": 0,
+            "tokens": 4030,
+            "latency_seconds": 37.841591358184814
+        },
+        {
+            "gold_answer": [
+                "using the Meaning Extraction Method",
+                "Unanswerable"
+            ],
+            "predicted_answer": "They obtain psychological dimensions of people by measuring the usage of words related to core values and psycholinguistic categories.",
+            "score": 0,
+            "tokens": 2127,
+            "latency_seconds": 12.345466375350952
+        },
+        {
+            "gold_answer": [
+                "claim, premise, backing, rebuttal, and refutation",
+                "claim, premise, backing, rebuttal, refutation"
+            ],
+            "predicted_answer": "Argument components such as premises, backing, claim, rebuttal, and refutation.",
+            "score": 0.625,
+            "tokens": 6576,
+            "latency_seconds": 143.3172619342804
+        },
+        {
+            "gold_answer": [
+                "Unanswerable",
+                "Answer with content missing: (Parent subsections) combine precisions for n-gram orders 1-4"
+            ],
+            "predicted_answer": "unanswerable",
+            "score": 1.0,
+            "tokens": 5270,
+            "latency_seconds": 79.7273805141449
+        },
+        {
+            "gold_answer": [
+                "1,873 Twitter conversation threads, roughly 14k tweets",
+                "1,873 Twitter conversation threads, roughly 14k tweets"
+            ],
+            "predicted_answer": "1,873",
+            "score": 0.25,
+            "tokens": 4889,
+            "latency_seconds": 66.56866812705994
+        },
+        {
+            "gold_answer": [
+                "Chinese Mandarin, Welsh, English, Estonian, Finnish, French, Hebrew, Polish, Russian, Spanish, Kiswahili, Yue Chinese",
+                "Chinese Mandarin, Welsh, English, Estonian, Finnish, French, Hebrew, Polish, Russian, Spanish, Kiswahili, Yue Chinese"
+            ],
+            "predicted_answer": "unanswerable",
+            "score": 0,
+            "tokens": 6690,
+            "latency_seconds": 148.40407729148865
+        },
+        {
+            "gold_answer": [
+                " `Conversations Gone Awry' dataset, subreddit ChangeMyView",
+                "An expanded version of the existing 'Conversations Gone Awry' dataset and the ChangeMyView dataset, a subreddit whose only annotation is whether the conversation required action by the Reddit moderators. "
+            ],
+            "predicted_answer": "two datasets",
+            "score": 0,
+            "tokens": 6286,
+            "latency_seconds": 132.60481023788452
+        },
+        {
+            "gold_answer": [
+                "No",
+                "No"
+            ],
+            "predicted_answer": "unanswerable",
+            "score": 0,
+            "tokens": 3172,
+            "latency_seconds": 21.576606512069702
+        },
+        {
+            "gold_answer": [
+                "Validated transcripts were sent to professional translators., various sanity checks to the translations,  sanity check the overlaps of train, development and test sets",
+                "computed sentence-level BLEU, We manually inspected examples where the source transcript was identical to the translation, measured the perplexity of the translations, computed the ratio of English characters in the translations, calculate similarity scores between transcripts and translations"
+            ],
+            "predicted_answer": "Multiple sanity checks are applied, including BLEU scores, manual inspections, perplexity measurements, and similarity scores.",
+            "score": 0.2127659574468085,
+            "tokens": 3807,
+            "latency_seconds": 33.58403277397156
+        },
+        {
+            "gold_answer": [
+                "combines the information from these sources using a feed-forward neural model",
+                "encodes the information from audio and text sequences using dual RNNs and then combines the information from these sources using a feed-forward neural model"
+            ],
+            "predicted_answer": "They concatenate the final hidden state of the audio-RNN with the final hidden state of the text-RNN to form the final encoding vectors.",
+            "score": 0,
+            "tokens": 4519,
+            "latency_seconds": 55.31354856491089
+        },
+        {
+            "gold_answer": [
+                "For the WikiLarge dataset, the improvement over baseline NMT is 2.11 BLEU, 1.7 FKGL and 1.07 SARI.\nFor the WikiSmall dataset, the improvement over baseline NMT is  8.37 BLEU.",
+                "6.37 BLEU"
+            ],
+            "predicted_answer": "2.11 BLEU, 1.7 FKGL and 1.07 SARI",
+            "score": 0.43750000000000006,
+            "tokens": 3380,
+            "latency_seconds": 25.837117195129395
+        },
+        {
+            "gold_answer": [
+                "Unanswerable",
+                "Unanswerable"
+            ],
+            "predicted_answer": "unanswerable",
+            "score": 1.0,
+            "tokens": 5299,
+            "latency_seconds": 80.30675268173218
+        },
+        {
+            "gold_answer": [
+                "Viral tweets are the ones that are retweeted more than 1000 times",
+                "those that contain a high number of retweets"
+            ],
+            "predicted_answer": "A tweet went viral if it was retweeted more than 1000 times.",
+            "score": 0.5454545454545454,
+            "tokens": 4120,
+            "latency_seconds": 41.710113286972046
+        },
+        {
+            "gold_answer": [
+                "BERT"
+            ],
+            "predicted_answer": "BERT",
+            "score": 1.0,
+            "tokens": 2603,
+            "latency_seconds": 15.14982295036316
+        },
+        {
+            "gold_answer": [
+                "Android application"
+            ],
+            "predicted_answer": "crowdsourcing",
+            "score": 0,
+            "tokens": 5287,
+            "latency_seconds": 80.47053170204163
+        },
+        {
+            "gold_answer": [
+                "Logistic Regression, neural networks"
+            ],
+            "predicted_answer": "Logistic Regression, Recurrent Neural Networks (RNNs), Long Short Term Memory cells (LSTMs), Convolutional Neural Networks (CNNs).",
+            "score": 0.4,
+            "tokens": 6136,
+            "latency_seconds": 121.52634358406067
+        },
+        {
+            "gold_answer": [
+                "Social Honeypot dataset (public) and Weibo dataset (self-collected); yes",
+                "Social Honeypot, which is not of high quality"
+            ],
+            "predicted_answer": "unanswerable",
+            "score": 0,
+            "tokens": 3779,
+            "latency_seconds": 32.98762226104736
+        },
+        {
+            "gold_answer": [
+                "LSTM",
+                "LSTM"
+            ],
+            "predicted_answer": "LSTM",
+            "score": 1.0,
+            "tokens": 3222,
+            "latency_seconds": 23.78154468536377
+        },
+        {
+            "gold_answer": [
+                "Unanswerable",
+                "Unanswerable"
+            ],
+            "predicted_answer": "Unanswerable",
+            "score": 1.0,
+            "tokens": 5673,
+            "latency_seconds": 98.76756429672241
+        },
+        {
+            "gold_answer": [
+                "For SLC task, the \"ltuorp\" team  has the best performing  model (0.6323/0.6028/0.6649 for F1/P/R  respectively) and for FLC task the \"newspeak\" team  has the best performing  model (0.2488/0.2863/0.2201 for F1/P/R respectively)."
+            ],
+            "predicted_answer": "BERT-based ensemble+, F1 score of 0.673",
+            "score": 0,
+            "tokens": 2622,
+            "latency_seconds": 16.6171236038208
+        },
+        {
+            "gold_answer": [
+                "pivot-based translation relying on a helping language BIBREF10, nduction of phrase tables from monolingual data BIBREF14 , attentional RNN-based model (RNMT) BIBREF2, Transformer model BIBREF18, bi-directional model BIBREF11, multi-to-multi (M2M) model BIBREF8, back-translation BIBREF17",
+                "M2M Transformer"
+            ],
+            "predicted_answer": "unanswerable",
+            "score": 0,
+            "tokens": 6727,
+            "latency_seconds": 153.66581678390503
+        },
+        {
+            "gold_answer": [
+                "0.7033",
+                "0.7033"
+            ],
+            "predicted_answer": "0.7033",
+            "score": 1.0,
+            "tokens": 6797,
+            "latency_seconds": 158.84984183311462
+        },
+        {
+            "gold_answer": [
+                "Skip\u2013gram, CBOW",
+                "integrated vector-res, vector-faith, Skip\u2013gram, CBOW"
+            ],
+            "predicted_answer": "word embedding techniques such as word2vec",
+            "score": 0,
+            "tokens": 5900,
+            "latency_seconds": 104.02953028678894
+        },
+        {
+            "gold_answer": [
+                "Unanswerable",
+                "CFILT-preorder system"
+            ],
+            "predicted_answer": "Using a bilingual dictionary for translation.",
+            "score": 0,
+            "tokens": 3159,
+            "latency_seconds": 23.199522495269775
+        },
+        {
+            "gold_answer": [
+                "Yes"
+            ],
+            "predicted_answer": "unanswerable",
+            "score": 0,
+            "tokens": 4120,
+            "latency_seconds": 40.85114288330078
+        },
+        {
+            "gold_answer": [
+                "Individuals with legal training",
+                "Yes"
+            ],
+            "predicted_answer": "Experts with legal training were used for annotation.",
+            "score": 0.5,
+            "tokens": 5456,
+            "latency_seconds": 85.8290958404541
+        },
+        {
+            "gold_answer": [
+                "generating a poem from images we use an existing actor-critic architecture, various types of sequence to sequence models"
+            ],
+            "predicted_answer": "For painting embedding, a CNN-RNN generative model is used. For language style transfer, seq2seq models with global attention and pointer networks are used.",
+            "score": 0.052631578947368425,
+            "tokens": 2344,
+            "latency_seconds": 15.171391248703003
+        },
+        {
+            "gold_answer": [
+                "Transformer over BERT (ToBERT)",
+                "The transformer layer"
+            ],
+            "predicted_answer": "unanswerable",
+            "score": 0,
+            "tokens": 3897,
+            "latency_seconds": 35.13511824607849
+        },
+        {
+            "gold_answer": [
+                "Yes",
+                "Yes"
+            ],
+            "predicted_answer": "yes",
+            "score": 1.0,
+            "tokens": 5871,
+            "latency_seconds": 101.69010472297668
+        },
+        {
+            "gold_answer": [
+                "personal attack, racism, and sexism",
+                "racism, sexism, personal attack, not specifically about any single topic"
+            ],
+            "predicted_answer": "personal attack, racism, and sexism",
+            "score": 1.0,
+            "tokens": 4502,
+            "latency_seconds": 52.96054410934448
+        },
+        {
+            "gold_answer": [
+                "They use two independent convolutional and max-pooling layers on (1) a combination of the left context, the left entity and the middle context; and (2) a combination of the middle context, the right entity and the right context. They concatenated the two results after pooling to get the new context representation."
+            ],
+            "predicted_answer": "They obtain the new context representation by combining the left context, the left entity, and the middle context; and by combining the middle context, the right entity, and the right context.",
+            "score": 0.5846153846153846,
+            "tokens": 3520,
+            "latency_seconds": 29.00676989555359
+        },
+        {
+            "gold_answer": [
+                "OurNepali contains 3 different types of entities, ILPRL contains 4 different types of entities",
+                "three"
+            ],
+            "predicted_answer": "Three",
+            "score": 1.0,
+            "tokens": 4446,
+            "latency_seconds": 48.90361261367798
+        },
+        {
+            "gold_answer": [
+                "improvement when the difficult subset with expert annotations is mixed with the remaining crowd annotation is 3.5 F1 score, much larger than when a random set of expert annotations are added"
+            ],
+            "predicted_answer": "unanswerable",
+            "score": 0,
+            "tokens": 5947,
+            "latency_seconds": 109.49199676513672
+        },
+        {
+            "gold_answer": [
+                "Women represent 33.16% of the speakers"
+            ],
+            "predicted_answer": "65% of speakers are men, speaking more than 75% of the time.",
+            "score": 0.25000000000000006,
+            "tokens": 5578,
+            "latency_seconds": 93.58938550949097
+        },
+        {
+            "gold_answer": [
+                "the English-German dataset"
+            ],
+            "predicted_answer": "English-German dataset",
+            "score": 1.0,
+            "tokens": 2687,
+            "latency_seconds": 16.035669088363647
+        },
+        {
+            "gold_answer": [
+                "Baseline models are:\n- Chen et al., 2015a\n- Chen et al., 2015b\n- Liu et al., 2016\n- Cai and Zhao, 2016\n- Cai et al., 2017\n- Zhou et al., 2017\n- Ma et al., 2018\n- Wang et al., 2019"
+            ],
+            "predicted_answer": "unanswerable",
+            "score": 0,
+            "tokens": 5262,
+            "latency_seconds": 79.48277020454407
+        },
+        {
+            "gold_answer": [
+                "probabilistic model",
+                "Logistic Regression, Multilayer Perceptron"
+            ],
+            "predicted_answer": "Logistic Regression and Multilayer Perceptron",
+            "score": 0.888888888888889,
+            "tokens": 6861,
+            "latency_seconds": 161.2339255809784
+        },
+        {
+            "gold_answer": [
+                "BIBREF17, BIBREF18, TensiStrength BIBREF13, TwitterNLP BIBREF6, BIBREF19, CogComp-NLP BIBREF20, Stanford NLP NER BIBREF21",
+                "BIBREF23, BIBREF17, BIBREF18, BIBREF19, BIBREF24, BIBREF25, BIBREF26"
+            ],
+            "predicted_answer": "NLTK, Stanford CoreNLP, TwitterNLP, BIBREF17, BIBREF18, BIBREF19, BIBREF24, BIBREF25, BIBREF26, BIBREF20, BIBREF21.",
+            "score": 0.631578947368421,
+            "tokens": 2367,
+            "latency_seconds": 17.392598867416382
+        },
+        {
+            "gold_answer": [
+                "SQuAD",
+                "SQuAD"
+            ],
+            "predicted_answer": "SQuAD dataset",
+            "score": 0.6666666666666666,
+            "tokens": 5783,
+            "latency_seconds": 101.85232949256897
+        },
+        {
+            "gold_answer": [
+                "BOW-Tags, BOW-KL(Tags), BOW-All, GloVe"
+            ],
+            "predicted_answer": "existing approaches include modeling urban regions, identifying points-of-interest, and using Flickr tags to predict environmental phenomena, among others.",
+            "score": 0,
+            "tokens": 5986,
+            "latency_seconds": 113.05370163917542
+        },
+        {
+            "gold_answer": [
+                "Yes",
+                "Yes"
+            ],
+            "predicted_answer": "yes",
+            "score": 1.0,
+            "tokens": 2605,
+            "latency_seconds": 15.167609930038452
+        },
+        {
+            "gold_answer": [
+                "CSAT dataset, 20 newsgroups, Fisher Phase 1 corpus",
+                "CSAT dataset , 20 newsgroups, Fisher Phase 1 corpus"
+            ],
+            "predicted_answer": "CSAT, 20 newsgroups, Fisher",
+            "score": 0.6666666666666666,
+            "tokens": 3896,
+            "latency_seconds": 35.015103816986084
+        },
+        {
+            "gold_answer": [
+                "the IMDb movie review dataset BIBREF17",
+                "IMDb movie review"
+            ],
+            "predicted_answer": "IMDb movie review dataset",
+            "score": 0.888888888888889,
+            "tokens": 4873,
+            "latency_seconds": 66.3755304813385
+        },
+        {
+            "gold_answer": [
+                "Yes",
+                "Yes"
+            ],
+            "predicted_answer": "yes",
+            "score": 1.0,
+            "tokens": 2163,
+            "latency_seconds": 10.75626540184021
+        },
+        {
+            "gold_answer": [
+                "No"
+            ],
+            "predicted_answer": "Unanswerable",
+            "score": 0,
+            "tokens": 2310,
+            "latency_seconds": 11.955043315887451
+        },
+        {
+            "gold_answer": [
+                "The neural projector must be invertible.",
+                "we constrain our neural projector with two requirements: (1) INLINEFORM0 and (2) INLINEFORM1 exists"
+            ],
+            "predicted_answer": "INLINEFORM0 and INLINEFORM1 exists.",
+            "score": 0.4444444444444445,
+            "tokens": 6017,
+            "latency_seconds": 113.59474849700928
+        },
+        {
+            "gold_answer": [
+                "The resulting taxonomy of the framework is shown in Figure FIGREF10",
+                "FIGREF10"
+            ],
+            "predicted_answer": "unanswerable",
+            "score": 0,
+            "tokens": 5928,
+            "latency_seconds": 104.01146173477173
+        },
+        {
+            "gold_answer": [
+                "training set has 89,042 sentence pairs, and the test set has 100 pairs, training set contains 296,402, 2,000 for development and 359 for testing",
+                "WikiSmall  89 142 sentence pair and  WikiLarge 298 761 sentence pairs. "
+            ],
+            "predicted_answer": "WikiSmall: 89,042 sentence pairs\nWikiLarge: 296,402 sentence pairs",
+            "score": 0.5263157894736842,
+            "tokens": 3385,
+            "latency_seconds": 26.171818733215332
+        },
+        {
+            "gold_answer": [
+                "Vanilla ST baseline, encoder pre-training, in which the ST encoder is initialized from an ASR model, decoder pre-training, in which the ST decoder is initialized from an MT model, encoder-decoder pre-training, where both the encoder and decoder are pre-trained, many-to-many multi-task model where the encoders and decoders are derived from pre-trained ASR and MT models, Triangle+pre-train: BIBREF18 DBLP:conf/naacl/AnastasopoulosC18 proposed a triangle multi-task strategy for speech translation",
+                "Vanilla ST baseline, Pre-training baselines, Multi-task baselines, Many-to-many+pre-training, Triangle+pre-train",
+                "Vanilla ST baseline: The vanilla ST BIBREF9 has only a speech encoder and a decoder. It is trained from scratch on the ST-TED corpus.\n\nPre-training baselines: We conduct three pre-training baseline experiments: 1) encoder pre-training, in which the ST encoder is initialized from an ASR model; 2) decoder pre-training, in which the ST decoder is initialized from an MT model; and 3) encoder-decoder pre-training, where both the encoder and decoder are pre-trained. The ASR model has the same architecture with vanilla ST model, trained on the mixture of ST-TED and TED-LIUM2 corpus. The MT model has a text encoder and decoder with the same architecture of which in TCEN. It is first trained on WMT data (out-of-domain) and then fine-tuned on in-domain data.\n\nMulti-task baselines: We also conduct three multi-task baseline experiments including one-to-many setting, many-to-one setting, and many-to-many setting. In the first two settings, we train the model with $\\alpha _{st}=0.75$ while $\\alpha _{asr}=0.25$ or $\\alpha _{mt}=0.25$. For many-to-many setting, we use $\\alpha _{st}=0.6, \\alpha _{asr}=0.2$ and $\\alpha _{mt}=0.2$.. For MT task, we use only in-domain data.\n\nMany-to-many+pre-training: We train a many-to-many multi-task model where the encoders and decoders are derived from pre-trained ASR and MT models. "
+            ],
+            "predicted_answer": "Vanilla ST baseline, encoder pre-training, decoder pre-training, encoder-decoder pre-training, one-to-many setting, many-to-one setting, many-to-many setting, many-to-many+pre-training, Triangle+pretrain.",
+            "score": 0.46153846153846156,
+            "tokens": 7170,
+            "latency_seconds": 191.7109088897705
+        },
+        {
+            "gold_answer": [
+                "Unanswerable",
+                "English"
+            ],
+            "predicted_answer": "English",
+            "score": 1.0,
+            "tokens": 5994,
+            "latency_seconds": 105.00559115409851
+        },
+        {
+            "gold_answer": [
+                "linear SVM, bidirectional Long Short-Term-Memory (BiLSTM), Convolutional Neural Network (CNN)",
+                "linear SVM, bidirectional Long Short-Term-Memory (BiLSTM), Convolutional Neural Network (CNN)",
+                "linear SVM trained on word unigrams,  bidirectional Long Short-Term-Memory (BiLSTM),  Convolutional Neural Network (CNN) "
+            ],
+            "predicted_answer": "Linear SVM, bidirectional Long Short-Term-Memory (BiLSTM) model, and Convolutional Neural Network (CNN) model.",
+            "score": 0.8695652173913044,
+            "tokens": 3281,
+            "latency_seconds": 27.38267707824707
+        },
+        {
+            "gold_answer": [
+                "No"
+            ],
+            "predicted_answer": "Unanswerable",
+            "score": 0,
+            "tokens": 2188,
+            "latency_seconds": 10.627274990081787
+        },
+        {
+            "gold_answer": [
+                "Pretrained word embeddings  were not used",
+                "GloVe, Edinburgh embeddings BIBREF14, Emoji embeddings BIBREF16"
+            ],
+            "predicted_answer": "200-dimensional GloVe embeddings trained on 2 Billion tweets, Edinburgh embeddings, and Emoji embeddings.",
+            "score": 0.5,
+            "tokens": 2555,
+            "latency_seconds": 16.577574968338013
+        },
+        {
+            "gold_answer": [
+                "average recipe-level coherence scores of 1.78-1.82, human evaluators preferred personalized model outputs to baseline 63% of the time"
+            ],
+            "predicted_answer": "Their models outperformed baselines in BPE perplexity, generated more diverse and acceptable recipes, and showed improved recipe-level coherence and local entailment scores.",
+            "score": 0.15384615384615383,
+            "tokens": 4154,
+            "latency_seconds": 45.20598649978638
+        },
+        {
+            "gold_answer": [
+                "irony accuracy, sentiment preservation",
+                " irony accuracy and sentiment preservation"
+            ],
+            "predicted_answer": "harmonic mean of irony reward and sentiment reward",
+            "score": 0.4615384615384615,
+            "tokens": 5911,
+            "latency_seconds": 106.65259718894958
+        },
+        {
+            "gold_answer": [
+                "Since we do not have an end-to-end dataset, the generated English poem may not work well with Shakespeare style transfer",
+                "we do not have an end-to-end dataset, the generated English poem may not work well with Shakespeare style transfer as shown in Figure FIGREF12 for \"Starry Night\" with a low average content score"
+            ],
+            "predicted_answer": "Since we do not have an end-to-end dataset, the generated English poem may not work well with Shakespeare style transfer.",
+            "score": 1.0,
+            "tokens": 2334,
+            "latency_seconds": 14.134036540985107
+        },
+        {
+            "gold_answer": [
+                "Affective Text, Fairy Tales, ISEAR",
+                " Affective Text dataset, Fairy Tales dataset, ISEAR dataset"
+            ],
+            "predicted_answer": "Three datasets annotated with emotions.",
+            "score": 0,
+            "tokens": 4554,
+            "latency_seconds": 52.77778172492981
+        },
+        {
+            "gold_answer": [
+                "Distributions of Followers, Friends and URLs are significantly different between the set of tweets containing fake news and those non containing them, but for Favourites, Mentions, Media, Retweets and Hashtags they are not significantly different"
+            ],
+            "predicted_answer": "The distribution results showed that viral tweets containing fake news were created more recently, had fewer favorites, used more hashtags, were more likely to come from unverified accounts, had a larger ratio of friends to followers, included more URLs, and expressed more polarized content compared to tweets not containing fake news.",
+            "score": 0.2891566265060241,
+            "tokens": 4159,
+            "latency_seconds": 45.767059087753296
+        },
+        {
+            "gold_answer": [
+                "1,268 randomly selected tweets in the Stanford Sentiment Analysis Dataset BIBREF36, all 12,594 unique English hashtags and their associated tweets from the same Stanford dataset",
+                "Stanford Sentiment Analysis Dataset BIBREF36"
+            ],
+            "predicted_answer": "STAN INLINEFORM0, created by BIBREF10 BansalBV15, which consists of 1,108 unique English hashtags from 1,268 randomly selected tweets in the Stanford Sentiment Analysis Dataset BIBREF36 along with their crowdsourced segmentations and our additional corrections; and (b) STAN INLINEFORM1, our new expert curated dataset, which includes all 12,594 unique English hashtags and their associated tweets from the same Stanford dataset.",
+            "score": 0.575,
+            "tokens": 5681,
+            "latency_seconds": 102.02225995063782
+        },
+        {
+            "gold_answer": [
+                "Unanswerable",
+                "Unanswerable"
+            ],
+            "predicted_answer": "unanswerable",
+            "score": 1.0,
+            "tokens": 5287,
+            "latency_seconds": 80.45524501800537
+        },
+        {
+            "gold_answer": [
+                "Word vectors, usually in the context of others within the same class"
+            ],
+            "predicted_answer": "sets of word vectors",
+            "score": 0.4285714285714285,
+            "tokens": 6836,
+            "latency_seconds": 161.3636178970337
+        },
+        {
+            "gold_answer": [
+                "For Article-Entity placement, they consider two baselines: the first one using only salience-based features, and the second baseline checks if the entity appears in the title of the article. \n\nFor Article-Section Placement, they consider two baselines: the first picks the section with the highest lexical similarity to the article, and the second one picks the most frequent section.",
+                "B1. The first baseline uses only the salience-based features by Dunietz and Gillick BIBREF11 ., B2. The second baseline assigns the value relevant to a pair INLINEFORM0 , if and only if INLINEFORM1 appears in the title of INLINEFORM2 .\n\n, S1: Pick the section from template INLINEFORM0 with the highest lexical similarity to INLINEFORM1 : S1 INLINEFORM2, S2: Place the news into the most frequent section in INLINEFORM0"
+            ],
+            "predicted_answer": "B1",
+            "score": 0.03636363636363636,
+            "tokens": 6218,
+            "latency_seconds": 129.68168258666992
+        },
+        {
+            "gold_answer": [
+                "Yes",
+                "Unanswerable"
+            ],
+            "predicted_answer": "unanswerable",
+            "score": 1.0,
+            "tokens": 3183,
+            "latency_seconds": 23.148030281066895
+        },
+        {
+            "gold_answer": [
+                "Unanswerable",
+                "Unanswerable"
+            ],
+            "predicted_answer": "Unanswerable",
+            "score": 1.0,
+            "tokens": 3786,
+            "latency_seconds": 33.005544900894165
+        },
+        {
+            "gold_answer": [
+                " high-quality datasets  from SemEval-2016 \u201cSentiment Analysis in Twitter\u201d task",
+                " SemEval-2016 \u201cSentiment Analysis in Twitter\u201d"
+            ],
+            "predicted_answer": "The SemEval-2016 \u201cSentiment Analysis in Twitter\u201d task dataset.",
+            "score": 0.8333333333333333,
+            "tokens": 3790,
+            "latency_seconds": 34.631826400756836
+        },
+        {
+            "gold_answer": [
+                "small BERT",
+                "small BERT"
+            ],
+            "predicted_answer": "small",
+            "score": 0.6666666666666666,
+            "tokens": 3176,
+            "latency_seconds": 22.897048950195312
+        },
+        {
+            "gold_answer": [
+                "No",
+                "No"
+            ],
+            "predicted_answer": "Yes",
+            "score": 0,
+            "tokens": 6297,
+            "latency_seconds": 132.57218146324158
+        },
+        {
+            "gold_answer": [
+                "Yes",
+                "Yes"
+            ],
+            "predicted_answer": "unanswerable",
+            "score": 0,
+            "tokens": 4762,
+            "latency_seconds": 60.97576689720154
+        },
+        {
+            "gold_answer": [
+                "Answer with content missing: (Table 3) Best author's model B-M average micro f-score is 0.409, 0.459, 0.411 on Affective, Fairy Tales and ISEAR datasets respectively. "
+            ],
+            "predicted_answer": "Their model achieved competitive or even state-of-the-art results for some emotion labels on existing, standard evaluation datasets.",
+            "score": 0.14285714285714282,
+            "tokens": 4570,
+            "latency_seconds": 54.7894504070282
+        },
+        {
+            "gold_answer": [
+                "A new tagging scheme that tags the words before and after the pun as well as the pun words.",
+                "a new tagging scheme consisting of three tags, namely { INLINEFORM0 }"
+            ],
+            "predicted_answer": "The tagging scheme employs three tags: INLINEFORM0, INLINEFORM1, and INLINEFORM2.",
+            "score": 0.5555555555555556,
+            "tokens": 4028,
+            "latency_seconds": 39.42574071884155
+        },
+        {
+            "gold_answer": [
+                "No",
+                "No"
+            ],
+            "predicted_answer": "unanswerable",
+            "score": 0,
+            "tokens": 3790,
+            "latency_seconds": 32.936694860458374
+        },
+        {
+            "gold_answer": [
+                "ability to accurately classify texts even when the amount of prior knowledge for different classes is unbalanced, and when the class distribution of the dataset is unbalanced",
+                "Low sensitivity to bias in prior knowledge"
+            ],
+            "predicted_answer": "Robustness of a model is defined as the model's ability to handle unbalanced labeled features and unbalanced class distributions without being misled by the prior knowledge.",
+            "score": 0.425531914893617,
+            "tokens": 5205,
+            "latency_seconds": 77.59079957008362
+        },
+        {
+            "gold_answer": [
+                "GloVe, BERT, Universal Sentence Encoder, TF-IDF, InferSent",
+                "Avg. GloVe embeddings, Avg. fast-text embeddings, Avg. BERT embeddings, BERT CLS-vector, InferSent - GloVe and Universal Sentence Encoder."
+            ],
+            "predicted_answer": "InferSent, Universal Sentence Encoder",
+            "score": 0.7272727272727273,
+            "tokens": 5805,
+            "latency_seconds": 102.9230363368988
+        },
+        {
+            "gold_answer": [
+                "English datasets including CoNLL2003 and OntoNotes5.0, our proposed method outperforms BERT-MRCBIBREF38 by +0.29 and +0.96 respectively, Chinese datasets, achieving F1 improvements by +0.97 and +2.36 on MSRA and OntoNotes4.0, respectively",
+                "For English datasets including CoNLL2003 and OntoNotes5.0, our proposed method outperforms BERT-MRCBIBREF38 by +0.29 and +0.96 respectively., huge performance boosts on Chinese datasets, achieving F1 improvements by +0.97 and +2.36 on MSRA and OntoNotes4.0, respectively"
+            ],
+            "predicted_answer": "For English datasets, the proposed method outperforms BERT-MRC by +0.29 and +0.96 respectively. For Chinese datasets, it achieves F1 improvements by +0.97 and +2.36 on MSRA and OntoNotes4.0, respectively.",
+            "score": 0.793103448275862,
+            "tokens": 5872,
+            "latency_seconds": 110.38882207870483
+        },
+        {
+            "gold_answer": [
+                "Task 1: Quora Duplicate Question Pair Detection, Task 2: Ranking questions",
+                "Quora Duplicate Question Pair Detection, Ranking questions in Bing's People Also Ask"
+            ],
+            "predicted_answer": "Quora Duplicate Question Pair Detection, Ranking questions in Bing's People Also Ask",
+            "score": 1.0,
+            "tokens": 3357,
+            "latency_seconds": 26.15957808494568
+        },
+        {
+            "gold_answer": [
+                "Various tree structured neural networks including variants of Tree-LSTM, Tree-based CNN, RNTN, and non-tree models including variants of LSTMs, CNNs, residual, and self-attention based networks",
+                "Sentence classification baselines: RNTN (Socher et al. 2013), AdaMC-RNTN (Dong et al. 2014), TE-RNTN (Qian et al. 2015), TBCNN (Mou et al. 2015), Tree-LSTM (Tai, Socher, and Manning 2015), AdaHT-LSTM-CM (Liu, Qiu, and Huang 2017), DC-TreeLSTM (Liu, Qiu, and Huang 2017), TE-LSTM (Huang, Qian, and Zhu 2017), BiConTree (Teng and Zhang 2017), Gumbel Tree-LSTM (Choi, Yoo, and Lee 2018), TreeNet (Cheng et al. 2018), CNN (Kim 2014), AdaSent (Zhao, Lu, and Poupart 2015), LSTM-CNN (Zhou et al. 2016), byte-mLSTM (Radford, Jozefowicz, and Sutskever 2017), BCN + Char + CoVe (McCann et al. 2017), BCN + Char + ELMo (Peters et al. 2018). \nStanford Natural Language Inference baselines: Latent Syntax Tree-LSTM (Yogatama et al. 2017), Tree-based CNN (Mou et al. 2016), Gumbel Tree-LSTM (Choi, Yoo, and Lee 2018), NSE (Munkhdalai and Yu 2017), Reinforced Self- Attention Network (Shen et al. 2018), Residual stacked encoders: (Nie and Bansal 2017), BiLSTM with generalized pooling (Chen, Ling, and Zhu 2018)."
+            ],
+            "predicted_answer": "various syntactic tree-based models, latent tree-based models, and non-tree models",
+            "score": 0.28571428571428575,
+            "tokens": 7890,
+            "latency_seconds": 155.97710371017456
+        },
+        {
+            "gold_answer": [
+                "answer questions by obtaining information from KB tuples ",
+                "hierarchical matching between questions and relations with residual learning"
+            ],
+            "predicted_answer": "relation detection",
+            "score": 0,
+            "tokens": 6551,
+            "latency_seconds": 76.07299423217773
+        },
+        {
+            "gold_answer": [
+                "name-based Nearest-Neighbor model (NN), Encoder-Decoder baseline with ingredient attention (Enc-Dec)"
+            ],
+            "predicted_answer": "Enc-Dec",
+            "score": 0.18181818181818182,
+            "tokens": 4121,
+            "latency_seconds": 32.62563157081604
+        },
+        {
+            "gold_answer": [
+                "spot patterns by just looking at a collection of images, tag all descriptions with part-of-speech information, I applied Louvain clustering",
+                "Looking for adjectives marking the noun \"baby\" and also looking for most-common adjectives related to certain nouns using POS-tagging"
+            ],
+            "predicted_answer": "Manual detection methods, tagging with part-of-speech information, and leveraging the structure of Flickr30K Entities.",
+            "score": 0.25,
+            "tokens": 3131,
+            "latency_seconds": 14.559873580932617
+        },
+        {
+            "gold_answer": [
+                "English, French, German ",
+                "French, English, Spanish, Italian, Portuguese, Hebrew, Arabic"
+            ],
+            "predicted_answer": "English, French, Spanish, Italian, Portuguese, German, Hebrew, Arabic",
+            "score": 0.9333333333333333,
+            "tokens": 3532,
+            "latency_seconds": 10.438650131225586
+        },
+        {
+            "gold_answer": [
+                "Stacked LSTMs, Cell-aware Stacked LSTMs, Sentence Encoders, Top-layer Classifiers"
+            ],
+            "predicted_answer": "They experimented with CAS-LSTM, plain stacked LSTMs, models with different forget gate selections, models without lower context integration, and models integrating lower contexts via peephole connections.",
+            "score": 0.1142857142857143,
+            "tokens": 4706,
+            "latency_seconds": 50.11704874038696
+        },
+        {
+            "gold_answer": [
+                "Yes",
+                "Unanswerable"
+            ],
+            "predicted_answer": "unanswerable",
+            "score": 1.0,
+            "tokens": 5937,
+            "latency_seconds": 56.881062507629395
+        },
+        {
+            "gold_answer": [
+                "LSA, TextRank, LexRank and ILP-based summary.",
+                "LSA, TextRank, LexRank"
+            ],
+            "predicted_answer": "ILP-based summarization, Sumy package algorithms",
+            "score": 0.1818181818181818,
+            "tokens": 4380,
+            "latency_seconds": 38.74350023269653
+        },
+        {
+            "gold_answer": [
+                "hLSTM",
+                "hLSTM"
+            ],
+            "predicted_answer": "unanswerable",
+            "score": 0,
+            "tokens": 4961,
+            "latency_seconds": 56.894022941589355
+        },
+        {
+            "gold_answer": [
+                "Based on table results provided changing directed to undirected edges had least impact - max abs difference of 0.33 points on all three datasets."
+            ],
+            "predicted_answer": "unanswerable",
+            "score": 0,
+            "tokens": 6458,
+            "latency_seconds": 75.86325359344482
+        },
+        {
+            "gold_answer": [
+                "DTA18, DTA19",
+                "Diachronic Usage Relatedness (DURel) gold standard data set"
+            ],
+            "predicted_answer": "DTA18 and DTA19",
+            "score": 0.8,
+            "tokens": 2782,
+            "latency_seconds": 9.058075904846191
+        },
+        {
+            "gold_answer": [
+                "Hindi, English, Kannada, Telugu, Assamese, Bengali and Malayalam",
+                "Kannada, Hindi, Telugu, Malayalam, Bengali,  English and Assamese (in table, missing in text)"
+            ],
+            "predicted_answer": "Kannada, Hindi, Telugu, Malayalam, Bengali, and English",
+            "score": 0.9333333333333333,
+            "tokens": 3462,
+            "latency_seconds": 9.515821695327759
+        },
+        {
+            "gold_answer": [
+                "Table TABREF6, Table TABREF8",
+                "when testing on English, the F1 score of the model training on Chinese (Zh) is 53.8,  F1 score is only 44.1 for the model training on Zh-En"
+            ],
+            "predicted_answer": "Reasonable performance can be obtained.",
+            "score": 0,
+            "tokens": 3584,
+            "latency_seconds": 9.627712965011597
+        },
+        {
+            "gold_answer": [
+                "Metric difference between Aloha and best baseline score:\nHits@1/20: +0.061 (0.3642 vs 0.3032)\nMRR: +0.0572(0.5114 vs 0.4542)\nF1: -0.0484 (0.3901 vs 0.4385)\nBLEU: +0.0474 (0.2867 vs 0.2393)"
+            ],
+            "predicted_answer": "unanswerable",
+            "score": 0,
+            "tokens": 6527,
+            "latency_seconds": 78.39082598686218
+        },
+        {
+            "gold_answer": [
+                "ARAM has achieved improvement over all baseline methods using reverese perplexity and  slef-BLEU metric.  The maximum reverse perplexity improvement 936,16 is gained for EMNLP2017  WMT  dataset and  48,44 for COCO dataset.",
+                "Compared to the baselines, ARAML does not do better in terms of perplexity on COCO and EMNLP 2017 WMT datasets, but it does by up to 0.27 Self-BLEU points on COCO and 0.35 Self-BLEU on EMNLP 2017 WMT. In terms of Grammaticality and Relevance, it scores better than the baselines on up to 75.5% and 73% of the cases respectively."
+            ],
+            "predicted_answer": "unanswerable",
+            "score": 0,
+            "tokens": 5393,
+            "latency_seconds": 71.75740003585815
+        },
+        {
+            "gold_answer": [
+                "The authors showed few tweets where neither and implicit hatred content exist but the model was able to discriminate"
+            ],
+            "predicted_answer": "The authors present evidence that the model can capture some biases in data annotation and collection through the examination of misclassifications, particularly in how the model misclassifies hate content as offensive or neutral, and by analyzing the content of specific tweets that show the model's ability to differentiate between hate and offensive samples despite biases in the data.",
+            "score": 0.17647058823529413,
+            "tokens": 5968,
+            "latency_seconds": 64.528391122818
+        },
+        {
+            "gold_answer": [
+                "SVM, No-Answer Baseline (NA) , Word Count Baseline, Human Performance",
+                "No-Answer Baseline (NA), Word Count Baseline, Human Performance"
+            ],
+            "predicted_answer": "yes",
+            "score": 0,
+            "tokens": 5452,
+            "latency_seconds": 74.51721620559692
+        },
+        {
+            "gold_answer": [
+                "Dataset contains 3606 total sentences and 79087 total entities.",
+                "ILPRL contains 548 sentences, OurNepali contains 3606 sentences"
+            ],
+            "predicted_answer": "unanswerable",
+            "score": 0,
+            "tokens": 4445,
+            "latency_seconds": 42.12611985206604
+        },
+        {
+            "gold_answer": [
+                "Using DSC loss improves the F1 score by +0.58 for MRPC and +0.73 for QQP",
+                "+0.58"
+            ],
+            "predicted_answer": "unanswerable",
+            "score": 0,
+            "tokens": 5807,
+            "latency_seconds": 54.03764867782593
+        },
+        {
+            "gold_answer": [
+                "Answer with content missing: (Whole Method and Results sections) The primary dataset we use is the ERP data collected and computed by Frank et al. (2015), and we also use behavioral data (eye-tracking data and self-paced reading times) from Frank et al. (2013) which were collected on the same set of 205 sentences.\nSelect:\n- ERP data collected and computed by Frank et al. (2015)\n- behavioral data (eye-tracking data and self-paced reading times) from Frank et al. (2013)",
+                "the ERP data: BIBREF0"
+            ],
+            "predicted_answer": "Unanswerable",
+            "score": 0,
+            "tokens": 2543,
+            "latency_seconds": 7.00128960609436
+        },
+        {
+            "gold_answer": [
+                "7 phonemic/syllabic ( /iy/, /piy/, /tiy/, /diy/, /uw/, /m/, /n/ ) as well as 4 words(pat, pot, knew and gnaw)",
+                "KARA ONE BIBREF17 , composed of multimodal data for stimulus-based, imagined and articulated speech state corresponding to 7 phonemic/syllabic ( /iy/, /piy/, /tiy/, /diy/, /uw/, /m/, /n/ ) as well as 4 words(pat, pot, knew and gnaw)"
+            ],
+            "predicted_answer": "unanswerable",
+            "score": 0,
+            "tokens": 3460,
+            "latency_seconds": 8.206695556640625
+        },
+        {
+            "gold_answer": [
+                "Pointer-Gen, Pointer-Gen+Pos, Pointer-Gen+Same-FT, Pointer-Gen+Pos-FT, Pointer-Gen+RL-ROUGE, Pointer-Gen+RL-SEN"
+            ],
+            "predicted_answer": "Pointer-Gen, Pointer-Gen+RL-ROUGE, Pointer-Gen+RL-SEN, Pointer-Gen+ARL-SEN",
+            "score": 0.6,
+            "tokens": 6533,
+            "latency_seconds": 78.09142398834229
+        },
+        {
+            "gold_answer": [
+                "Na\u00efve Bayes (NB), Logistic Regression (LR), Support Vector Machine (SVM), Random Forests (RF), Gradient Boosted Trees (GBT),  Convolutional Neural Networks (CNN), Recurrent Neural Networks (RNN)",
+                "Na\u00efve Bayes (NB), Logistic Regression (LR), Support Vector Machine (SVM), Random Forests (RF), Gradient Boosted Trees (GBT), CNN, RNN"
+            ],
+            "predicted_answer": "Traditional machine learning classifiers, neural network based models, and their variants.",
+            "score": 0.1111111111111111,
+            "tokens": 3096,
+            "latency_seconds": 13.021283864974976
+        },
+        {
+            "gold_answer": [
+                "uni-directional model to augment the decoder",
+                "bi-directional language model to augment the sequence to sequence encoder ,  uni-directional model to augment the decoder"
+            ],
+            "predicted_answer": "bi-directional language model, uni-directional model",
+            "score": 0.5263157894736842,
+            "tokens": 2848,
+            "latency_seconds": 10.28494668006897
+        },
+        {
+            "gold_answer": [
+                "One can think $(1-p_{i1})$ as a weight associated with each example, which changes as training proceeds. The intuition of changing $p_{i1}$ to $(1-p_{i1}) p_{i1}$ is to push down the weight of easy examples. For easy examples whose probability are approaching 0 or 1, $(1-p_{i1}) p_{i1}$ makes the model attach significantly less focus to them. Figure FIGREF23 gives gives an explanation from the perspective in derivative: the derivative of $\\frac{(1-p)p}{1+(1-p)p}$ with respect to $p$ approaches 0 immediately after $p$ approaches 0, which means the model attends less to examples once they are correctly classified.",
+                "associates each training example with a weight in proportion to $(1-p)$, and this weight dynamically changes as training proceeds"
+            ],
+            "predicted_answer": "Weights are dynamically adjusted by associating each training example with a weight in proportion to $(1-p)$, where $p$ is the probability that a model assigns a positive label to the example, and this weight changes as training proceeds.",
+            "score": 0.6666666666666666,
+            "tokens": 5845,
+            "latency_seconds": 60.02389430999756
+        },
+        {
+            "gold_answer": [
+                "Reward of 11.8 for the A2C-chained model, 41.8 for the KG-A2C-chained model, 40 for A2C-Explore and 44 for KG-A2C-Explore.",
+                "KG-A2C-chained and KG-A2C-Explore both pass the bottleneck of a score of 40"
+            ],
+            "predicted_answer": "Agents utilizing knowledge-graphs in addition to either enhanced exploration method far outperform the baseline A2C and KG-A2C.",
+            "score": 0.07692307692307693,
+            "tokens": 3387,
+            "latency_seconds": 9.601617813110352
+        },
+        {
+            "gold_answer": [
+                "Bayesian model of garg2012unsupervised as our base monolingual model"
+            ],
+            "predicted_answer": "individual Bayesian models for each language",
+            "score": 0.13333333333333333,
+            "tokens": 5452,
+            "latency_seconds": 74.78246736526489
+        },
+        {
+            "gold_answer": [
+                "Unanswerable",
+                "Original transcription was labeled with additional labels in [] brackets with nonstandard pronunciation."
+            ],
+            "predicted_answer": "unanswerable",
+            "score": 1.0,
+            "tokens": 4360,
+            "latency_seconds": 36.70942044258118
+        },
+        {
+            "gold_answer": [
+                "A semi-character based RNN (ScRNN) treats the first and last characters individually, and is agnostic to the ordering of the internal characters",
+                "processes a sentence of words with misspelled characters, predicting the correct words at each step"
+            ],
+            "predicted_answer": "A semicharacter architecture is a semi-character word recognition model.",
+            "score": 0.16,
+            "tokens": 6097,
+            "latency_seconds": 62.590497970581055
+        },
+        {
+            "gold_answer": [
+                "Bulgarian, Croatian, Czech, Danish, English, French, German, Indonesian, Italian, Norwegian, Persian, Polish, Portuguese, Slovenian, Spanish and Swedish",
+                "Bulgarian, Croatian, Czech, Danish, English, French, German, Indonesian, Italian, Norwegian, Persian, Polish, Portuguese, Slovenian, Spanish , Swedish"
+            ],
+            "predicted_answer": "Bulgarian, Croatian, Czech, Danish, English, French, German, Indonesian, Italian, Norwegian, Persian, Polish, Portuguese, Slovenian, Spanish, Swedish",
+            "score": 1.0,
+            "tokens": 3973,
+            "latency_seconds": 31.29698610305786
+        },
+        {
+            "gold_answer": [
+                "NCEL consistently outperforms various baselines with a favorable generalization ability"
+            ],
+            "predicted_answer": "NCEL outperforms the state-of-the-art collective methods across five different datasets.",
+            "score": 0.2222222222222222,
+            "tokens": 5925,
+            "latency_seconds": 58.08822679519653
+        },
+        {
+            "gold_answer": [
+                "Yes",
+                "Yes"
+            ],
+            "predicted_answer": "Yes",
+            "score": 1.0,
+            "tokens": 6249,
+            "latency_seconds": 71.31680917739868
+        },
+        {
+            "gold_answer": [
+                "error detection system by Rei2016",
+                "error detection system by Rei2016"
+            ],
+            "predicted_answer": "Rei2016",
+            "score": 0.33333333333333337,
+            "tokens": 2893,
+            "latency_seconds": 10.386181116104126
+        },
+        {
+            "gold_answer": [
+                "clinical notes from the CE task in 2010 i2b2/VA",
+                "clinical notes from the CE task in 2010 i2b2/VA "
+            ],
+            "predicted_answer": "2010 i2b2/VA BIBREF0",
+            "score": 0.36363636363636365,
+            "tokens": 5070,
+            "latency_seconds": 63.04657459259033
+        },
+        {
+            "gold_answer": [
+                "ecause this process is similar to the cloze task in BERT's pre-train process, therefore by using the ability of the contextual language model the decoder can generate more fluent and natural sequences."
+            ],
+            "predicted_answer": "Masking words in the decoder is helpful to guide and constrain the refine process of summary.",
+            "score": 0.3333333333333333,
+            "tokens": 5872,
+            "latency_seconds": 57.39361548423767
+        },
+        {
+            "gold_answer": [
+                "Unanswerable",
+                " Paraphrase Database (PPDB) ,  book corpus",
+                "Unanswerable"
+            ],
+            "predicted_answer": "unanswerable",
+            "score": 1.0,
+            "tokens": 2680,
+            "latency_seconds": 7.723137140274048
+        },
+        {
+            "gold_answer": [
+                "Unanswerable"
+            ],
+            "predicted_answer": "TF-IDF features",
+            "score": 0,
+            "tokens": 2925,
+            "latency_seconds": 10.384681224822998
+        },
+        {
+            "gold_answer": [
+                "no evidence of depression, depressed mood, disturbed sleep, fatigue or loss of energy",
+                "The annotations are based on evidence of depression and further annotated by the depressive symptom if there is evidence of depression"
+            ],
+            "predicted_answer": "Each tweet is annotated as no evidence of depression or evidence of depression, and if evidence of depression, it is further annotated with one or more depressive symptoms.",
+            "score": 0.5106382978723404,
+            "tokens": 2996,
+            "latency_seconds": 13.58953070640564
+        },
+        {
+            "gold_answer": [
+                "BC5CDR-disease, NCBI-disease, BC5CDR-chem, BC4CHEMD, BC2GM, JNLPBA, LINNAEUS, Species-800",
+                "BC5CDR-disease, NCBI-disease, BC5CDR-chem, BC4CHEMD, BC2GM, JNLPBA, LINNAEUS, Species-800"
+            ],
+            "predicted_answer": "Eight",
+            "score": 0,
+            "tokens": 5219,
+            "latency_seconds": 68.14957880973816
+        },
+        {
+            "gold_answer": [
+                "using the machine translation platform Apertium ",
+                "machine translation platform Apertium BIBREF5"
+            ],
+            "predicted_answer": "The training data was translated using the machine translation platform Apertium.",
+            "score": 0.7142857142857143,
+            "tokens": 3287,
+            "latency_seconds": 14.89839768409729
+        },
+        {
+            "gold_answer": [
+                "AllWords model by counting the frequencies of all the remaining words and training a multinomial Naive Bayes classifier"
+            ],
+            "predicted_answer": "unanswerable",
+            "score": 0,
+            "tokens": 5483,
+            "latency_seconds": 77.19615483283997
+        },
+        {
+            "gold_answer": [
+                "The baseline system for the SLC task is a very simple logistic regression classifier with default parameters. The baseline for the FLC task generates spans and selects one of the 18 techniques randomly.",
+                "SLC task is a very simple logistic regression classifier, FLC task generates spans and selects one of the 18 techniques randomly"
+            ],
+            "predicted_answer": "The baseline for the SLC task is a very simple logistic regression classifier with default parameters, where the input instances are represented by the length of the sentence.",
+            "score": 0.5714285714285714,
+            "tokens": 4435,
+            "latency_seconds": 43.11733865737915
+        },
+        {
+            "gold_answer": [
+                "They compare with the following models: by Pedersen (2017), by Pramanick and Das (2017), by Mikhalkova and Karyakin (2017),  by Vadehra (2017), Indurthi and Oota (2017), by Vechtomova (2017), by (Cai et al., 2018), and CRF."
+            ],
+            "predicted_answer": "CRF, rule-based system, UWAV",
+            "score": 0.05128205128205128,
+            "tokens": 4018,
+            "latency_seconds": 29.22393012046814
+        },
+        {
+            "gold_answer": [
+                "By assigning a political bias label to each news article and training only on left-biased or right-biased outlets of both disinformation and mainstream domains",
+                "we also account for political biases inherent to different news sources, referring to the procedure proposed in BIBREF2 to label different outlets. Overall we show that we are able to classify credible vs non-credible diffusion networks (and consequently news articles) with high accuracy (AUROC up to 94%), even when accounting for the political bias of sources (and training only on left-biased or right-biased articles). We observe that the layer of mentions alone conveys useful information for the classification, denoting a different usage of this functionality when sharing news belonging to the two news domains. We also show that most discriminative features, which are relative to the breadth and depth of largest cascades in different layers, are the same across the two countries."
+            ],
+            "predicted_answer": "The political bias of different sources is included by training only on left-biased or right-biased outlets and testing on the entire set of sources.",
+            "score": 0.5333333333333332,
+            "tokens": 5945,
+            "latency_seconds": 60.45681619644165
+        },
+        {
+            "gold_answer": [
+                "ancient Chinese history records in several dynasties (about 1000BC-200BC) and articles written by celebrities of that era",
+                "Ancient Chinese history records in several dynasties and articles written by celebrities during 1000BC-200BC collected from the internet "
+            ],
+            "predicted_answer": "1.7K bilingual ancient-modern Chinese articles from the internet.",
+            "score": 0.3333333333333333,
+            "tokens": 5301,
+            "latency_seconds": 70.93753051757812
+        },
+        {
+            "gold_answer": [
+                "English",
+                "English ",
+                "English"
+            ],
+            "predicted_answer": "English",
+            "score": 1.0,
+            "tokens": 3252,
+            "latency_seconds": 13.280958890914917
+        },
+        {
+            "gold_answer": [
+                "Answer with content missing: (Data section) Chinese with version 5.1 of the Chinese Penn Treebank (CTB)"
+            ],
+            "predicted_answer": "unanswerable",
+            "score": 0,
+            "tokens": 3769,
+            "latency_seconds": 13.873558044433594
+        },
+        {
+            "gold_answer": [
+                "eight layers"
+            ],
+            "predicted_answer": "unanswerable",
+            "score": 0,
+            "tokens": 6084,
+            "latency_seconds": 59.08097267150879
+        },
+        {
+            "gold_answer": [
+                " the same datasets as BIBREF7",
+                "same datasets as BIBREF7"
+            ],
+            "predicted_answer": "Flickr tags and structured environmental datasets",
+            "score": 0.2,
+            "tokens": 5996,
+            "latency_seconds": 57.11821413040161
+        },
+        {
+            "gold_answer": [
+                "MEDDOCAN, NUBes-PHI",
+                "MEDDOCAN, NUBes "
+            ],
+            "predicted_answer": "NUBes-PHI and MEDDOCAN",
+            "score": 0.8,
+            "tokens": 6293,
+            "latency_seconds": 71.20294547080994
+        },
+        {
+            "gold_answer": [
+                "Unanswerable"
+            ],
+            "predicted_answer": "Unanswerable",
+            "score": 1.0,
+            "tokens": 5039,
+            "latency_seconds": 60.48865365982056
+        },
+        {
+            "gold_answer": [
+                "Coverage, Avg. MCC and avg. +ve F1 score",
+                "strategy formulation ability, we introduce a measure called Coverage( INLINEFORM0 ), To evaluate the predictive performance, we use Avg. MCC and avg. +ve F1 score"
+            ],
+            "predicted_answer": "Evaluation-I: Strategy Formulation Ability and Predictive Performance",
+            "score": 0.41379310344827586,
+            "tokens": 6463,
+            "latency_seconds": 77.03992795944214
+        },
+        {
+            "gold_answer": [
+                "Yes",
+                "No"
+            ],
+            "predicted_answer": "unanswerable",
+            "score": 0,
+            "tokens": 2790,
+            "latency_seconds": 8.874085187911987
+        },
+        {
+            "gold_answer": [
+                "Galatasaray, Fenerbah\u00e7e",
+                "Galatasaray , Fenerbah\u00e7e "
+            ],
+            "predicted_answer": "Galatasaray and Fenerbah\u00e7e",
+            "score": 0.8,
+            "tokens": 3010,
+            "latency_seconds": 11.15507984161377
+        },
+        {
+            "gold_answer": [
+                "Irony Classifier, Sentiment Classifier for Irony, Sentiment Classifier for Non-irony, transformation from ironic sentences to non-ironic sentences"
+            ],
+            "predicted_answer": "Experiments on the transformation from non-ironic sentences to ironic sentences and from ironic sentences to non-ironic sentences are conducted.",
+            "score": 0.39999999999999997,
+            "tokens": 5883,
+            "latency_seconds": 58.819050550460815
+        },
+        {
+            "gold_answer": [
+                "pays attentions to adjacent characters and casts a localness relationship between the characters as a fixed Gaussian weight assuming the weight relies on the distance between characters",
+                "Gaussian-masked directional attention can be described as a function to map queries and key-value pairs to the representation of input, Gaussian-masked directional attention expects to pay attention to the adjacent characters of each positions and cast the localness relationship between characters as a fix Gaussian weight for attention, Gaussian weight only relys on the distance between characters"
+            ],
+            "predicted_answer": "It produces the Hadamard product of Gaussian weight matrix and the score matrix produced by \\(QK^T\\), ensuring the relationship between two characters with long distances is weaker than adjacent characters.",
+            "score": 0.32653061224489793,
+            "tokens": 5299,
+            "latency_seconds": 73.49783539772034
+        },
+        {
+            "gold_answer": [
+                "Facebook status update messages",
+                "Facebook status update messages"
+            ],
+            "predicted_answer": "Facebook",
+            "score": 0.4,
+            "tokens": 5383,
+            "latency_seconds": 71.48040699958801
+        },
+        {
+            "gold_answer": [
+                " The features extracted from CNN."
+            ],
+            "predicted_answer": "The network's baseline features are extracted from the baseline CNN architecture.",
+            "score": 0.6153846153846153,
+            "tokens": 5982,
+            "latency_seconds": 58.64064979553223
+        },
+        {
+            "gold_answer": [
+                "number of clusters, seed value in clustering, selection of word vectors, window size and dimension of embedding",
+                "different number of clusters, different embeddings"
+            ],
+            "predicted_answer": "The number of clusters.",
+            "score": 0.6666666666666666,
+            "tokens": 3750,
+            "latency_seconds": 13.106375932693481
+        },
+        {
+            "gold_answer": [
+                "column Ens Test in Table TABREF19"
+            ],
+            "predicted_answer": "Second, second, fourth, and fifth place.",
+            "score": 0,
+            "tokens": 3284,
+            "latency_seconds": 14.599129676818848
+        },
+        {
+            "gold_answer": [
+                "8,275 sentences and 167,739 words in total",
+                "The corpus comprises 8,275 sentences and 167,739 words in total."
+            ],
+            "predicted_answer": "The corpus consists of 53 documents.",
+            "score": 0.14285714285714285,
+            "tokens": 3773,
+            "latency_seconds": 14.591626167297363
+        },
+        {
+            "gold_answer": [
+                "Unanswerable",
+                "Unanswerable"
+            ],
+            "predicted_answer": "unanswerable",
+            "score": 1.0,
+            "tokens": 4084,
+            "latency_seconds": 30.422927618026733
+        },
+        {
+            "gold_answer": [
+                "text classification for themes including sentiment, web-page, science, medical and healthcare"
+            ],
+            "predicted_answer": "text classification",
+            "score": 0.3076923076923077,
+            "tokens": 5173,
+            "latency_seconds": 65.7400221824646
+        },
+        {
+            "gold_answer": [
+                "bag-of-words model, CNN"
+            ],
+            "predicted_answer": "BERT-QC is compared to term frequency methods, rule-based pattern matching, and various learned models including CNN and LSTM variants.",
+            "score": 0.09090909090909091,
+            "tokens": 6140,
+            "latency_seconds": 65.89008355140686
+        },
+        {
+            "gold_answer": [
+                "By 14 times.",
+                "up to 1.95 times larger"
+            ],
+            "predicted_answer": "larger",
+            "score": 0.33333333333333337,
+            "tokens": 4802,
+            "latency_seconds": 52.34429597854614
+        },
+        {
+            "gold_answer": [
+                "3606",
+                "6946"
+            ],
+            "predicted_answer": "unanswerable",
+            "score": 0,
+            "tokens": 4445,
+            "latency_seconds": 42.181936502456665
+        },
+        {
+            "gold_answer": [
+                "MLP",
+                "Eusboost, MWMOTE"
+            ],
+            "predicted_answer": "Eusboost, MWMOTE, MLP",
+            "score": 0.8,
+            "tokens": 4326,
+            "latency_seconds": 37.12173938751221
+        },
+        {
+            "gold_answer": [
+                "Yes",
+                "Yes"
+            ],
+            "predicted_answer": "yes",
+            "score": 1.0,
+            "tokens": 5631,
+            "latency_seconds": 49.857088804244995
+        },
+        {
+            "gold_answer": [
+                "Yes",
+                "Unanswerable"
+            ],
+            "predicted_answer": "no",
+            "score": 0,
+            "tokens": 6010,
+            "latency_seconds": 57.911749601364136
+        },
+        {
+            "gold_answer": [
+                "0.5115",
+                "0.6103"
+            ],
+            "predicted_answer": "0.6103",
+            "score": 1.0,
+            "tokens": 6773,
+            "latency_seconds": 89.36521697044373
+        },
+        {
+            "gold_answer": [
+                " Wall Street Journal (WSJ) portion of the Penn Treebank",
+                "Unanswerable"
+            ],
+            "predicted_answer": "Wall Street Journal (WSJ) portion of the Penn Treebank",
+            "score": 1.0,
+            "tokens": 6021,
+            "latency_seconds": 61.297149419784546
+        },
+        {
+            "gold_answer": [
+                "By conducting a survey among engineers",
+                "Unanswerable"
+            ],
+            "predicted_answer": "unanswerable",
+            "score": 1.0,
+            "tokens": 2544,
+            "latency_seconds": 6.810417652130127
+        },
+        {
+            "gold_answer": [
+                "SimpleQuestions, WebQSP",
+                "WebQSP, SimpleQuestions"
+            ],
+            "predicted_answer": "SimpleQuestions and WebQSP",
+            "score": 0.8,
+            "tokens": 6557,
+            "latency_seconds": 77.89705562591553
+        }
+    ]
+}

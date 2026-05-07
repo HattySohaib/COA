@@ -1,0 +1,1810 @@
+{
+    "dataset": "HotpotQA",
+    "model": "meta-llama/Meta-Llama-3-8B-Instruct",
+    "pipeline": "coa",
+    "avg_score": 43.402527292968465,
+    "avg_tokens": 14044.93,
+    "avg_latency": 255.16960359692573,
+    "samples": [
+        {
+            "gold_answer": [
+                "Miller v. California"
+            ],
+            "predicted_answer": "1803",
+            "score": 0,
+            "tokens": 12660,
+            "latency_seconds": 168.83461213111877
+        },
+        {
+            "gold_answer": [
+                "Charles L. Clifford"
+            ],
+            "predicted_answer": "Jackie Chan",
+            "score": 0,
+            "tokens": 17650,
+            "latency_seconds": 266.111328125
+        },
+        {
+            "gold_answer": [
+                "Norman"
+            ],
+            "predicted_answer": "Oklahoma",
+            "score": 0,
+            "tokens": 18548,
+            "latency_seconds": 438.10345244407654
+        },
+        {
+            "gold_answer": [
+                "Sun"
+            ],
+            "predicted_answer": "Moon, Mars, Jupiter, Saturn, Uranus, Neptune, and the Sun.",
+            "score": 0.2222222222222222,
+            "tokens": 17238,
+            "latency_seconds": 162.57375240325928
+        },
+        {
+            "gold_answer": [
+                "erotic thriller film"
+            ],
+            "predicted_answer": "Not applicable.",
+            "score": 0,
+            "tokens": 16153,
+            "latency_seconds": 211.69517016410828
+        },
+        {
+            "gold_answer": [
+                "Parliament"
+            ],
+            "predicted_answer": "Conservative Member of Parliament",
+            "score": 0.4,
+            "tokens": 15261,
+            "latency_seconds": 208.09094071388245
+        },
+        {
+            "gold_answer": [
+                "Tharangambadi"
+            ],
+            "predicted_answer": "Tamil Nadu",
+            "score": 0,
+            "tokens": 18376,
+            "latency_seconds": 320.36252546310425
+        },
+        {
+            "gold_answer": [
+                "Pleiospilos"
+            ],
+            "predicted_answer": "Pleiospilos",
+            "score": 1.0,
+            "tokens": 2801,
+            "latency_seconds": 29.07002592086792
+        },
+        {
+            "gold_answer": [
+                "2013"
+            ],
+            "predicted_answer": "1948",
+            "score": 0,
+            "tokens": 13020,
+            "latency_seconds": 203.41187143325806
+        },
+        {
+            "gold_answer": [
+                "The Rebirth"
+            ],
+            "predicted_answer": "Fitz and The Tantrums",
+            "score": 0,
+            "tokens": 9779,
+            "latency_seconds": 160.5796661376953
+        },
+        {
+            "gold_answer": [
+                "October 13, 1980"
+            ],
+            "predicted_answer": "October 13, 1980",
+            "score": 1.0,
+            "tokens": 17634,
+            "latency_seconds": 274.831693649292
+        },
+        {
+            "gold_answer": [
+                "Betty Cohen"
+            ],
+            "predicted_answer": "NBC",
+            "score": 0,
+            "tokens": 17550,
+            "latency_seconds": 223.6268126964569
+        },
+        {
+            "gold_answer": [
+                "Mary Astor"
+            ],
+            "predicted_answer": "Mary Astor",
+            "score": 1.0,
+            "tokens": 17470,
+            "latency_seconds": 273.35457611083984
+        },
+        {
+            "gold_answer": [
+                "number five"
+            ],
+            "predicted_answer": "5",
+            "score": 0,
+            "tokens": 10657,
+            "latency_seconds": 47.035520792007446
+        },
+        {
+            "gold_answer": [
+                "New Zealand, Canada, the United States, the Falkland Islands, and Peru."
+            ],
+            "predicted_answer": "North America, Europe, and Siberia.",
+            "score": 0.14285714285714285,
+            "tokens": 18234,
+            "latency_seconds": 219.14617705345154
+        },
+        {
+            "gold_answer": [
+                "2000 Summer Olympic Games"
+            ],
+            "predicted_answer": "2000",
+            "score": 0.4,
+            "tokens": 13330,
+            "latency_seconds": 111.86390399932861
+        },
+        {
+            "gold_answer": [
+                "Claudio Javier L\u00f3pez"
+            ],
+            "predicted_answer": "Claudio L\u00f3pez",
+            "score": 0.8,
+            "tokens": 6802,
+            "latency_seconds": 47.410701513290405
+        },
+        {
+            "gold_answer": [
+                "George H. W. Bush"
+            ],
+            "predicted_answer": "Ronald Reagan",
+            "score": 0,
+            "tokens": 17727,
+            "latency_seconds": 234.33042430877686
+        },
+        {
+            "gold_answer": [
+                "\"Talk That Talk\""
+            ],
+            "predicted_answer": "\"Life in Cartoon Motion\"",
+            "score": 0,
+            "tokens": 15144,
+            "latency_seconds": 231.33560013771057
+        },
+        {
+            "gold_answer": [
+                "Bob Dylan"
+            ],
+            "predicted_answer": "Tom Petty",
+            "score": 0,
+            "tokens": 16294,
+            "latency_seconds": 234.97680401802063
+        },
+        {
+            "gold_answer": [
+                "Cartoon Cartoon Fridays"
+            ],
+            "predicted_answer": "Cartoon Cartoons",
+            "score": 0.4,
+            "tokens": 11727,
+            "latency_seconds": 189.56060409545898
+        },
+        {
+            "gold_answer": [
+                "on the Cumberland Plain"
+            ],
+            "predicted_answer": "New South Wales, Australia",
+            "score": 0,
+            "tokens": 15914,
+            "latency_seconds": 222.94889879226685
+        },
+        {
+            "gold_answer": [
+                "Long Island"
+            ],
+            "predicted_answer": "Jones Beach Island",
+            "score": 0.4,
+            "tokens": 5352,
+            "latency_seconds": 64.30085229873657
+        },
+        {
+            "gold_answer": [
+                "PewDiePie"
+            ],
+            "predicted_answer": "PewDiePie",
+            "score": 1.0,
+            "tokens": 12058,
+            "latency_seconds": 169.67584204673767
+        },
+        {
+            "gold_answer": [
+                "It's Always Sunny in Philadelphia"
+            ],
+            "predicted_answer": "It's Always Sunny in Philadelphia",
+            "score": 1.0,
+            "tokens": 15325,
+            "latency_seconds": 228.85458064079285
+        },
+        {
+            "gold_answer": [
+                "#364"
+            ],
+            "predicted_answer": "79th",
+            "score": 0,
+            "tokens": 10305,
+            "latency_seconds": 157.7376880645752
+        },
+        {
+            "gold_answer": [
+                "Ribosomes"
+            ],
+            "predicted_answer": "bacteria",
+            "score": 0,
+            "tokens": 18651,
+            "latency_seconds": 436.97013425827026
+        },
+        {
+            "gold_answer": [
+                "Dracula"
+            ],
+            "predicted_answer": "118",
+            "score": 0,
+            "tokens": 10211,
+            "latency_seconds": 149.29587054252625
+        },
+        {
+            "gold_answer": [
+                "Band-e Amir National Park"
+            ],
+            "predicted_answer": "Bamyan Province",
+            "score": 0,
+            "tokens": 3520,
+            "latency_seconds": 42.718411445617676
+        },
+        {
+            "gold_answer": [
+                "University of Southern California"
+            ],
+            "predicted_answer": "USC",
+            "score": 0,
+            "tokens": 18192,
+            "latency_seconds": 392.45995569229126
+        },
+        {
+            "gold_answer": [
+                "7.2 million"
+            ],
+            "predicted_answer": "7,413,070",
+            "score": 0,
+            "tokens": 17808,
+            "latency_seconds": 349.3961582183838
+        },
+        {
+            "gold_answer": [
+                "A123 Systems, LLC"
+            ],
+            "predicted_answer": "Spider9 was founded in 2011 by the head of A123 Systems.",
+            "score": 0.30769230769230765,
+            "tokens": 15370,
+            "latency_seconds": 240.7591335773468
+        },
+        {
+            "gold_answer": [
+                "143,372"
+            ],
+            "predicted_answer": "14,674",
+            "score": 0,
+            "tokens": 15545,
+            "latency_seconds": 269.91306161880493
+        },
+        {
+            "gold_answer": [
+                "Taoiseach of Ireland"
+            ],
+            "predicted_answer": "Taoiseach",
+            "score": 0.5,
+            "tokens": 16592,
+            "latency_seconds": 261.6628694534302
+        },
+        {
+            "gold_answer": [
+                "Troy, Montana"
+            ],
+            "predicted_answer": "Merrill, Wisconsin, not Montana.",
+            "score": 0.3333333333333333,
+            "tokens": 15588,
+            "latency_seconds": 295.9165632724762
+        },
+        {
+            "gold_answer": [
+                "Mika H\u00e4kkinen"
+            ],
+            "predicted_answer": "Mika H\u00e4kkinen",
+            "score": 1.0,
+            "tokens": 17311,
+            "latency_seconds": 294.101313829422
+        },
+        {
+            "gold_answer": [
+                "Constantine"
+            ],
+            "predicted_answer": "I Am Legend",
+            "score": 0,
+            "tokens": 16818,
+            "latency_seconds": 297.0524754524231
+        },
+        {
+            "gold_answer": [
+                "George Balanchine"
+            ],
+            "predicted_answer": "Adam Cooper",
+            "score": 0,
+            "tokens": 15941,
+            "latency_seconds": 357.4903471469879
+        },
+        {
+            "gold_answer": [
+                "Xcel Energy Inc."
+            ],
+            "predicted_answer": "Southern Company",
+            "score": 0,
+            "tokens": 17681,
+            "latency_seconds": 350.25747656822205
+        },
+        {
+            "gold_answer": [
+                "Summer Magic"
+            ],
+            "predicted_answer": "Around the World in 80 Days",
+            "score": 0,
+            "tokens": 17482,
+            "latency_seconds": 374.34000635147095
+        },
+        {
+            "gold_answer": [
+                "Nobel Prize"
+            ],
+            "predicted_answer": "Nobel Prize in Physics",
+            "score": 0.6666666666666666,
+            "tokens": 17085,
+            "latency_seconds": 278.2437262535095
+        },
+        {
+            "gold_answer": [
+                "seasonal television specials, particularly its work in stop motion animation"
+            ],
+            "predicted_answer": "stop-motion animated Christmas specials",
+            "score": 0.14285714285714288,
+            "tokens": 17640,
+            "latency_seconds": 346.89929127693176
+        },
+        {
+            "gold_answer": [
+                "Dame Eileen June Atkins"
+            ],
+            "predicted_answer": "Frances de la Tour",
+            "score": 0,
+            "tokens": 12864,
+            "latency_seconds": 203.3756594657898
+        },
+        {
+            "gold_answer": [
+                "Iran"
+            ],
+            "predicted_answer": "Iran",
+            "score": 1.0,
+            "tokens": 18790,
+            "latency_seconds": 460.70693707466125
+        },
+        {
+            "gold_answer": [
+                "Hakim Abdullah Jamal"
+            ],
+            "predicted_answer": "Ron Everett",
+            "score": 0,
+            "tokens": 18934,
+            "latency_seconds": 423.1201391220093
+        },
+        {
+            "gold_answer": [
+                "Keith Morris"
+            ],
+            "predicted_answer": "Keith Morris",
+            "score": 1.0,
+            "tokens": 14960,
+            "latency_seconds": 251.67490768432617
+        },
+        {
+            "gold_answer": [
+                "YIVO"
+            ],
+            "predicted_answer": "YIVO Institute for Jewish Research",
+            "score": 0.33333333333333337,
+            "tokens": 12574,
+            "latency_seconds": 240.30290818214417
+        },
+        {
+            "gold_answer": [
+                "January 18, 1813"
+            ],
+            "predicted_answer": "1860",
+            "score": 0,
+            "tokens": 11262,
+            "latency_seconds": 218.95435500144958
+        },
+        {
+            "gold_answer": [
+                "Himalchuli has three main peaks: East (7893 m), West (7540 m) and North (7371 m)"
+            ],
+            "predicted_answer": "Himalchuli",
+            "score": 0.125,
+            "tokens": 10646,
+            "latency_seconds": 171.91106867790222
+        },
+        {
+            "gold_answer": [
+                "1763"
+            ],
+            "predicted_answer": "1763",
+            "score": 1.0,
+            "tokens": 17025,
+            "latency_seconds": 325.6961135864258
+        },
+        {
+            "gold_answer": [
+                "Pope John X"
+            ],
+            "predicted_answer": "Pope John X.",
+            "score": 1.0,
+            "tokens": 5270,
+            "latency_seconds": 75.79132866859436
+        },
+        {
+            "gold_answer": [
+                "Manchester United"
+            ],
+            "predicted_answer": "Manchester United Football Club",
+            "score": 0.6666666666666666,
+            "tokens": 17100,
+            "latency_seconds": 320.0292327404022
+        },
+        {
+            "gold_answer": [
+                "yes"
+            ],
+            "predicted_answer": "Yes",
+            "score": 1.0,
+            "tokens": 16108,
+            "latency_seconds": 298.10413217544556
+        },
+        {
+            "gold_answer": [
+                "1,693"
+            ],
+            "predicted_answer": "8,530",
+            "score": 0,
+            "tokens": 9201,
+            "latency_seconds": 157.1909122467041
+        },
+        {
+            "gold_answer": [
+                "Australian Supercars Championship"
+            ],
+            "predicted_answer": "Formula Renault",
+            "score": 0,
+            "tokens": 10628,
+            "latency_seconds": 229.99738693237305
+        },
+        {
+            "gold_answer": [
+                "no"
+            ],
+            "predicted_answer": "Yes",
+            "score": 0,
+            "tokens": 14423,
+            "latency_seconds": 227.1566560268402
+        },
+        {
+            "gold_answer": [
+                "Washington State"
+            ],
+            "predicted_answer": "Washington State University",
+            "score": 0.8,
+            "tokens": 15441,
+            "latency_seconds": 266.6298077106476
+        },
+        {
+            "gold_answer": [
+                "Floyd Casey Stadium"
+            ],
+            "predicted_answer": "Arkansas State",
+            "score": 0,
+            "tokens": 17670,
+            "latency_seconds": 322.0752577781677
+        },
+        {
+            "gold_answer": [
+                "2010"
+            ],
+            "predicted_answer": "2010",
+            "score": 1.0,
+            "tokens": 17033,
+            "latency_seconds": 343.77765703201294
+        },
+        {
+            "gold_answer": [
+                "Sanskrit"
+            ],
+            "predicted_answer": "Through their historical use in warfare.",
+            "score": 0,
+            "tokens": 13026,
+            "latency_seconds": 241.34907984733582
+        },
+        {
+            "gold_answer": [
+                "English"
+            ],
+            "predicted_answer": "British",
+            "score": 0,
+            "tokens": 18512,
+            "latency_seconds": 417.38716292381287
+        },
+        {
+            "gold_answer": [
+                "yes"
+            ],
+            "predicted_answer": "No",
+            "score": 0,
+            "tokens": 5362,
+            "latency_seconds": 76.58010244369507
+        },
+        {
+            "gold_answer": [
+                "November"
+            ],
+            "predicted_answer": "November 2002",
+            "score": 0.6666666666666666,
+            "tokens": 17847,
+            "latency_seconds": 432.2132177352905
+        },
+        {
+            "gold_answer": [
+                "Shari Shattuck"
+            ],
+            "predicted_answer": "Jennifer Grey",
+            "score": 0,
+            "tokens": 14361,
+            "latency_seconds": 228.53269624710083
+        },
+        {
+            "gold_answer": [
+                "British"
+            ],
+            "predicted_answer": "British",
+            "score": 1.0,
+            "tokens": 18117,
+            "latency_seconds": 377.9496154785156
+        },
+        {
+            "gold_answer": [
+                "Vernon Smith"
+            ],
+            "predicted_answer": "Tom Campbell",
+            "score": 0,
+            "tokens": 15985,
+            "latency_seconds": 266.2478542327881
+        },
+        {
+            "gold_answer": [
+                "Deftones"
+            ],
+            "predicted_answer": "Deftones",
+            "score": 1.0,
+            "tokens": 14424,
+            "latency_seconds": 257.30470418930054
+        },
+        {
+            "gold_answer": [
+                "810"
+            ],
+            "predicted_answer": "741",
+            "score": 0,
+            "tokens": 13148,
+            "latency_seconds": 244.28285312652588
+        },
+        {
+            "gold_answer": [
+                "India"
+            ],
+            "predicted_answer": "India",
+            "score": 1.0,
+            "tokens": 13611,
+            "latency_seconds": 206.43648171424866
+        },
+        {
+            "gold_answer": [
+                "yes"
+            ],
+            "predicted_answer": "No",
+            "score": 0,
+            "tokens": 17452,
+            "latency_seconds": 309.8530783653259
+        },
+        {
+            "gold_answer": [
+                "May 5, 1939"
+            ],
+            "predicted_answer": "1939",
+            "score": 0.5,
+            "tokens": 14200,
+            "latency_seconds": 205.64840459823608
+        },
+        {
+            "gold_answer": [
+                "Philip K. Dick"
+            ],
+            "predicted_answer": "Philip K. Dick",
+            "score": 1.0,
+            "tokens": 16184,
+            "latency_seconds": 250.67628717422485
+        },
+        {
+            "gold_answer": [
+                "821"
+            ],
+            "predicted_answer": "821",
+            "score": 1.0,
+            "tokens": 9777,
+            "latency_seconds": 153.49840545654297
+        },
+        {
+            "gold_answer": [
+                "Capital Cities"
+            ],
+            "predicted_answer": "Capital Cities",
+            "score": 1.0,
+            "tokens": 13520,
+            "latency_seconds": 252.61449122428894
+        },
+        {
+            "gold_answer": [
+                "Morgan Llywelyn"
+            ],
+            "predicted_answer": "1937",
+            "score": 0,
+            "tokens": 12099,
+            "latency_seconds": 202.23331546783447
+        },
+        {
+            "gold_answer": [
+                "14"
+            ],
+            "predicted_answer": "12",
+            "score": 0,
+            "tokens": 6272,
+            "latency_seconds": 104.64231729507446
+        },
+        {
+            "gold_answer": [
+                "Big 12 Conference"
+            ],
+            "predicted_answer": "Big 12 Conference",
+            "score": 1.0,
+            "tokens": 15275,
+            "latency_seconds": 228.6661093235016
+        },
+        {
+            "gold_answer": [
+                "Brittany, Cornwall, Ireland, Isle of Man, Scotland and Wales."
+            ],
+            "predicted_answer": "Brittany, Cornwall, Ireland, the Isle of Man, Scotland, and Wales.",
+            "score": 1.0,
+            "tokens": 16884,
+            "latency_seconds": 284.6896276473999
+        },
+        {
+            "gold_answer": [
+                "coaxial"
+            ],
+            "predicted_answer": "American BNC connector",
+            "score": 0,
+            "tokens": 5516,
+            "latency_seconds": 82.1613929271698
+        },
+        {
+            "gold_answer": [
+                "Wicked Twister"
+            ],
+            "predicted_answer": "Shakopee, Minnesota",
+            "score": 0,
+            "tokens": 9515,
+            "latency_seconds": 140.96292209625244
+        },
+        {
+            "gold_answer": [
+                "Levni Yilmaz"
+            ],
+            "predicted_answer": "Lev Kuleshov",
+            "score": 0,
+            "tokens": 10455,
+            "latency_seconds": 169.35732889175415
+        },
+        {
+            "gold_answer": [
+                "Man Haron"
+            ],
+            "predicted_answer": "Man Haron Monis",
+            "score": 0.8,
+            "tokens": 17165,
+            "latency_seconds": 301.44683504104614
+        },
+        {
+            "gold_answer": [
+                "Hawaii"
+            ],
+            "predicted_answer": "Hawaii",
+            "score": 1.0,
+            "tokens": 17830,
+            "latency_seconds": 473.6749393939972
+        },
+        {
+            "gold_answer": [
+                "100 metres"
+            ],
+            "predicted_answer": "100m",
+            "score": 0,
+            "tokens": 9159,
+            "latency_seconds": 130.34286952018738
+        },
+        {
+            "gold_answer": [
+                "due to the onset and progression of Alzheimer's disease"
+            ],
+            "predicted_answer": "Alzheimer's disease.",
+            "score": 0.4,
+            "tokens": 17311,
+            "latency_seconds": 318.1430230140686
+        },
+        {
+            "gold_answer": [
+                "yes"
+            ],
+            "predicted_answer": "Yes",
+            "score": 1.0,
+            "tokens": 6571,
+            "latency_seconds": 124.04044651985168
+        },
+        {
+            "gold_answer": [
+                "Leucippus"
+            ],
+            "predicted_answer": "Leucippus",
+            "score": 1.0,
+            "tokens": 17397,
+            "latency_seconds": 341.52673745155334
+        },
+        {
+            "gold_answer": [
+                "Hollywood, Florida"
+            ],
+            "predicted_answer": "Hollywood",
+            "score": 0.6666666666666666,
+            "tokens": 17878,
+            "latency_seconds": 406.0530779361725
+        },
+        {
+            "gold_answer": [
+                "building"
+            ],
+            "predicted_answer": "Skyscraper",
+            "score": 0,
+            "tokens": 16260,
+            "latency_seconds": 288.9619085788727
+        },
+        {
+            "gold_answer": [
+                "1895"
+            ],
+            "predicted_answer": "1895",
+            "score": 1.0,
+            "tokens": 11510,
+            "latency_seconds": 225.3549439907074
+        },
+        {
+            "gold_answer": [
+                "Pac-12 Conference"
+            ],
+            "predicted_answer": "Mountain West Conference",
+            "score": 0.4,
+            "tokens": 11781,
+            "latency_seconds": 195.9967987537384
+        },
+        {
+            "gold_answer": [
+                "7pm"
+            ],
+            "predicted_answer": "7:00 pm",
+            "score": 0,
+            "tokens": 16951,
+            "latency_seconds": 286.2604513168335
+        },
+        {
+            "gold_answer": [
+                "no"
+            ],
+            "predicted_answer": "No",
+            "score": 1.0,
+            "tokens": 18722,
+            "latency_seconds": 463.60696816444397
+        },
+        {
+            "gold_answer": [
+                "poet"
+            ],
+            "predicted_answer": "Writers",
+            "score": 0,
+            "tokens": 18140,
+            "latency_seconds": 404.475914478302
+        },
+        {
+            "gold_answer": [
+                "no"
+            ],
+            "predicted_answer": "No",
+            "score": 1.0,
+            "tokens": 12199,
+            "latency_seconds": 277.16290807724
+        },
+        {
+            "gold_answer": [
+                "43,000 marchers"
+            ],
+            "predicted_answer": "Thousands",
+            "score": 0,
+            "tokens": 18233,
+            "latency_seconds": 439.58185291290283
+        },
+        {
+            "gold_answer": [
+                "Indianapolis, Indiana"
+            ],
+            "predicted_answer": "Republic Airways",
+            "score": 0,
+            "tokens": 18175,
+            "latency_seconds": 355.3978474140167
+        },
+        {
+            "gold_answer": [
+                "1909"
+            ],
+            "predicted_answer": "1891",
+            "score": 0,
+            "tokens": 14051,
+            "latency_seconds": 251.27457284927368
+        },
+        {
+            "gold_answer": [
+                "Bill McCutcheon"
+            ],
+            "predicted_answer": "Al Lewis",
+            "score": 0,
+            "tokens": 9950,
+            "latency_seconds": 144.65708231925964
+        },
+        {
+            "gold_answer": [
+                "Lord Gort"
+            ],
+            "predicted_answer": "Richard Nugent O'Connor",
+            "score": 0,
+            "tokens": 17487,
+            "latency_seconds": 318.52860474586487
+        },
+        {
+            "gold_answer": [
+                "Polk County"
+            ],
+            "predicted_answer": "Polk County",
+            "score": 1.0,
+            "tokens": 16346,
+            "latency_seconds": 279.1627080440521
+        },
+        {
+            "gold_answer": [
+                "King James II of England"
+            ],
+            "predicted_answer": "James II",
+            "score": 0.5714285714285715,
+            "tokens": 15654,
+            "latency_seconds": 273.7562689781189
+        },
+        {
+            "gold_answer": [
+                "Tommy"
+            ],
+            "predicted_answer": "None. The question is about The Who, but the passage is about Train, an American rock band.",
+            "score": 0,
+            "tokens": 12932,
+            "latency_seconds": 230.7534646987915
+        },
+        {
+            "gold_answer": [
+                "2006"
+            ],
+            "predicted_answer": "2006",
+            "score": 1.0,
+            "tokens": 10217,
+            "latency_seconds": 202.1383512020111
+        },
+        {
+            "gold_answer": [
+                "West African descendants"
+            ],
+            "predicted_answer": "Yoruba people",
+            "score": 0,
+            "tokens": 17370,
+            "latency_seconds": 339.40532088279724
+        },
+        {
+            "gold_answer": [
+                "American"
+            ],
+            "predicted_answer": "American",
+            "score": 1.0,
+            "tokens": 16453,
+            "latency_seconds": 284.6329905986786
+        },
+        {
+            "gold_answer": [
+                "Michael Swango"
+            ],
+            "predicted_answer": "Michael Swango",
+            "score": 1.0,
+            "tokens": 18372,
+            "latency_seconds": 435.4351201057434
+        },
+        {
+            "gold_answer": [
+                "Juan Rulfo"
+            ],
+            "predicted_answer": "Juan Rulfo",
+            "score": 1.0,
+            "tokens": 17038,
+            "latency_seconds": 345.0879371166229
+        },
+        {
+            "gold_answer": [
+                "American"
+            ],
+            "predicted_answer": "Merck & Co.",
+            "score": 0,
+            "tokens": 18964,
+            "latency_seconds": 445.6411690711975
+        },
+        {
+            "gold_answer": [
+                "1961"
+            ],
+            "predicted_answer": "1982",
+            "score": 0,
+            "tokens": 13061,
+            "latency_seconds": 286.26948499679565
+        },
+        {
+            "gold_answer": [
+                "United States Secretary of the Interior"
+            ],
+            "predicted_answer": "U.S. Representative",
+            "score": 0,
+            "tokens": 16702,
+            "latency_seconds": 273.0819823741913
+        },
+        {
+            "gold_answer": [
+                "Alice's Adventures in Wonderland"
+            ],
+            "predicted_answer": "\"Alice's Adventures in Wonderland\"",
+            "score": 1.0,
+            "tokens": 17698,
+            "latency_seconds": 354.21904253959656
+        },
+        {
+            "gold_answer": [
+                "Vienna"
+            ],
+            "predicted_answer": "Vienna, Austria",
+            "score": 0.6666666666666666,
+            "tokens": 16790,
+            "latency_seconds": 303.0514760017395
+        },
+        {
+            "gold_answer": [
+                "yes"
+            ],
+            "predicted_answer": "No",
+            "score": 0,
+            "tokens": 15440,
+            "latency_seconds": 263.9079532623291
+        },
+        {
+            "gold_answer": [
+                "Albert Park"
+            ],
+            "predicted_answer": "Albert Park",
+            "score": 1.0,
+            "tokens": 4800,
+            "latency_seconds": 68.21425008773804
+        },
+        {
+            "gold_answer": [
+                "director"
+            ],
+            "predicted_answer": "Actor",
+            "score": 0,
+            "tokens": 12546,
+            "latency_seconds": 207.6349115371704
+        },
+        {
+            "gold_answer": [
+                "Jeffersontown, Kentucky"
+            ],
+            "predicted_answer": "Corbin",
+            "score": 0,
+            "tokens": 14432,
+            "latency_seconds": 252.25823378562927
+        },
+        {
+            "gold_answer": [
+                "Burny Mattinson, David Michener, and the team of John Musker and Ron Clements"
+            ],
+            "predicted_answer": "Ron Clements and Burny Mattinson",
+            "score": 0.5882352941176471,
+            "tokens": 17867,
+            "latency_seconds": 374.5847783088684
+        },
+        {
+            "gold_answer": [
+                "WAMC"
+            ],
+            "predicted_answer": "None",
+            "score": 0,
+            "tokens": 13653,
+            "latency_seconds": 268.54321026802063
+        },
+        {
+            "gold_answer": [
+                "Bassendean"
+            ],
+            "predicted_answer": "Bassendean",
+            "score": 1.0,
+            "tokens": 17452,
+            "latency_seconds": 343.57093811035156
+        },
+        {
+            "gold_answer": [
+                "duck"
+            ],
+            "predicted_answer": "duck",
+            "score": 1.0,
+            "tokens": 3735,
+            "latency_seconds": 37.44141983985901
+        },
+        {
+            "gold_answer": [
+                "Mimosa"
+            ],
+            "predicted_answer": "Mimosa",
+            "score": 1.0,
+            "tokens": 8338,
+            "latency_seconds": 138.30447149276733
+        },
+        {
+            "gold_answer": [
+                "alleged paranormal phenomena"
+            ],
+            "predicted_answer": "Reports of strange occurrences, unexplained disappearances, and a sense of unease or fear.",
+            "score": 0,
+            "tokens": 16787,
+            "latency_seconds": 412.08322191238403
+        },
+        {
+            "gold_answer": [
+                "Fomento Econ\u00f3mico Mexicano"
+            ],
+            "predicted_answer": "None",
+            "score": 0,
+            "tokens": 15571,
+            "latency_seconds": 262.61219477653503
+        },
+        {
+            "gold_answer": [
+                "Ellie Kemper"
+            ],
+            "predicted_answer": "Tina Fey",
+            "score": 0,
+            "tokens": 16223,
+            "latency_seconds": 268.0341901779175
+        },
+        {
+            "gold_answer": [
+                "yes"
+            ],
+            "predicted_answer": "No",
+            "score": 0,
+            "tokens": 13270,
+            "latency_seconds": 266.97952222824097
+        },
+        {
+            "gold_answer": [
+                "Umina Beach, New South Wales"
+            ],
+            "predicted_answer": "Umina Beach",
+            "score": 0.5714285714285715,
+            "tokens": 5210,
+            "latency_seconds": 76.10077285766602
+        },
+        {
+            "gold_answer": [
+                "Metro Manila"
+            ],
+            "predicted_answer": "Ortigas Center",
+            "score": 0,
+            "tokens": 8682,
+            "latency_seconds": 141.74075961112976
+        },
+        {
+            "gold_answer": [
+                "University"
+            ],
+            "predicted_answer": "Academia",
+            "score": 0,
+            "tokens": 17869,
+            "latency_seconds": 377.72063183784485
+        },
+        {
+            "gold_answer": [
+                "In 2002, Suining had a population of 658,798."
+            ],
+            "predicted_answer": "No",
+            "score": 0,
+            "tokens": 2050,
+            "latency_seconds": 6.959819316864014
+        },
+        {
+            "gold_answer": [
+                "video game"
+            ],
+            "predicted_answer": "Interactive experiences",
+            "score": 0,
+            "tokens": 14404,
+            "latency_seconds": 236.04059028625488
+        },
+        {
+            "gold_answer": [
+                "no"
+            ],
+            "predicted_answer": "No",
+            "score": 1.0,
+            "tokens": 13159,
+            "latency_seconds": 275.30064487457275
+        },
+        {
+            "gold_answer": [
+                "French mathematician and physicist"
+            ],
+            "predicted_answer": "French mathematician and physicist.",
+            "score": 1.0,
+            "tokens": 15894,
+            "latency_seconds": 298.97794103622437
+        },
+        {
+            "gold_answer": [
+                "Elvis' Christmas Album"
+            ],
+            "predicted_answer": "Elvis Presley's Christmas album",
+            "score": 0.8571428571428571,
+            "tokens": 9368,
+            "latency_seconds": 147.11289238929749
+        },
+        {
+            "gold_answer": [
+                "Operation Iceberg"
+            ],
+            "predicted_answer": "Operation Iceberg",
+            "score": 1.0,
+            "tokens": 17672,
+            "latency_seconds": 368.13490438461304
+        },
+        {
+            "gold_answer": [
+                "Puli Alam"
+            ],
+            "predicted_answer": "Puli Alam",
+            "score": 1.0,
+            "tokens": 12460,
+            "latency_seconds": 206.5065312385559
+        },
+        {
+            "gold_answer": [
+                "BBC Formula One"
+            ],
+            "predicted_answer": "Allan McNish",
+            "score": 0,
+            "tokens": 6925,
+            "latency_seconds": 102.02360272407532
+        },
+        {
+            "gold_answer": [
+                "Plato"
+            ],
+            "predicted_answer": "Plato",
+            "score": 1.0,
+            "tokens": 17883,
+            "latency_seconds": 372.9201192855835
+        },
+        {
+            "gold_answer": [
+                "Northern Ireland"
+            ],
+            "predicted_answer": "Northern Ireland",
+            "score": 1.0,
+            "tokens": 17713,
+            "latency_seconds": 348.0985794067383
+        },
+        {
+            "gold_answer": [
+                "Joe Gooch"
+            ],
+            "predicted_answer": "Joe Gooch",
+            "score": 1.0,
+            "tokens": 16971,
+            "latency_seconds": 281.66541957855225
+        },
+        {
+            "gold_answer": [
+                "poet and novelist"
+            ],
+            "predicted_answer": "Both are poets.",
+            "score": 0,
+            "tokens": 14793,
+            "latency_seconds": 283.7495470046997
+        },
+        {
+            "gold_answer": [
+                "O"
+            ],
+            "predicted_answer": "Franco Dragone",
+            "score": 0,
+            "tokens": 17702,
+            "latency_seconds": 389.06603932380676
+        },
+        {
+            "gold_answer": [
+                "West Lafayette, Indiana"
+            ],
+            "predicted_answer": "West Lafayette, Indiana",
+            "score": 1.0,
+            "tokens": 17593,
+            "latency_seconds": 341.51302218437195
+        },
+        {
+            "gold_answer": [
+                "Father of Liberalism"
+            ],
+            "predicted_answer": "John Locke",
+            "score": 0,
+            "tokens": 17119,
+            "latency_seconds": 373.16653990745544
+        },
+        {
+            "gold_answer": [
+                "35 people"
+            ],
+            "predicted_answer": "35",
+            "score": 0.6666666666666666,
+            "tokens": 17333,
+            "latency_seconds": 327.12667989730835
+        },
+        {
+            "gold_answer": [
+                "\"Currer Bell\""
+            ],
+            "predicted_answer": "Edith Van Dyne",
+            "score": 0,
+            "tokens": 18148,
+            "latency_seconds": 402.3448431491852
+        },
+        {
+            "gold_answer": [
+                "no"
+            ],
+            "predicted_answer": "No",
+            "score": 1.0,
+            "tokens": 16991,
+            "latency_seconds": 326.2395963668823
+        },
+        {
+            "gold_answer": [
+                "2011"
+            ],
+            "predicted_answer": "2011",
+            "score": 1.0,
+            "tokens": 14204,
+            "latency_seconds": 222.02728271484375
+        },
+        {
+            "gold_answer": [
+                "the Veneto region of Northern Italy"
+            ],
+            "predicted_answer": "Northern Italy",
+            "score": 0.5714285714285715,
+            "tokens": 12029,
+            "latency_seconds": 200.21876692771912
+        },
+        {
+            "gold_answer": [
+                "1919"
+            ],
+            "predicted_answer": "1919",
+            "score": 1.0,
+            "tokens": 17026,
+            "latency_seconds": 305.9412741661072
+        },
+        {
+            "gold_answer": [
+                "French"
+            ],
+            "predicted_answer": "French forces",
+            "score": 0.6666666666666666,
+            "tokens": 15221,
+            "latency_seconds": 247.46186137199402
+        },
+        {
+            "gold_answer": [
+                "University of Vienna"
+            ],
+            "predicted_answer": "Temple University",
+            "score": 0.4,
+            "tokens": 16989,
+            "latency_seconds": 295.4677846431732
+        },
+        {
+            "gold_answer": [
+                "Brian Stokes Mitchell"
+            ],
+            "predicted_answer": "Paulo Szot",
+            "score": 0,
+            "tokens": 17141,
+            "latency_seconds": 306.28139662742615
+        },
+        {
+            "gold_answer": [
+                "Netflix"
+            ],
+            "predicted_answer": "Netflix",
+            "score": 1.0,
+            "tokens": 13302,
+            "latency_seconds": 226.55305695533752
+        },
+        {
+            "gold_answer": [
+                "Drunter und Dr\u00fcber is a multiplayer board game invented by Klaus Teuber"
+            ],
+            "predicted_answer": "No",
+            "score": 0,
+            "tokens": 6833,
+            "latency_seconds": 118.47512793540955
+        },
+        {
+            "gold_answer": [
+                "Louisville"
+            ],
+            "predicted_answer": "Louisville",
+            "score": 1.0,
+            "tokens": 6391,
+            "latency_seconds": 107.31707000732422
+        },
+        {
+            "gold_answer": [
+                "Sonic Mania"
+            ],
+            "predicted_answer": "Plok",
+            "score": 0,
+            "tokens": 17230,
+            "latency_seconds": 320.7525143623352
+        },
+        {
+            "gold_answer": [
+                "Mark Neary Donohue Jr."
+            ],
+            "predicted_answer": "Mark Donohue",
+            "score": 0.6666666666666666,
+            "tokens": 17964,
+            "latency_seconds": 381.23053002357483
+        },
+        {
+            "gold_answer": [
+                "an acting career"
+            ],
+            "predicted_answer": "Acting",
+            "score": 0.6666666666666666,
+            "tokens": 12510,
+            "latency_seconds": 295.9160714149475
+        },
+        {
+            "gold_answer": [
+                "Veyyil"
+            ],
+            "predicted_answer": "Veyil (2006)",
+            "score": 0,
+            "tokens": 10082,
+            "latency_seconds": 185.86610865592957
+        },
+        {
+            "gold_answer": [
+                "Saturday"
+            ],
+            "predicted_answer": "Kentucky Derby",
+            "score": 0,
+            "tokens": 11697,
+            "latency_seconds": 225.34823966026306
+        },
+        {
+            "gold_answer": [
+                "Neighbours"
+            ],
+            "predicted_answer": "Kevin Yorn is not mentioned in the passage.",
+            "score": 0,
+            "tokens": 11494,
+            "latency_seconds": 201.4068169593811
+        },
+        {
+            "gold_answer": [
+                "Bill Miner"
+            ],
+            "predicted_answer": "Bill Miner",
+            "score": 1.0,
+            "tokens": 11510,
+            "latency_seconds": 207.83056163787842
+        },
+        {
+            "gold_answer": [
+                "Chippewa County"
+            ],
+            "predicted_answer": "Manistee",
+            "score": 0,
+            "tokens": 18758,
+            "latency_seconds": 475.7508752346039
+        },
+        {
+            "gold_answer": [
+                "3,677 seated"
+            ],
+            "predicted_answer": "3,677",
+            "score": 0.6666666666666666,
+            "tokens": 17142,
+            "latency_seconds": 337.4091868400574
+        },
+        {
+            "gold_answer": [
+                "Atlantic Ocean"
+            ],
+            "predicted_answer": "The Atlantic Ocean",
+            "score": 1.0,
+            "tokens": 3698,
+            "latency_seconds": 37.807411909103394
+        },
+        {
+            "gold_answer": [
+                "director"
+            ],
+            "predicted_answer": "Filmmakers",
+            "score": 0,
+            "tokens": 17085,
+            "latency_seconds": 308.3891251087189
+        },
+        {
+            "gold_answer": [
+                "IK Start"
+            ],
+            "predicted_answer": "IK Start",
+            "score": 1.0,
+            "tokens": 5025,
+            "latency_seconds": 98.95816087722778
+        },
+        {
+            "gold_answer": [
+                "green and yellow"
+            ],
+            "predicted_answer": "Green and yellow.",
+            "score": 1.0,
+            "tokens": 16941,
+            "latency_seconds": 276.6257064342499
+        },
+        {
+            "gold_answer": [
+                "Claire is a married World War II nurse"
+            ],
+            "predicted_answer": "A married World War II nurse.",
+            "score": 0.8333333333333333,
+            "tokens": 15485,
+            "latency_seconds": 271.0528392791748
+        },
+        {
+            "gold_answer": [
+                "Henry Jackson Society"
+            ],
+            "predicted_answer": "Henry Jackson Society",
+            "score": 1.0,
+            "tokens": 16445,
+            "latency_seconds": 283.1623706817627
+        },
+        {
+            "gold_answer": [
+                "the City of Peace"
+            ],
+            "predicted_answer": "The City of Peace",
+            "score": 1.0,
+            "tokens": 17397,
+            "latency_seconds": 339.16813373565674
+        },
+        {
+            "gold_answer": [
+                "Martin Scorsese"
+            ],
+            "predicted_answer": "Martin Scorsese",
+            "score": 1.0,
+            "tokens": 15076,
+            "latency_seconds": 243.83446502685547
+        },
+        {
+            "gold_answer": [
+                "Michael Kemp Tippett"
+            ],
+            "predicted_answer": "Michael Tippett",
+            "score": 0.8,
+            "tokens": 17144,
+            "latency_seconds": 299.8147578239441
+        },
+        {
+            "gold_answer": [
+                "Babylon"
+            ],
+            "predicted_answer": "Babylon",
+            "score": 1.0,
+            "tokens": 14994,
+            "latency_seconds": 249.07510209083557
+        },
+        {
+            "gold_answer": [
+                "Ten Walls"
+            ],
+            "predicted_answer": "None",
+            "score": 0,
+            "tokens": 7277,
+            "latency_seconds": 120.25663542747498
+        },
+        {
+            "gold_answer": [
+                "Dragons: Riders of Berk"
+            ],
+            "predicted_answer": "None",
+            "score": 0,
+            "tokens": 17189,
+            "latency_seconds": 302.5700387954712
+        },
+        {
+            "gold_answer": [
+                "1978"
+            ],
+            "predicted_answer": "1978",
+            "score": 1.0,
+            "tokens": 15164,
+            "latency_seconds": 287.34425926208496
+        },
+        {
+            "gold_answer": [
+                "J\u0101nis Strazdi\u0146\u0161"
+            ],
+            "predicted_answer": "F3",
+            "score": 0,
+            "tokens": 8612,
+            "latency_seconds": 130.93319034576416
+        },
+        {
+            "gold_answer": [
+                "writer"
+            ],
+            "predicted_answer": "British writers.",
+            "score": 0,
+            "tokens": 16930,
+            "latency_seconds": 283.39031744003296
+        },
+        {
+            "gold_answer": [
+                "the Qin dynasty"
+            ],
+            "predicted_answer": "Dong'ou",
+            "score": 0,
+            "tokens": 18319,
+            "latency_seconds": 391.6058175563812
+        },
+        {
+            "gold_answer": [
+                "Baron of Holberg"
+            ],
+            "predicted_answer": "Den V\u00e6gelsindede",
+            "score": 0,
+            "tokens": 9150,
+            "latency_seconds": 223.07790446281433
+        },
+        {
+            "gold_answer": [
+                "Arizona State University"
+            ],
+            "predicted_answer": "Ramapo College in Mahwah, New Jersey.",
+            "score": 0,
+            "tokens": 12507,
+            "latency_seconds": 214.75307297706604
+        },
+        {
+            "gold_answer": [
+                "yes"
+            ],
+            "predicted_answer": "No",
+            "score": 0,
+            "tokens": 13348,
+            "latency_seconds": 252.0146062374115
+        },
+        {
+            "gold_answer": [
+                "Switchfoot"
+            ],
+            "predicted_answer": "Switchfoot",
+            "score": 1.0,
+            "tokens": 12671,
+            "latency_seconds": 190.5468201637268
+        },
+        {
+            "gold_answer": [
+                "no"
+            ],
+            "predicted_answer": "No",
+            "score": 1.0,
+            "tokens": 16869,
+            "latency_seconds": 331.82811737060547
+        },
+        {
+            "gold_answer": [
+                "Brothers Quay"
+            ],
+            "predicted_answer": "Brothers Quay",
+            "score": 1.0,
+            "tokens": 16162,
+            "latency_seconds": 277.3000521659851
+        },
+        {
+            "gold_answer": [
+                "37.5"
+            ],
+            "predicted_answer": "42 meters",
+            "score": 0,
+            "tokens": 8376,
+            "latency_seconds": 133.16698122024536
+        },
+        {
+            "gold_answer": [
+                "Commissioner by the Maine Senate"
+            ],
+            "predicted_answer": "Not mentioned.",
+            "score": 0,
+            "tokens": 9975,
+            "latency_seconds": 156.67023706436157
+        },
+        {
+            "gold_answer": [
+                "Jodie Prenger"
+            ],
+            "predicted_answer": "Dancing on Ice.",
+            "score": 0,
+            "tokens": 17246,
+            "latency_seconds": 359.2788243293762
+        },
+        {
+            "gold_answer": [
+                "Thames"
+            ],
+            "predicted_answer": "The River Thames",
+            "score": 0.6666666666666666,
+            "tokens": 15433,
+            "latency_seconds": 247.1480507850647
+        },
+        {
+            "gold_answer": [
+                "Allure"
+            ],
+            "predicted_answer": "Allure",
+            "score": 1.0,
+            "tokens": 5515,
+            "latency_seconds": 84.54356527328491
+        },
+        {
+            "gold_answer": [
+                "Jaleel Ahmad White"
+            ],
+            "predicted_answer": "Jaleel White",
+            "score": 0.8,
+            "tokens": 11554,
+            "latency_seconds": 208.05711269378662
+        },
+        {
+            "gold_answer": [
+                "Lake Wallace"
+            ],
+            "predicted_answer": "Lake Wallace",
+            "score": 1.0,
+            "tokens": 8866,
+            "latency_seconds": 183.53672981262207
+        },
+        {
+            "gold_answer": [
+                "140 million"
+            ],
+            "predicted_answer": "100 million",
+            "score": 0.5,
+            "tokens": 17736,
+            "latency_seconds": 350.1168155670166
+        },
+        {
+            "gold_answer": [
+                "the deadpan sketch group"
+            ],
+            "predicted_answer": "Two Episodes of Mash",
+            "score": 0,
+            "tokens": 10854,
+            "latency_seconds": 175.40747833251953
+        },
+        {
+            "gold_answer": [
+                "1998"
+            ],
+            "predicted_answer": "2011",
+            "score": 0,
+            "tokens": 15656,
+            "latency_seconds": 292.28113198280334
+        },
+        {
+            "gold_answer": [
+                "William"
+            ],
+            "predicted_answer": "William",
+            "score": 1.0,
+            "tokens": 4427,
+            "latency_seconds": 54.261225938797
+        },
+        {
+            "gold_answer": [
+                "Gerald \"Jerry\" Joseph Bingham, Jr."
+            ],
+            "predicted_answer": "Jerry Bingham",
+            "score": 0.5714285714285715,
+            "tokens": 19011,
+            "latency_seconds": 447.14928245544434
+        },
+        {
+            "gold_answer": [
+                "no"
+            ],
+            "predicted_answer": "No",
+            "score": 1.0,
+            "tokens": 6991,
+            "latency_seconds": 114.65525245666504
+        }
+    ]
+}

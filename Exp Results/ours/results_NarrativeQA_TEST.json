@@ -1,0 +1,70 @@
+{
+    "dataset": "NarrativeQA",
+    "model": "Qwen/Qwen2.5-7B-Instruct",
+    "pipeline": "ours",
+    "avg_score": 15.04761904761905,
+    "avg_tokens": 3375.4,
+    "avg_latency": 9.734452533721925,
+    "samples": [
+        {
+            "gold_answer": [
+                "He is a guest in the home of the Mulvilles."
+            ],
+            "predicted_answer": "Living in poverty, relying on a carriage for transportation.",
+            "score": 0.13333333333333333,
+            "tokens": 3720,
+            "latency_seconds": 6.180215835571289,
+            "chunks_processed": 1,
+            "raw_blocks": 63,
+            "query_chars": 35
+        },
+        {
+            "gold_answer": [
+                "Because she is in unrequited love with someone else"
+            ],
+            "predicted_answer": "Ann's fear of the ocean and desire for independence prevented her from reciprocating Mary's feelings.",
+            "score": 0,
+            "tokens": 3733,
+            "latency_seconds": 6.880914688110352,
+            "chunks_processed": 1,
+            "raw_blocks": 63,
+            "query_chars": 53
+        },
+        {
+            "gold_answer": [
+                "The Atlas Mountains"
+            ],
+            "predicted_answer": "On Atlas' mountain within a cavern",
+            "score": 0.28571428571428575,
+            "tokens": 2617,
+            "latency_seconds": 3.8179664611816406,
+            "chunks_processed": 1,
+            "raw_blocks": 17,
+            "query_chars": 26
+        },
+        {
+            "gold_answer": [
+                "To smuggle Socrates out of prison and into a life of exile."
+            ],
+            "predicted_answer": "To persuade Socrates to escape from prison.",
+            "score": 0.33333333333333326,
+            "tokens": 3085,
+            "latency_seconds": 4.861818313598633,
+            "chunks_processed": 1,
+            "raw_blocks": 18,
+            "query_chars": 38
+        },
+        {
+            "gold_answer": [
+                "Otto was so young."
+            ],
+            "predicted_answer": "To fulfill his oath.",
+            "score": 0,
+            "tokens": 3722,
+            "latency_seconds": 26.931347370147705,
+            "chunks_processed": 1,
+            "raw_blocks": 74,
+            "query_chars": 70
+        }
+    ]
+}

@@ -1,0 +1,1810 @@
+{
+    "dataset": "NarrativeQA",
+    "model": "google/gemma-4-e4b-it",
+    "pipeline": "vanilla",
+    "avg_score": 15.447257154610094,
+    "avg_tokens": 6608.855,
+    "avg_latency": 10.329890042543411,
+    "samples": [
+        {
+            "gold_answer": [
+                "He is a guest in the home of the Mulvilles."
+            ],
+            "predicted_answer": "An inmate",
+            "score": 0,
+            "tokens": 6604,
+            "latency_seconds": 6.528293609619141
+        },
+        {
+            "gold_answer": [
+                "Because she is in unrequited love with someone else"
+            ],
+            "predicted_answer": "His indifference",
+            "score": 0,
+            "tokens": 6607,
+            "latency_seconds": 10.755062103271484
+        },
+        {
+            "gold_answer": [
+                "The Atlas Mountains"
+            ],
+            "predicted_answer": "On Atlas' mountain",
+            "score": 0.4,
+            "tokens": 6603,
+            "latency_seconds": 6.16292667388916
+        },
+        {
+            "gold_answer": [
+                "To smuggle Socrates out of prison and into a life of exile."
+            ],
+            "predicted_answer": "To persuade Socrates to escape.",
+            "score": 0.25000000000000006,
+            "tokens": 6610,
+            "latency_seconds": 11.862167835235596
+        },
+        {
+            "gold_answer": [
+                "Otto was so young."
+            ],
+            "predicted_answer": "The story does not state why.",
+            "score": 0,
+            "tokens": 6616,
+            "latency_seconds": 14.849673986434937
+        },
+        {
+            "gold_answer": [
+                "Six hours."
+            ],
+            "predicted_answer": "The story does not state.",
+            "score": 0,
+            "tokens": 6617,
+            "latency_seconds": 15.400574445724487
+        },
+        {
+            "gold_answer": [
+                "Lisa, the blacksmith's wife."
+            ],
+            "predicted_answer": "No mention of an affair.",
+            "score": 0,
+            "tokens": 6610,
+            "latency_seconds": 11.826536178588867
+        },
+        {
+            "gold_answer": [
+                "Dr. Janosz Poha"
+            ],
+            "predicted_answer": "Janosz",
+            "score": 0.5,
+            "tokens": 6609,
+            "latency_seconds": 11.021916151046753
+        },
+        {
+            "gold_answer": [
+                "She is an American."
+            ],
+            "predicted_answer": "unspecified nationality",
+            "score": 0,
+            "tokens": 6603,
+            "latency_seconds": 6.089990139007568
+        },
+        {
+            "gold_answer": [
+                "The scribe."
+            ],
+            "predicted_answer": "The lying scribe",
+            "score": 0.6666666666666666,
+            "tokens": 6608,
+            "latency_seconds": 11.138994693756104
+        },
+        {
+            "gold_answer": [
+                "Because he fought in the first world war."
+            ],
+            "predicted_answer": "His potential for future success.",
+            "score": 0,
+            "tokens": 6623,
+            "latency_seconds": 14.877221584320068
+        },
+        {
+            "gold_answer": [
+                "ones that are vague"
+            ],
+            "predicted_answer": "A ghostly visitation",
+            "score": 0,
+            "tokens": 6610,
+            "latency_seconds": 11.349165439605713
+        },
+        {
+            "gold_answer": [
+                "50 years"
+            ],
+            "predicted_answer": "No mention of internment time.",
+            "score": 0,
+            "tokens": 6615,
+            "latency_seconds": 15.363933324813843
+        },
+        {
+            "gold_answer": [
+                "Their daughter, Virgine. "
+            ],
+            "predicted_answer": "Their daughter",
+            "score": 0.8,
+            "tokens": 6610,
+            "latency_seconds": 14.27171778678894
+        },
+        {
+            "gold_answer": [
+                "Grassou"
+            ],
+            "predicted_answer": "The Vervelle family",
+            "score": 0,
+            "tokens": 6607,
+            "latency_seconds": 11.41220736503601
+        },
+        {
+            "gold_answer": [
+                "The slime gets into Dana's apartment from the bathtub."
+            ],
+            "predicted_answer": "The story does not state how the slime gets into her apartment.",
+            "score": 0.47058823529411764,
+            "tokens": 6618,
+            "latency_seconds": 13.162886142730713
+        },
+        {
+            "gold_answer": [
+                "That a mule bone is very powerful and can be a weapon."
+            ],
+            "predicted_answer": "No argument presented.",
+            "score": 0,
+            "tokens": 6604,
+            "latency_seconds": 6.2589802742004395
+        },
+        {
+            "gold_answer": [
+                "Anthony Rogers has previous wartime and combatant experience."
+            ],
+            "predicted_answer": "His potential for future success.",
+            "score": 0,
+            "tokens": 6623,
+            "latency_seconds": 14.671887636184692
+        },
+        {
+            "gold_answer": [
+                "Her face is blurry"
+            ],
+            "predicted_answer": "No mention of a photograph.",
+            "score": 0,
+            "tokens": 6622,
+            "latency_seconds": 15.24589490890503
+        },
+        {
+            "gold_answer": [
+                "Two"
+            ],
+            "predicted_answer": "Multiple ethical arguments",
+            "score": 0,
+            "tokens": 6604,
+            "latency_seconds": 6.093157768249512
+        },
+        {
+            "gold_answer": [
+                "because of the division of proceeds from selling the family business."
+            ],
+            "predicted_answer": "Dispute over money",
+            "score": 0,
+            "tokens": 6609,
+            "latency_seconds": 11.301055192947388
+        },
+        {
+            "gold_answer": [
+                "2419."
+            ],
+            "predicted_answer": "2419 A.D.",
+            "score": 0.6666666666666666,
+            "tokens": 6617,
+            "latency_seconds": 15.048618793487549
+        },
+        {
+            "gold_answer": [
+                "he murdered someone"
+            ],
+            "predicted_answer": "Following the harvest",
+            "score": 0,
+            "tokens": 6603,
+            "latency_seconds": 5.864173412322998
+        },
+        {
+            "gold_answer": [
+                "Your parents"
+            ],
+            "predicted_answer": "A miserable slave",
+            "score": 0,
+            "tokens": 6606,
+            "latency_seconds": 11.52057933807373
+        },
+        {
+            "gold_answer": [
+                "Lady Coxon is Ruth's aunt."
+            ],
+            "predicted_answer": "Her benefactor",
+            "score": 0,
+            "tokens": 6606,
+            "latency_seconds": 11.120864152908325
+        },
+        {
+            "gold_answer": [
+                "Reiko is a reporter."
+            ],
+            "predicted_answer": "No mention of Reiko's job.",
+            "score": 0,
+            "tokens": 6610,
+            "latency_seconds": 7.3228747844696045
+        },
+        {
+            "gold_answer": [
+                "Because it violates his belief in the  laws of society."
+            ],
+            "predicted_answer": "To uphold agreements and virtue.",
+            "score": 0,
+            "tokens": 6610,
+            "latency_seconds": 11.996381759643555
+        },
+        {
+            "gold_answer": [
+                "he is shot"
+            ],
+            "predicted_answer": "No mention of Drexl's death.",
+            "score": 0,
+            "tokens": 6608,
+            "latency_seconds": 7.332173585891724
+        },
+        {
+            "gold_answer": [
+                "She declined to read it."
+            ],
+            "predicted_answer": "She refused to destroy it.",
+            "score": 0.6,
+            "tokens": 6612,
+            "latency_seconds": 12.18624472618103
+        },
+        {
+            "gold_answer": [
+                "Twisted in fear"
+            ],
+            "predicted_answer": "No description given.",
+            "score": 0,
+            "tokens": 6609,
+            "latency_seconds": 11.248406648635864
+        },
+        {
+            "gold_answer": [
+                "Beerbohm wrote a fictional story about Soames."
+            ],
+            "predicted_answer": "For his lack of artistic vision.",
+            "score": 0,
+            "tokens": 6611,
+            "latency_seconds": 12.263799667358398
+        },
+        {
+            "gold_answer": [
+                "Seven days"
+            ],
+            "predicted_answer": "One week",
+            "score": 0,
+            "tokens": 6611,
+            "latency_seconds": 13.477938890457153
+        },
+        {
+            "gold_answer": [
+                "all but Jof and the Juggler"
+            ],
+            "predicted_answer": "The child",
+            "score": 0,
+            "tokens": 6604,
+            "latency_seconds": 5.941570043563843
+        },
+        {
+            "gold_answer": [
+                "she was obsessed with novels."
+            ],
+            "predicted_answer": "Telling stories and teaching her to read.",
+            "score": 0,
+            "tokens": 6616,
+            "latency_seconds": 12.561277866363525
+        },
+        {
+            "gold_answer": [
+                "HER BEAUTY"
+            ],
+            "predicted_answer": "No mention of Anderson.",
+            "score": 0,
+            "tokens": 6606,
+            "latency_seconds": 6.612929582595825
+        },
+        {
+            "gold_answer": [
+                "Her husband abused her"
+            ],
+            "predicted_answer": "His potential danger to her.",
+            "score": 0.22222222222222224,
+            "tokens": 6608,
+            "latency_seconds": 6.7298619747161865
+        },
+        {
+            "gold_answer": [
+                "He is killed by police."
+            ],
+            "predicted_answer": "Shot by Benson",
+            "score": 0.25,
+            "tokens": 6601,
+            "latency_seconds": 6.052341938018799
+        },
+        {
+            "gold_answer": [
+                "For Holmes' health."
+            ],
+            "predicted_answer": "Rest and change of scene",
+            "score": 0,
+            "tokens": 6608,
+            "latency_seconds": 11.726836681365967
+        },
+        {
+            "gold_answer": [
+                "Vigo"
+            ],
+            "predicted_answer": "Vigo",
+            "score": 1.0,
+            "tokens": 6608,
+            "latency_seconds": 11.087627410888672
+        },
+        {
+            "gold_answer": [
+                "Nature and books"
+            ],
+            "predicted_answer": "Superficial accomplishments",
+            "score": 0,
+            "tokens": 6603,
+            "latency_seconds": 6.259390354156494
+        },
+        {
+            "gold_answer": [
+                "museum"
+            ],
+            "predicted_answer": "In the museum",
+            "score": 0.6666666666666666,
+            "tokens": 6606,
+            "latency_seconds": 11.305504083633423
+        },
+        {
+            "gold_answer": [
+                "Sadako Yamamura made the tape psionically."
+            ],
+            "predicted_answer": "Elementary school kid",
+            "score": 0,
+            "tokens": 6604,
+            "latency_seconds": 5.972300291061401
+        },
+        {
+            "gold_answer": [
+                "In Socrates Cell?"
+            ],
+            "predicted_answer": "The prison of Socrates",
+            "score": 0.3333333333333333,
+            "tokens": 6604,
+            "latency_seconds": 6.273239850997925
+        },
+        {
+            "gold_answer": [
+                "She committed suicide."
+            ],
+            "predicted_answer": "The story does not mention her death.",
+            "score": 0,
+            "tokens": 6610,
+            "latency_seconds": 7.23572301864624
+        },
+        {
+            "gold_answer": [
+                "because he's a lawyer"
+            ],
+            "predicted_answer": "No mention of those names.",
+            "score": 0,
+            "tokens": 6613,
+            "latency_seconds": 12.04177975654602
+        },
+        {
+            "gold_answer": [
+                "always wore a grey waterproof cape and a soft black hat"
+            ],
+            "predicted_answer": "Overdressing",
+            "score": 0,
+            "tokens": 6610,
+            "latency_seconds": 14.303428649902344
+        },
+        {
+            "gold_answer": [
+                "Baron Frederick"
+            ],
+            "predicted_answer": "Baron Henry of Trutz-Drachen",
+            "score": 0.3333333333333333,
+            "tokens": 6608,
+            "latency_seconds": 7.354223966598511
+        },
+        {
+            "gold_answer": [
+                "She educates herself using books and the natural world."
+            ],
+            "predicted_answer": "Superficial accomplishments",
+            "score": 0,
+            "tokens": 6603,
+            "latency_seconds": 6.462646007537842
+        },
+        {
+            "gold_answer": [
+                "The Baptist's supported Dave. "
+            ],
+            "predicted_answer": "Baptist",
+            "score": 0,
+            "tokens": 6605,
+            "latency_seconds": 11.395504474639893
+        },
+        {
+            "gold_answer": [
+                "Louis Leverett"
+            ],
+            "predicted_answer": "Her travels and acquaintances",
+            "score": 0,
+            "tokens": 6607,
+            "latency_seconds": 11.457493305206299
+        },
+        {
+            "gold_answer": [
+                "Be responsible,keep your word and be wise and peaceful."
+            ],
+            "predicted_answer": "Goodness, cruelty, and wisdom",
+            "score": 0.15384615384615383,
+            "tokens": 6610,
+            "latency_seconds": 12.247773885726929
+        },
+        {
+            "gold_answer": [
+                "Tomoko reveals that they watched a video tape with several friends a week ago and received a strange call after watching it. Tomoko is killed while Masami watches."
+            ],
+            "predicted_answer": "She survives.",
+            "score": 0,
+            "tokens": 6602,
+            "latency_seconds": 6.049304485321045
+        },
+        {
+            "gold_answer": [
+                "Their faces twisted in fear."
+            ],
+            "predicted_answer": "No description given.",
+            "score": 0,
+            "tokens": 6609,
+            "latency_seconds": 11.270642280578613
+        },
+        {
+            "gold_answer": [
+                "The Sinsings"
+            ],
+            "predicted_answer": "The Sinsings",
+            "score": 1.0,
+            "tokens": 6607,
+            "latency_seconds": 11.558371782302856
+        },
+        {
+            "gold_answer": [
+                "His girlfriend Abby and her sister Linda."
+            ],
+            "predicted_answer": "His brother Steve",
+            "score": 0.2,
+            "tokens": 6602,
+            "latency_seconds": 6.056666612625122
+        },
+        {
+            "gold_answer": [
+                "Take their clothes off"
+            ],
+            "predicted_answer": "They hug and kiss.",
+            "score": 0,
+            "tokens": 6614,
+            "latency_seconds": 14.325538635253906
+        },
+        {
+            "gold_answer": [
+                "He does not work."
+            ],
+            "predicted_answer": "No defined profession",
+            "score": 0,
+            "tokens": 6605,
+            "latency_seconds": 6.277504205703735
+        },
+        {
+            "gold_answer": [
+                "Falder"
+            ],
+            "predicted_answer": "Falder",
+            "score": 1.0,
+            "tokens": 6606,
+            "latency_seconds": 11.12757158279419
+        },
+        {
+            "gold_answer": [
+                "Laura attends Harvard Medical school."
+            ],
+            "predicted_answer": "No mention of Laura's medical school.",
+            "score": 0.3636363636363636,
+            "tokens": 6609,
+            "latency_seconds": 7.698070287704468
+        },
+        {
+            "gold_answer": [
+                "key to the city"
+            ],
+            "predicted_answer": "A check",
+            "score": 0,
+            "tokens": 6607,
+            "latency_seconds": 11.249400854110718
+        },
+        {
+            "gold_answer": [
+                "Hermaphroditus."
+            ],
+            "predicted_answer": "Human forms",
+            "score": 0,
+            "tokens": 6601,
+            "latency_seconds": 5.929670810699463
+        },
+        {
+            "gold_answer": [
+                "In a closet."
+            ],
+            "predicted_answer": "In the cupboard",
+            "score": 0.5,
+            "tokens": 6602,
+            "latency_seconds": 6.135248184204102
+        },
+        {
+            "gold_answer": [
+                "His son Gabe"
+            ],
+            "predicted_answer": "No mention of an apartment.",
+            "score": 0,
+            "tokens": 6616,
+            "latency_seconds": 15.511151313781738
+        },
+        {
+            "gold_answer": [
+                "Eatonville"
+            ],
+            "predicted_answer": "Not mentioned.",
+            "score": 0,
+            "tokens": 6603,
+            "latency_seconds": 6.1242995262146
+        },
+        {
+            "gold_answer": [
+                "The housekeeper"
+            ],
+            "predicted_answer": "Dr. Richards' carriage",
+            "score": 0,
+            "tokens": 6610,
+            "latency_seconds": 11.540697813034058
+        },
+        {
+            "gold_answer": [
+                "One of his fellow soldiers."
+            ],
+            "predicted_answer": "The fire.",
+            "score": 0,
+            "tokens": 6600,
+            "latency_seconds": 6.015247821807861
+        },
+        {
+            "gold_answer": [
+                "A lawyer"
+            ],
+            "predicted_answer": "Ship's doctor",
+            "score": 0,
+            "tokens": 6606,
+            "latency_seconds": 6.3369972705841064
+        },
+        {
+            "gold_answer": [
+                "Keep it to buy a house "
+            ],
+            "predicted_answer": "Marry him",
+            "score": 0,
+            "tokens": 6608,
+            "latency_seconds": 11.060104846954346
+        },
+        {
+            "gold_answer": [
+                "Her mother."
+            ],
+            "predicted_answer": "Mrs. Abraham C. Mope",
+            "score": 0,
+            "tokens": 6608,
+            "latency_seconds": 7.247316837310791
+        },
+        {
+            "gold_answer": [
+                "7 days"
+            ],
+            "predicted_answer": "One week",
+            "score": 0,
+            "tokens": 6611,
+            "latency_seconds": 13.884230136871338
+        },
+        {
+            "gold_answer": [
+                "Virginie."
+            ],
+            "predicted_answer": "No name given",
+            "score": 0,
+            "tokens": 6607,
+            "latency_seconds": 11.484883785247803
+        },
+        {
+            "gold_answer": [
+                "She made a copy of the tape and gives it to her husband to study."
+            ],
+            "predicted_answer": "She copied the tape.",
+            "score": 0.25,
+            "tokens": 6614,
+            "latency_seconds": 14.18895411491394
+        },
+        {
+            "gold_answer": [
+                "A monk."
+            ],
+            "predicted_answer": "A man in black",
+            "score": 0,
+            "tokens": 6603,
+            "latency_seconds": 6.430821180343628
+        },
+        {
+            "gold_answer": [
+                "Comply with the laws"
+            ],
+            "predicted_answer": "Implied contract of obedience",
+            "score": 0,
+            "tokens": 6612,
+            "latency_seconds": 11.659204959869385
+        },
+        {
+            "gold_answer": [
+                "He throws himself down the stairs"
+            ],
+            "predicted_answer": "He jumped.",
+            "score": 0.28571428571428575,
+            "tokens": 6605,
+            "latency_seconds": 6.024724245071411
+        },
+        {
+            "gold_answer": [
+                "Making a copy and showing it to someone else"
+            ],
+            "predicted_answer": "Making a copy and showing it to someone else",
+            "score": 1.0,
+            "tokens": 6617,
+            "latency_seconds": 15.814770936965942
+        },
+        {
+            "gold_answer": [
+                "Brenda."
+            ],
+            "predicted_answer": "Brenda Tregennis",
+            "score": 0.6666666666666666,
+            "tokens": 6608,
+            "latency_seconds": 11.894235134124756
+        },
+        {
+            "gold_answer": [
+                "They stayed in the bedroom for a few days with the sounds of her lover trapped. "
+            ],
+            "predicted_answer": "They remained silent.",
+            "score": 0.125,
+            "tokens": 6614,
+            "latency_seconds": 15.169776678085327
+        },
+        {
+            "gold_answer": [
+                "With her charity"
+            ],
+            "predicted_answer": "Rambling in the garden and playing with dogs.",
+            "score": 0.2,
+            "tokens": 6625,
+            "latency_seconds": 16.27398681640625
+        },
+        {
+            "gold_answer": [
+                "A security guard."
+            ],
+            "predicted_answer": "Hipster hepcat",
+            "score": 0,
+            "tokens": 6604,
+            "latency_seconds": 6.039453029632568
+        },
+        {
+            "gold_answer": [
+                "Radioactive gas"
+            ],
+            "predicted_answer": "radioactive gases",
+            "score": 0.5,
+            "tokens": 6604,
+            "latency_seconds": 5.691727638244629
+        },
+        {
+            "gold_answer": [
+                "Izu Oshima Island"
+            ],
+            "predicted_answer": "Outside Cottage B4",
+            "score": 0,
+            "tokens": 6610,
+            "latency_seconds": 11.73244309425354
+        },
+        {
+            "gold_answer": [
+                "A bag that contains cocaine"
+            ],
+            "predicted_answer": "Nothing",
+            "score": 0,
+            "tokens": 6603,
+            "latency_seconds": 5.558346509933472
+        },
+        {
+            "gold_answer": [
+                "100."
+            ],
+            "predicted_answer": "A few years.",
+            "score": 0,
+            "tokens": 6608,
+            "latency_seconds": 11.560848951339722
+        },
+        {
+            "gold_answer": [
+                "Holmes accidentally kicks over a water pot"
+            ],
+            "predicted_answer": "No mention of it.",
+            "score": 0,
+            "tokens": 6612,
+            "latency_seconds": 11.770950555801392
+        },
+        {
+            "gold_answer": [
+                "He would turn into an outlaw."
+            ],
+            "predicted_answer": "A corrupter of the laws",
+            "score": 0,
+            "tokens": 6614,
+            "latency_seconds": 12.334301948547363
+        },
+        {
+            "gold_answer": [
+                "Frome"
+            ],
+            "predicted_answer": "James and Walter How",
+            "score": 0,
+            "tokens": 6607,
+            "latency_seconds": 11.507402658462524
+        },
+        {
+            "gold_answer": [
+                "Dana"
+            ],
+            "predicted_answer": "A woman",
+            "score": 0,
+            "tokens": 6604,
+            "latency_seconds": 5.852545976638794
+        },
+        {
+            "gold_answer": [
+                "the his works are not recognized"
+            ],
+            "predicted_answer": "His inescapable fate.",
+            "score": 0.25,
+            "tokens": 6604,
+            "latency_seconds": 6.238677501678467
+        },
+        {
+            "gold_answer": [
+                "Eliza"
+            ],
+            "predicted_answer": "The story does not state her mother's name.",
+            "score": 0,
+            "tokens": 6614,
+            "latency_seconds": 12.967675924301147
+        },
+        {
+            "gold_answer": [
+                "The Hans"
+            ],
+            "predicted_answer": "The Hans",
+            "score": 1.0,
+            "tokens": 6611,
+            "latency_seconds": 13.635174989700317
+        },
+        {
+            "gold_answer": [
+                "At a Detroit theater. "
+            ],
+            "predicted_answer": "In the hotel room",
+            "score": 0,
+            "tokens": 6608,
+            "latency_seconds": 11.826294898986816
+        },
+        {
+            "gold_answer": [
+                "It's her son"
+            ],
+            "predicted_answer": "Her baby",
+            "score": 0.4,
+            "tokens": 6603,
+            "latency_seconds": 5.905476093292236
+        },
+        {
+            "gold_answer": [
+                "It would have a negative effect"
+            ],
+            "predicted_answer": "Received as an enemy by the laws of the world below.",
+            "score": 0,
+            "tokens": 6623,
+            "latency_seconds": 16.899651527404785
+        },
+        {
+            "gold_answer": [
+                "Opened the closet"
+            ],
+            "predicted_answer": "If he found someone in the closet",
+            "score": 0.25,
+            "tokens": 6614,
+            "latency_seconds": 12.318968296051025
+        },
+        {
+            "gold_answer": [
+                "Seth Lazarus"
+            ],
+            "predicted_answer": "No mention of Chicago or mercy killings.",
+            "score": 0,
+            "tokens": 6610,
+            "latency_seconds": 7.386510610580444
+        },
+        {
+            "gold_answer": [
+                "A grand master."
+            ],
+            "predicted_answer": "A fine fellow",
+            "score": 0,
+            "tokens": 6616,
+            "latency_seconds": 14.27753496170044
+        },
+        {
+            "gold_answer": [
+                "He doesn't feel he is a true artist."
+            ],
+            "predicted_answer": "His work being mocked by artists.",
+            "score": 0,
+            "tokens": 6607,
+            "latency_seconds": 6.934644460678101
+        },
+        {
+            "gold_answer": [
+                "A mobster named \"Blue Lou Boyle\". "
+            ],
+            "predicted_answer": "No mention of his employer.",
+            "score": 0,
+            "tokens": 6610,
+            "latency_seconds": 12.05677080154419
+        },
+        {
+            "gold_answer": [
+                "He failed to report"
+            ],
+            "predicted_answer": "To obtain him.",
+            "score": 0.28571428571428575,
+            "tokens": 6612,
+            "latency_seconds": 14.730263471603394
+        },
+        {
+            "gold_answer": [
+                "Ruth Honeywill"
+            ],
+            "predicted_answer": "His husband",
+            "score": 0,
+            "tokens": 6608,
+            "latency_seconds": 11.103091716766357
+        },
+        {
+            "gold_answer": [
+                "Mexico."
+            ],
+            "predicted_answer": "No mention of her son's birthplace.",
+            "score": 0,
+            "tokens": 6610,
+            "latency_seconds": 7.400834321975708
+        },
+        {
+            "gold_answer": [
+                "That she marry Charles"
+            ],
+            "predicted_answer": "To adopt her child",
+            "score": 0,
+            "tokens": 6612,
+            "latency_seconds": 14.873675346374512
+        },
+        {
+            "gold_answer": [
+                "If Antonius has succeeded in his \"one meaningful deed.\""
+            ],
+            "predicted_answer": "If he is prepared",
+            "score": 0.15384615384615383,
+            "tokens": 6604,
+            "latency_seconds": 6.342385292053223
+        },
+        {
+            "gold_answer": [
+                "bennett landsmann"
+            ],
+            "predicted_answer": "No mention of a murder trial.",
+            "score": 0,
+            "tokens": 6608,
+            "latency_seconds": 7.179016351699829
+        },
+        {
+            "gold_answer": [
+                "accomplishments"
+            ],
+            "predicted_answer": "How to read",
+            "score": 0,
+            "tokens": 6605,
+            "latency_seconds": 6.048130512237549
+        },
+        {
+            "gold_answer": [
+                "a priest"
+            ],
+            "predicted_answer": "A man in black",
+            "score": 0,
+            "tokens": 6603,
+            "latency_seconds": 6.423550128936768
+        },
+        {
+            "gold_answer": [
+                "Because her mother requested it on her deathbed."
+            ],
+            "predicted_answer": "No mention of Charles.",
+            "score": 0,
+            "tokens": 6604,
+            "latency_seconds": 6.439516544342041
+        },
+        {
+            "gold_answer": [
+                "the devil"
+            ],
+            "predicted_answer": "Dr. Sterndale",
+            "score": 0,
+            "tokens": 6608,
+            "latency_seconds": 11.660809755325317
+        },
+        {
+            "gold_answer": [
+                "He treated him in Vietnam."
+            ],
+            "predicted_answer": "In the Garden of Light.",
+            "score": 0.22222222222222224,
+            "tokens": 6607,
+            "latency_seconds": 6.720703840255737
+        },
+        {
+            "gold_answer": [
+                "American"
+            ],
+            "predicted_answer": "unspecified nationality",
+            "score": 0,
+            "tokens": 6603,
+            "latency_seconds": 5.995840549468994
+        },
+        {
+            "gold_answer": [
+                "The Han gang."
+            ],
+            "predicted_answer": "Han squadron",
+            "score": 0.5,
+            "tokens": 6604,
+            "latency_seconds": 5.940050840377808
+        },
+        {
+            "gold_answer": [
+                "After her husband calls her"
+            ],
+            "predicted_answer": "When she glances at the television screen",
+            "score": 0,
+            "tokens": 6611,
+            "latency_seconds": 12.303882837295532
+        },
+        {
+            "gold_answer": [
+                "Ruth Anvoy"
+            ],
+            "predicted_answer": "No mention of a visitor.",
+            "score": 0,
+            "tokens": 6608,
+            "latency_seconds": 6.813271522521973
+        },
+        {
+            "gold_answer": [
+                "They both return to Eatonville, Florida. "
+            ],
+            "predicted_answer": "The story does not mention Jim and Dave seeing Daisy after the final scene.",
+            "score": 0,
+            "tokens": 6622,
+            "latency_seconds": 13.986839294433594
+        },
+        {
+            "gold_answer": [
+                "Germany"
+            ],
+            "predicted_answer": "Middle ages' castles and monasteries",
+            "score": 0,
+            "tokens": 6607,
+            "latency_seconds": 6.684313774108887
+        },
+        {
+            "gold_answer": [
+                "has a heart attack"
+            ],
+            "predicted_answer": "He dies.",
+            "score": 0,
+            "tokens": 6604,
+            "latency_seconds": 6.2274391651153564
+        },
+        {
+            "gold_answer": [
+                "James How & Son "
+            ],
+            "predicted_answer": "He didn't get out of prison.",
+            "score": 0,
+            "tokens": 6615,
+            "latency_seconds": 12.753662824630737
+        },
+        {
+            "gold_answer": [
+                "Lives with mulvilles "
+            ],
+            "predicted_answer": "An inmate",
+            "score": 0,
+            "tokens": 6604,
+            "latency_seconds": 5.8855719566345215
+        },
+        {
+            "gold_answer": [
+                "In the closet"
+            ],
+            "predicted_answer": "In the cupboard",
+            "score": 0.5,
+            "tokens": 6602,
+            "latency_seconds": 5.981066703796387
+        },
+        {
+            "gold_answer": [
+                "He feels as the he is still not a real artist."
+            ],
+            "predicted_answer": "Artists' contempt for his work.",
+            "score": 0,
+            "tokens": 6614,
+            "latency_seconds": 12.248842477798462
+        },
+        {
+            "gold_answer": [
+                "A videotape which is cursed and is rumored to bear a curse that kills the viewer in seven days after watching."
+            ],
+            "predicted_answer": "A cursed videotape",
+            "score": 0.19999999999999998,
+            "tokens": 6606,
+            "latency_seconds": 6.326323986053467
+        },
+        {
+            "gold_answer": [
+                "Alabama was a call girl."
+            ],
+            "predicted_answer": "None specified",
+            "score": 0,
+            "tokens": 6602,
+            "latency_seconds": 5.768429279327393
+        },
+        {
+            "gold_answer": [
+                "The woman he dated and lived with after the war."
+            ],
+            "predicted_answer": "A demonic presence.",
+            "score": 0,
+            "tokens": 6602,
+            "latency_seconds": 6.335781812667847
+        },
+        {
+            "gold_answer": [
+                "Your memories and attachments."
+            ],
+            "predicted_answer": "Nothing is mentioned.",
+            "score": 0,
+            "tokens": 6607,
+            "latency_seconds": 11.5176100730896
+        },
+        {
+            "gold_answer": [
+                "The social contract."
+            ],
+            "predicted_answer": "Implied contract with the laws",
+            "score": 0.3333333333333333,
+            "tokens": 6609,
+            "latency_seconds": 11.99770736694336
+        },
+        {
+            "gold_answer": [
+                "he calls Grassou a grand master"
+            ],
+            "predicted_answer": "A fine fellow",
+            "score": 0,
+            "tokens": 6616,
+            "latency_seconds": 14.508972883224487
+        },
+        {
+            "gold_answer": [
+                "Elder Childers"
+            ],
+            "predicted_answer": "No one.",
+            "score": 0,
+            "tokens": 6603,
+            "latency_seconds": 6.16050386428833
+        },
+        {
+            "gold_answer": [
+                "Jim was banished from his town for two years."
+            ],
+            "predicted_answer": "Knocked in the head with a mule bone.",
+            "score": 0,
+            "tokens": 6614,
+            "latency_seconds": 13.058804273605347
+        },
+        {
+            "gold_answer": [
+                "Eliza favors her son over her daughter."
+            ],
+            "predicted_answer": "The handsome son",
+            "score": 0.22222222222222224,
+            "tokens": 6607,
+            "latency_seconds": 11.446957349777222
+        },
+        {
+            "gold_answer": [
+                "His wise counsel and peaceful nature"
+            ],
+            "predicted_answer": "Pure, simple wisdom",
+            "score": 0,
+            "tokens": 6607,
+            "latency_seconds": 11.790713548660278
+        },
+        {
+            "gold_answer": [
+                "Her son"
+            ],
+            "predicted_answer": "Her dogs",
+            "score": 0.5,
+            "tokens": 6602,
+            "latency_seconds": 5.8532493114471436
+        },
+        {
+            "gold_answer": [
+                "Wyoming Valley"
+            ],
+            "predicted_answer": "Wyoming Valley, Pennsylvania",
+            "score": 0.8,
+            "tokens": 6609,
+            "latency_seconds": 11.700188875198364
+        },
+        {
+            "gold_answer": [
+                "He thought he was a fictional character."
+            ],
+            "predicted_answer": "A figment of my brain",
+            "score": 0,
+            "tokens": 6615,
+            "latency_seconds": 14.53887939453125
+        },
+        {
+            "gold_answer": [
+                "The matter of the division of the proceeds from selling the family business."
+            ],
+            "predicted_answer": "Dispute over money",
+            "score": 0,
+            "tokens": 6609,
+            "latency_seconds": 11.575010776519775
+        },
+        {
+            "gold_answer": [
+                "Hawaii"
+            ],
+            "predicted_answer": "No mention of Dwyer.",
+            "score": 0,
+            "tokens": 6607,
+            "latency_seconds": 6.524880647659302
+        },
+        {
+            "gold_answer": [
+                "Pierre Grassou."
+            ],
+            "predicted_answer": "No mention of a specific intended match.",
+            "score": 0,
+            "tokens": 6614,
+            "latency_seconds": 12.402970790863037
+        },
+        {
+            "gold_answer": [
+                "That she was having an affair. "
+            ],
+            "predicted_answer": "Her saintly devotion",
+            "score": 0,
+            "tokens": 6610,
+            "latency_seconds": 11.58002233505249
+        },
+        {
+            "gold_answer": [
+                "Frolic in brine, goblins be thine"
+            ],
+            "predicted_answer": "No mention of Reiko.",
+            "score": 0,
+            "tokens": 6610,
+            "latency_seconds": 12.03184962272644
+        },
+        {
+            "gold_answer": [
+                "The ruins of an abandoned manor. "
+            ],
+            "predicted_answer": "A dilapidated house",
+            "score": 0,
+            "tokens": 6604,
+            "latency_seconds": 6.098064422607422
+        },
+        {
+            "gold_answer": [
+                "They broke off their engagement."
+            ],
+            "predicted_answer": "The fund became an operative benefit.",
+            "score": 0,
+            "tokens": 6619,
+            "latency_seconds": 15.745073556900024
+        },
+        {
+            "gold_answer": [
+                "Violet Ray."
+            ],
+            "predicted_answer": "The young lady from New York",
+            "score": 0,
+            "tokens": 6612,
+            "latency_seconds": 11.94623851776123
+        },
+        {
+            "gold_answer": [
+                "Bill"
+            ],
+            "predicted_answer": "No one",
+            "score": 0,
+            "tokens": 6609,
+            "latency_seconds": 11.250707149505615
+        },
+        {
+            "gold_answer": [
+                "Masami and Tomoko"
+            ],
+            "predicted_answer": "Masami and Tomoko",
+            "score": 1.0,
+            "tokens": 6611,
+            "latency_seconds": 11.68204927444458
+        },
+        {
+            "gold_answer": [
+                "World War 1, or The Great War"
+            ],
+            "predicted_answer": "Second War of Independence",
+            "score": 0.2,
+            "tokens": 6607,
+            "latency_seconds": 11.573217391967773
+        },
+        {
+            "gold_answer": [
+                "A number of his own forgeries."
+            ],
+            "predicted_answer": "A magnificent art collection",
+            "score": 0,
+            "tokens": 6612,
+            "latency_seconds": 14.727050304412842
+        },
+        {
+            "gold_answer": [
+                "Paul's death."
+            ],
+            "predicted_answer": "No reunion.",
+            "score": 0,
+            "tokens": 6609,
+            "latency_seconds": 11.340477705001831
+        },
+        {
+            "gold_answer": [
+                "Citizens are bound to laws the same as children are bound to parents."
+            ],
+            "predicted_answer": "Parents and child",
+            "score": 0.13333333333333333,
+            "tokens": 6608,
+            "latency_seconds": 11.147109508514404
+        },
+        {
+            "gold_answer": [
+                "A coffin."
+            ],
+            "predicted_answer": "The coffin",
+            "score": 1.0,
+            "tokens": 6604,
+            "latency_seconds": 5.860820531845093
+        },
+        {
+            "gold_answer": [
+                "2419"
+            ],
+            "predicted_answer": "2419 A.D.",
+            "score": 0.6666666666666666,
+            "tokens": 6612,
+            "latency_seconds": 12.805290222167969
+        },
+        {
+            "gold_answer": [
+                "The nephew of Baron Frederick storms the castle and kidnaps Otto"
+            ],
+            "predicted_answer": "He is taken to the Emperor's court.",
+            "score": 0,
+            "tokens": 6616,
+            "latency_seconds": 13.818675994873047
+        },
+        {
+            "gold_answer": [
+                "Elliot accidentally reveals himself as an informant."
+            ],
+            "predicted_answer": "A bar meeting",
+            "score": 0,
+            "tokens": 6606,
+            "latency_seconds": 11.84656023979187
+        },
+        {
+            "gold_answer": [
+                "Story did not mention"
+            ],
+            "predicted_answer": "No specific town mentioned.",
+            "score": 0,
+            "tokens": 6606,
+            "latency_seconds": 7.168546438217163
+        },
+        {
+            "gold_answer": [
+                "Madame de Merret"
+            ],
+            "predicted_answer": "The estate's owner",
+            "score": 0,
+            "tokens": 6609,
+            "latency_seconds": 13.356581211090088
+        },
+        {
+            "gold_answer": [
+                "Keep the money."
+            ],
+            "predicted_answer": "Deliver the letter",
+            "score": 0,
+            "tokens": 6606,
+            "latency_seconds": 11.817014455795288
+        },
+        {
+            "gold_answer": [
+                "By selling his soul to the devil."
+            ],
+            "predicted_answer": "Through the devil's vision.",
+            "score": 0,
+            "tokens": 6626,
+            "latency_seconds": 18.752169609069824
+        },
+        {
+            "gold_answer": [
+                "Apis"
+            ],
+            "predicted_answer": "God Apis",
+            "score": 0.6666666666666666,
+            "tokens": 6602,
+            "latency_seconds": 6.118759393692017
+        },
+        {
+            "gold_answer": [
+                "2"
+            ],
+            "predicted_answer": "Two men were struck dumb.",
+            "score": 0,
+            "tokens": 6612,
+            "latency_seconds": 13.270986557006836
+        },
+        {
+            "gold_answer": [
+                "Alabama Whitman"
+            ],
+            "predicted_answer": "No mention of marriage",
+            "score": 0,
+            "tokens": 6602,
+            "latency_seconds": 6.2640087604522705
+        },
+        {
+            "gold_answer": [
+                "Bill"
+            ],
+            "predicted_answer": "No one mentioned",
+            "score": 0,
+            "tokens": 6604,
+            "latency_seconds": 5.846409559249878
+        },
+        {
+            "gold_answer": [
+                "The greats"
+            ],
+            "predicted_answer": "The Vervelle family",
+            "score": 0,
+            "tokens": 6607,
+            "latency_seconds": 12.56531810760498
+        },
+        {
+            "gold_answer": [
+                "Auld Lang Syne"
+            ],
+            "predicted_answer": "\"Auld Lang Syne\"",
+            "score": 1.0,
+            "tokens": 6612,
+            "latency_seconds": 13.17552638053894
+        },
+        {
+            "gold_answer": [
+                "That artists laugh at and ridicule his work."
+            ],
+            "predicted_answer": "Artists mock his work.",
+            "score": 0.5,
+            "tokens": 6615,
+            "latency_seconds": 15.710450410842896
+        },
+        {
+            "gold_answer": [
+                "Charles"
+            ],
+            "predicted_answer": "Edward",
+            "score": 0,
+            "tokens": 6599,
+            "latency_seconds": 5.761748552322388
+        },
+        {
+            "gold_answer": [
+                "Abandon manor"
+            ],
+            "predicted_answer": "A dilapidated house",
+            "score": 0,
+            "tokens": 6604,
+            "latency_seconds": 5.914329290390015
+        },
+        {
+            "gold_answer": [
+                "Auld Lang Saye"
+            ],
+            "predicted_answer": "Auld Lang Syne",
+            "score": 0.6666666666666666,
+            "tokens": 6620,
+            "latency_seconds": 15.389368534088135
+        },
+        {
+            "gold_answer": [
+                "Near the town Vendome"
+            ],
+            "predicted_answer": "On the banks of the Loir",
+            "score": 0,
+            "tokens": 6607,
+            "latency_seconds": 7.147908687591553
+        },
+        {
+            "gold_answer": [
+                "For Daisy's affection. "
+            ],
+            "predicted_answer": "No mention of a fight.",
+            "score": 0,
+            "tokens": 6606,
+            "latency_seconds": 6.998193264007568
+        },
+        {
+            "gold_answer": [
+                "The US Army chemical weapons division."
+            ],
+            "predicted_answer": "The story does not state.",
+            "score": 0,
+            "tokens": 6605,
+            "latency_seconds": 7.2197511196136475
+        },
+        {
+            "gold_answer": [
+                "Because she saw her husband's battle wounds"
+            ],
+            "predicted_answer": "No mention of premature labor.",
+            "score": 0,
+            "tokens": 6611,
+            "latency_seconds": 13.234228372573853
+        },
+        {
+            "gold_answer": [
+                "Strange dreams."
+            ],
+            "predicted_answer": "Strange dreams",
+            "score": 1.0,
+            "tokens": 6605,
+            "latency_seconds": 12.308235168457031
+        },
+        {
+            "gold_answer": [
+                "In a mansion in Ville-d'Avray. "
+            ],
+            "predicted_answer": "Ville d'Avray",
+            "score": 0,
+            "tokens": 6609,
+            "latency_seconds": 13.263978242874146
+        },
+        {
+            "gold_answer": [
+                "Baron Conrad killed his uncle, Baron Frederick."
+            ],
+            "predicted_answer": "Robber baron activities",
+            "score": 0.2,
+            "tokens": 6607,
+            "latency_seconds": 12.680562496185303
+        },
+        {
+            "gold_answer": [
+                "he was killed by the police"
+            ],
+            "predicted_answer": "Shot by Benson",
+            "score": 0.25,
+            "tokens": 6601,
+            "latency_seconds": 6.208215713500977
+        },
+        {
+            "gold_answer": [
+                "Elder Simms"
+            ],
+            "predicted_answer": "Elder Simms",
+            "score": 1.0,
+            "tokens": 6602,
+            "latency_seconds": 5.9665305614471436
+        },
+        {
+            "gold_answer": [
+                "It caused a stir."
+            ],
+            "predicted_answer": "Awful effect on attendees.",
+            "score": 0,
+            "tokens": 6613,
+            "latency_seconds": 13.654330730438232
+        },
+        {
+            "gold_answer": [
+                "Abby"
+            ],
+            "predicted_answer": "No mention of marriage",
+            "score": 0,
+            "tokens": 6604,
+            "latency_seconds": 6.620492458343506
+        },
+        {
+            "gold_answer": [
+                "Governor"
+            ],
+            "predicted_answer": "No specific job mentioned.",
+            "score": 0,
+            "tokens": 6608,
+            "latency_seconds": 12.707576513290405
+        },
+        {
+            "gold_answer": [
+                "The English lanuage has evolved."
+            ],
+            "predicted_answer": "No phonetic spelling mentioned.",
+            "score": 0,
+            "tokens": 6621,
+            "latency_seconds": 15.355631828308105
+        },
+        {
+            "gold_answer": [
+                "It makes people crazy and homicidal"
+            ],
+            "predicted_answer": "No drug mentioned.",
+            "score": 0,
+            "tokens": 6607,
+            "latency_seconds": 12.28792428970337
+        },
+        {
+            "gold_answer": [
+                "The duo meet Henry on their travels to Lisbon."
+            ],
+            "predicted_answer": "No mention of Lisbon.",
+            "score": 0.16666666666666666,
+            "tokens": 6607,
+            "latency_seconds": 6.6821863651275635
+        },
+        {
+            "gold_answer": [
+                "In the hotel."
+            ],
+            "predicted_answer": "Clarence's death",
+            "score": 0,
+            "tokens": 6603,
+            "latency_seconds": 6.601308584213257
+        },
+        {
+            "gold_answer": [
+                "They were never deployed and were discharged for psychological reasons."
+            ],
+            "predicted_answer": "No mention of a lawyer.",
+            "score": 0,
+            "tokens": 6616,
+            "latency_seconds": 15.562744379043579
+        },
+        {
+            "gold_answer": [
+                "Break a piece of the door that she may look on her lover one last time"
+            ],
+            "predicted_answer": "Leave a crack at the bottom",
+            "score": 0,
+            "tokens": 6619,
+            "latency_seconds": 15.276681423187256
+        },
+        {
+            "gold_answer": [
+                "Witch lives in cave on Atlas Mountains"
+            ],
+            "predicted_answer": "On Atlas' mountain",
+            "score": 0.4,
+            "tokens": 6603,
+            "latency_seconds": 6.3349220752716064
+        },
+        {
+            "gold_answer": [
+                "The monastery where he grew up."
+            ],
+            "predicted_answer": "The monastery of the White Cross on the Hill",
+            "score": 0.1818181818181818,
+            "tokens": 6614,
+            "latency_seconds": 14.09557580947876
+        },
+        {
+            "gold_answer": [
+                "An outlaw"
+            ],
+            "predicted_answer": "A corrupter of the laws",
+            "score": 0,
+            "tokens": 6614,
+            "latency_seconds": 13.253876209259033
+        },
+        {
+            "gold_answer": [
+                "The beauty of the women"
+            ],
+            "predicted_answer": "His observations of people and places.",
+            "score": 0.2222222222222222,
+            "tokens": 6610,
+            "latency_seconds": 13.192721843719482
+        },
+        {
+            "gold_answer": [
+                "The fears and desires of mankind."
+            ],
+            "predicted_answer": "Mortals in their sleep",
+            "score": 0,
+            "tokens": 6608,
+            "latency_seconds": 12.35343623161316
+        },
+        {
+            "gold_answer": [
+                "Bill worked in a steel mill."
+            ],
+            "predicted_answer": "Chicago mill",
+            "score": 0.28571428571428575,
+            "tokens": 6605,
+            "latency_seconds": 11.816805601119995
+        },
+        {
+            "gold_answer": [
+                "the German professor"
+            ],
+            "predicted_answer": "The American boarder",
+            "score": 0,
+            "tokens": 6611,
+            "latency_seconds": 12.576129674911499
+        },
+        {
+            "gold_answer": [
+                "Ninety pounds"
+            ],
+            "predicted_answer": "No mention of a forged check.",
+            "score": 0,
+            "tokens": 6617,
+            "latency_seconds": 15.746492624282837
+        },
+        {
+            "gold_answer": [
+                "Sherlock had wet the floor by overturning a water-filled pot."
+            ],
+            "predicted_answer": "No mention of it.",
+            "score": 0,
+            "tokens": 6612,
+            "latency_seconds": 12.842766523361206
+        },
+        {
+            "gold_answer": [
+                "He watches the video and dies of Cardiac arrest."
+            ],
+            "predicted_answer": "He dies.",
+            "score": 0.4,
+            "tokens": 6604,
+            "latency_seconds": 5.959293842315674
+        },
+        {
+            "gold_answer": [
+                "outside town"
+            ],
+            "predicted_answer": "No specific town mentioned.",
+            "score": 0.3333333333333333,
+            "tokens": 6606,
+            "latency_seconds": 6.780976295471191
+        },
+        {
+            "gold_answer": [
+                "Brenda Tregennis"
+            ],
+            "predicted_answer": "Mortimer Tregennis, Brenda Tregennis, and the victim of Sterndale's action.",
+            "score": 0.3636363636363636,
+            "tokens": 6618,
+            "latency_seconds": 11.08323049545288
+        },
+        {
+            "gold_answer": [
+                "The remains of afire in the fireplace."
+            ],
+            "predicted_answer": "No mention of a fireplace.",
+            "score": 0.4444444444444445,
+            "tokens": 6607,
+            "latency_seconds": 7.176409959793091
+        },
+        {
+            "gold_answer": [
+                "Radioactive gas"
+            ],
+            "predicted_answer": "American Radioactive Gas Corporation",
+            "score": 0.6666666666666666,
+            "tokens": 6613,
+            "latency_seconds": 14.702632188796997
+        },
+        {
+            "gold_answer": [
+                "Everyone except for Jof"
+            ],
+            "predicted_answer": "The child",
+            "score": 0,
+            "tokens": 6604,
+            "latency_seconds": 5.88927435874939
+        },
+        {
+            "gold_answer": [
+                "She received a call from Ryuji during his last minutes alive."
+            ],
+            "predicted_answer": "When she glances at the television screen",
+            "score": 0.125,
+            "tokens": 6611,
+            "latency_seconds": 13.700271368026733
+        }
+    ]
+}

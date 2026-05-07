@@ -1,0 +1,70 @@
+{
+    "dataset": "HotpotQA",
+    "model": "Qwen/Qwen2.5-7B-Instruct",
+    "pipeline": "ours",
+    "avg_score": 18.476190476190478,
+    "avg_tokens": 2911.6,
+    "avg_latency": 4.684267854690551,
+    "samples": [
+        {
+            "gold_answer": [
+                "Miller v. California"
+            ],
+            "predicted_answer": "Gates v. Collier",
+            "score": 0.3333333333333333,
+            "tokens": 2106,
+            "latency_seconds": 3.7742300033569336,
+            "chunks_processed": 1,
+            "raw_blocks": 24,
+            "query_chars": 80
+        },
+        {
+            "gold_answer": [
+                "Charles L. Clifford"
+            ],
+            "predicted_answer": "Gary Cooper co-starred with Walter Brennan in \"The Real Glory\" (1939), which was based on a novel by Charles Clifford.",
+            "score": 0.1904761904761905,
+            "tokens": 3154,
+            "latency_seconds": 7.2058470249176025,
+            "chunks_processed": 1,
+            "raw_blocks": 35,
+            "query_chars": 163
+        },
+        {
+            "gold_answer": [
+                "Norman"
+            ],
+            "predicted_answer": "Flint",
+            "score": 0,
+            "tokens": 3101,
+            "latency_seconds": 4.10610556602478,
+            "chunks_processed": 1,
+            "raw_blocks": 35,
+            "query_chars": 100
+        },
+        {
+            "gold_answer": [
+                "Sun"
+            ],
+            "predicted_answer": "Mars",
+            "score": 0,
+            "tokens": 3102,
+            "latency_seconds": 4.113408088684082,
+            "chunks_processed": 1,
+            "raw_blocks": 34,
+            "query_chars": 104
+        },
+        {
+            "gold_answer": [
+                "erotic thriller film"
+            ],
+            "predicted_answer": "On film.",
+            "score": 0.4,
+            "tokens": 3095,
+            "latency_seconds": 4.22174859046936,
+            "chunks_processed": 1,
+            "raw_blocks": 31,
+            "query_chars": 64
+        }
+    ]
+}

@@ -1,0 +1,157 @@
+{
+    "dataset": "QuALITY",
+    "model": "meta-llama/Meta-Llama-3-8B-Instruct",
+    "pipeline": "vanilla",
+    "avg_score": 71.42857142857143,
+    "avg_tokens": 5924.809523809524,
+    "avg_latency": 199.3669119448889,
+    "samples": [
+        {
+            "gold_answer": "D",
+            "predicted_answer": "The correct answer is (D) O.K./OK. In the context of the story, \"O.Q.\" is likely an abbreviation for \"Okay\", which is a common expression of agreement or confirmation. The character Captain O'Hara uses it to acknowledge Captain Slops' suggestions, indicating that he agrees with them.",
+            "score": 1.0,
+            "tokens": 6576,
+            "latency_seconds": 244.94276189804077
+        },
+        {
+            "gold_answer": "D",
+            "predicted_answer": "The correct answer is (C) To show that people in the future do not look as human as a character like Dan.\n\nThe author's purpose in providing detailed descriptions of Blote and Dzhackoon is to highlight the differences between the humans in the story and the characters from the future. By describing their unusual physical features, such as Blote's tentacles and Dzhackoon's curly red-brown hair on the back of his hands, the author is emphasizing that these characters are not human and are from a different time and place. This serves to create a sense of wonder and unease in the reader, as Dan is also struggling to understand these alien beings and their technology.",
+            "score": 0.0,
+            "tokens": 6651,
+            "latency_seconds": 354.35423159599304
+        },
+        {
+            "gold_answer": "D",
+            "predicted_answer": "The correct answer is (D) The terrestrials want to control the reddies so that the terrestrials can stay in control of Mars.\n\nThe story suggests that the terrestrials, who are in charge of the Martian Broadcasting Company, are concerned about the possibility of the reddies gaining control of the company and using it to spread nationalist propaganda and potentially spark a revolution. This is evident in Jared Haller's concerns about the mysterious deaths of his colleagues and the strange music that seems to be influencing the reddies. The terrestrials' goal is to maintain their control over Mars and prevent the reddies from gaining power.",
+            "score": 1.0,
+            "tokens": 6415,
+            "latency_seconds": 294.1546297073364
+        },
+        {
+            "gold_answer": "D",
+            "predicted_answer": "The correct answer is (D) The hotel was failing, so the company was happy to get rid of the robots.\n\nAccording to the story, the hotel was on the verge of bankruptcy due to the declining guest list and the high cost of maintaining the robots. The manager, Hayes, was desperate to get rid of the robots and was willing to sell them to Harper at a cheap price to avoid financial ruin.",
+            "score": 1.0,
+            "tokens": 6594,
+            "latency_seconds": 268.5262153148651
+        },
+        {
+            "gold_answer": "A",
+            "predicted_answer": "The correct answer is (D) A war ship disguised as a cargo ship changes course and saves lives from pulling into sun's gravity.\n\nThe story revolves around the events of the war ship, T.R.S. Aphrodite, and its crew, who are on a mission to deliver mail to Mars. The ship, which is an old and cantankerous vessel, is pulled into the sun's gravity along with two other warships, Lachesis and Atropos. The crew, led by Captain Strike, must use the ship's surge-circuit to break free from the sun's gravity and escape. The story culminates in a dramatic and intense sequence where the crew must work together to save their lives and the lives of the other ships.",
+            "score": 0.0,
+            "tokens": 6663,
+            "latency_seconds": 370.7343440055847
+        },
+        {
+            "gold_answer": "C",
+            "predicted_answer": "The correct answer is C) Syme would've fallen to his death.\n\nIn the story, Syme is hanging from the edge of the gully when Tate helps him by grabbing his wrist. If Tate hadn't helped, Syme would have fallen to his death.",
+            "score": 1.0,
+            "tokens": 6566,
+            "latency_seconds": 226.47404408454895
+        },
+        {
+            "gold_answer": "C",
+            "predicted_answer": "The correct answer is (A) He cannot be trusted, and the others make him leave.\n\nIn the story, Wass becomes increasingly erratic and unreliable, and his actions become more and more erratic. Martin and Rodney come to distrust him, and eventually, they make him leave the city and return to the lifeboat. This is because they believe that his presence is a liability and that they cannot trust him to make the right decisions in their situation.",
+            "score": 0.0,
+            "tokens": 6601,
+            "latency_seconds": 279.08687686920166
+        },
+        {
+            "gold_answer": "B",
+            "predicted_answer": "The correct answer is (C) Earthlings were not allowed to gamble while on Mars.",
+            "score": 0.0,
+            "tokens": 6530,
+            "latency_seconds": 172.83744978904724
+        },
+        {
+            "gold_answer": "A",
+            "predicted_answer": "The correct answer is C) The people. Maitland realized he was in the future when he met the people, specifically Ingrid, who spoke of things that were not known in his time, such as the War of Annihilation, the Afrikander Empire, and the concept of time travel.",
+            "score": 0.0,
+            "tokens": 6573,
+            "latency_seconds": 237.00731086730957
+        },
+        {
+            "gold_answer": "B",
+            "predicted_answer": "The correct answer is B) boring and slow.\n\nAccording to the text, the beginning of Topsy-Turvy is described as \"a mess\" and \"a waste of time\", with the reviewer stating that the first hour is \"a mess: The order of scenes feels arbitrary, and characters pop up and vanish with bewildering frequency. You might be tempted to vanish, too.\"",
+            "score": 1.0,
+            "tokens": 2972,
+            "latency_seconds": 57.897408962249756
+        },
+        {
+            "gold_answer": "B",
+            "predicted_answer": "The correct answer is B) His handling of the crisis at hand. Meg's mind is changed when Roger shows his ability to handle the crisis situation effectively, which impresses her and makes her reconsider her feelings for him.",
+            "score": 1.0,
+            "tokens": 6556,
+            "latency_seconds": 211.48618054389954
+        },
+        {
+            "gold_answer": "B",
+            "predicted_answer": "The correct answer is B) For disabling the company's production abilities.",
+            "score": 1.0,
+            "tokens": 6526,
+            "latency_seconds": 167.74399852752686
+        },
+        {
+            "gold_answer": "C",
+            "predicted_answer": "The correct answer is (C) Morgan authored a story with the exact same premise.\n\nIn the story, Morgan writes a science fiction story with a similar premise to Parks' situation, where a man from another planet comes to Earth and tries to communicate with humans. The story is published in a magazine, and Parks recognizes the similarity between the story and his own situation. This realization is what makes Morgan unable to help Parks, as he is aware that his story is not unique and that people may not believe Parks' claims because they have already been presented in a fictional context.",
+            "score": 1.0,
+            "tokens": 3760,
+            "latency_seconds": 57.19040536880493
+        },
+        {
+            "gold_answer": "D",
+            "predicted_answer": "The correct answer is (D) Simple actions can mend deep conflict.\n\nThe story explores the theme of how a simple action, in this case, the stoker's decision to sign on with the Jeks, can have a profound impact on the relationships between humans and the alien species they encounter. The stoker's actions lead to a gradual improvement in the treatment of humans by the Jeks, and ultimately, to a new era of cooperation and understanding between the two species.",
+            "score": 1.0,
+            "tokens": 6544,
+            "latency_seconds": 262.700067281723
+        },
+        {
+            "gold_answer": "A",
+            "predicted_answer": "The correct answer is A) Production and sales are down.",
+            "score": 1.0,
+            "tokens": 6524,
+            "latency_seconds": 165.37864089012146
+        },
+        {
+            "gold_answer": "B",
+            "predicted_answer": "The correct answer is B) The sound of an impact in the fuel tanks.",
+            "score": 1.0,
+            "tokens": 6528,
+            "latency_seconds": 170.16632223129272
+        },
+        {
+            "gold_answer": "A",
+            "predicted_answer": "The correct answer is A) The Earthmen were older citizens who had outgrown their ethical conditioning.",
+            "score": 1.0,
+            "tokens": 6532,
+            "latency_seconds": 175.75723695755005
+        },
+        {
+            "gold_answer": "C",
+            "predicted_answer": "The correct answer is C) There are no situations where unconditional OA applies.\n\nAccording to the text, even the strongest OA policies, such as those at the Wellcome Trust and NIH, are not truly unconditional. They may require authors to retain the right to authorize OA, and may offer waiver options. Additionally, the text notes that no policy can truly impose an unconditional OA requirement, as authors may still choose to opt out or seek exemptions.",
+            "score": 1.0,
+            "tokens": 4530,
+            "latency_seconds": 77.50168514251709
+        },
+        {
+            "gold_answer": "D",
+            "predicted_answer": "The correct answer is (D) Martians value what humans bring to their planet, including teaching them new ways to do things like conduct business and build structures.\n\nThe story suggests that Martians are not interested in the things humans bring to their planet, such as gold and diamonds, and that humans are more interested in manipulating the Martians than in forming a mutually beneficial relationship.",
+            "score": 1.0,
+            "tokens": 6587,
+            "latency_seconds": 258.00731921195984
+        },
+        {
+            "gold_answer": "D",
+            "predicted_answer": "The correct answer is D) that huge problems can come from not having proper defenses in place on the internet.\n\nThe author is concerned about the potential consequences of the internet's fragmentation and the lack of proper defenses in place, which could lead to devastating effects, such as cyber-attacks, fake news, and the weaponization of the internet. The author believes that the current state of the internet, with its reliance on a few large corporations and the lack of regulation, is a recipe for disaster.",
+            "score": 1.0,
+            "tokens": 3396,
+            "latency_seconds": 47.161598443984985
+        },
+        {
+            "gold_answer": "A",
+            "predicted_answer": "The correct answer is (C) Communication with other species and cultures is a delicate process that needs to be done with care.\n\nThe story highlights the importance of understanding and respecting the culture and customs of other beings, even if they are vastly different from our own. The Arzians, as a species, have a unique and complex society that is not immediately understandable to the human protagonists. The story shows how the humans' lack of understanding and respect for the Arzians' culture leads to misunderstandings and danger. The moral of the story is that communication with other species and cultures requires careful consideration and a willingness to learn and adapt, rather than simply imposing one's own values and assumptions on others.",
+            "score": 0.0,
+            "tokens": 4797,
+            "latency_seconds": 87.59642314910889
+        }
+    ]
+}

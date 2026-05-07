@@ -1,0 +1,157 @@
+{
+    "dataset": "QuALITY",
+    "model": "meta-llama/Meta-Llama-3-8B-Instruct",
+    "pipeline": "coa",
+    "avg_score": 57.14285714285714,
+    "avg_tokens": 7273.476190476191,
+    "avg_latency": 206.92982340994337,
+    "samples": [
+        {
+            "gold_answer": "D",
+            "predicted_answer": "Based on the context of the story, the most likely meaning of the slang O.Q. is:\n\nD) O.K./OK\n\nThe story mentions that Captain David O'Hara's response to the cook's suggestions is often \"O.Q.\", which is likely an abbreviation for \"O.K.\" or \"all right\", indicating his approval or agreement.",
+            "score": 0.0,
+            "tokens": 8089,
+            "latency_seconds": 355.95265221595764
+        },
+        {
+            "gold_answer": "D",
+            "predicted_answer": "The correct answer is D) To show that these characters are unlike the human ones on Earth.\n\nThe passage states that the author's purpose is to create a sense of wonder, unease, and tension in the reader by highlighting the differences between Blote and Dzhackoon and the human characters in the story. This is achieved by describing their physical appearance, emphasizing their otherness, and creating a sense of disorientation and uncertainty.",
+            "score": 1.0,
+            "tokens": 8507,
+            "latency_seconds": 331.4253160953522
+        },
+        {
+            "gold_answer": "D",
+            "predicted_answer": "There is no mention of \"terrestrials\" or \"reddies\" on Mars in the given story. The story is about a mysterious music with a hypnotic effect, played by a dark, exotic girl with a copper helmet, and its use to control the minds of those present. Therefore, it is not possible to determine the attitudes of the terrestrials towards the reddies on Mars based on this story.\n\nThe correct answer is \"None of the above\" or \"Not applicable\" (N/A).",
+            "score": 0.0,
+            "tokens": 7387,
+            "latency_seconds": 299.3360016345978
+        },
+        {
+            "gold_answer": "D",
+            "predicted_answer": "The correct answer is D) The hotel was failing, so the company was happy to get rid of the robots.\n\nAccording to the story, the hotel was about to go bankrupt due to the robots' inefficiency in dealing with human customers, and the hotel's manager, Hayes, was desperate to get rid of the robots to avoid financial ruin. This desperation led him to sell the robots to Harper at a cheap price.",
+            "score": 1.0,
+            "tokens": 8038,
+            "latency_seconds": 303.7780728340149
+        },
+        {
+            "gold_answer": "A",
+            "predicted_answer": "The correct answer is:\n\nB) A passenger ship transiting Earth - Venus accidentally starts falling into the sun\n\nThe story revolves around the T.R.S. Aphrodite, a surge-circuit monitor, trying to rescue two warships, the Lachesis and the Atropos, from falling into the sun, not a passenger ship.",
+            "score": 0.0,
+            "tokens": 7560,
+            "latency_seconds": 245.37832641601562
+        },
+        {
+            "gold_answer": "C",
+            "predicted_answer": "The correct answer is:\n\nC) Syme would've fallen to his death.\n\nAccording to the story, Syme was initially falling to his death after a gunfight with a spaceman, but was rescued by Harold Tate. If Syme weren't helped by Harold, it's likely that he would have fallen to his death.",
+            "score": 0.0,
+            "tokens": 7523,
+            "latency_seconds": 169.8412265777588
+        },
+        {
+            "gold_answer": "C",
+            "predicted_answer": "The correct answer is:\n\nC) He forgot the camera and has to go back to get it.",
+            "score": 1.0,
+            "tokens": 7731,
+            "latency_seconds": 156.6704878807068
+        },
+        {
+            "gold_answer": "B",
+            "predicted_answer": "The correct answer is B) Martians were not able to run a sweepstakes for Earthlings.",
+            "score": 1.0,
+            "tokens": 8435,
+            "latency_seconds": 192.24913454055786
+        },
+        {
+            "gold_answer": "A",
+            "predicted_answer": "The correct answer is A) A planet.\n\nAccording to the story, Maitland realized he was in the future when he saw Venus, a morning star, which he knew was not possible in his own time. This suggests that the presence of Venus in the morning sky, which is not typically visible in the morning in Maitland's own time, was the clue that led him to realize he was in the future.",
+            "score": 1.0,
+            "tokens": 8450,
+            "latency_seconds": 208.87480401992798
+        },
+        {
+            "gold_answer": "B",
+            "predicted_answer": "The correct answer is B) boring and slow. According to the summary, the beginning of Topsy-Turvy is described as a \"mess\" with an \"arbitrary\" order of scenes and characters appearing and disappearing \"with bewildering frequency\", making it difficult to follow, which suggests that it is slow and disorganized.",
+            "score": 1.0,
+            "tokens": 3252,
+            "latency_seconds": 71.28934955596924
+        },
+        {
+            "gold_answer": "B",
+            "predicted_answer": "The correct answer is B) His handling of the crisis at hand.\n\nThe story states that the crisis caused by the helium loaf's unexpected rise into the air leads to a series of events that ultimately change the course of the story. It is during this crisis that Megera's actions suggest a newfound interest and affection for Roger, specifically when she wraps her arms tightly around him and affectionately calls him her \"sweet little ever-victorious, self-propelled monkey wrench.\" This moment marks a shift in their dynamic, indicating that Megera's mind has changed about a relationship with Roger.",
+            "score": 1.0,
+            "tokens": 8865,
+            "latency_seconds": 252.6421639919281
+        },
+        {
+            "gold_answer": "B",
+            "predicted_answer": "Based on the story, the correct answer is:\n\nB) For disabling the company's machines, and conspiring to destroy the livelihood of ten thousand workers.\n\nThe story states that Walter was charged with \"sabotage of the company's machines\" and \"conspiring to destroy the livelihood of ten thousand workers\", which suggests that he was being accused of intentionally causing harm to the company's production capabilities and the livelihoods of its employees.",
+            "score": 0.0,
+            "tokens": 9313,
+            "latency_seconds": 314.1899778842926
+        },
+        {
+            "gold_answer": "C",
+            "predicted_answer": "The correct answer is:\n\nC) Morgan authored a story with the exact same premise",
+            "score": 1.0,
+            "tokens": 4109,
+            "latency_seconds": 66.7977545261383
+        },
+        {
+            "gold_answer": "D",
+            "predicted_answer": "The correct answer is D) Simple actions can mend deep conflict.\n\nThe story highlights the transformative power of human connection and the ripple effects of individual actions, emphasizing that even small, seemingly insignificant actions can have a lasting and far-reaching impact. This aligns with option D, which suggests that simple actions can indeed mend deep conflict, which is a central theme in the story.",
+            "score": 1.0,
+            "tokens": 7378,
+            "latency_seconds": 264.5226995944977
+        },
+        {
+            "gold_answer": "A",
+            "predicted_answer": "The correct answer is A) Production and sales are down.\n\nAccording to the story, the reports are accurate, as it is stated that \"the company has been experiencing a decline in production and sales\".",
+            "score": 1.0,
+            "tokens": 9065,
+            "latency_seconds": 191.73309755325317
+        },
+        {
+            "gold_answer": "B",
+            "predicted_answer": "Based on the story, the correct answer is:\n\nA) The sound of the lopsided rocket plume in the Red ship\n\nThis is the correct answer because the story mentions that Coulter is interrupted while writing a letter to Sylvia by thoughts of Kovacs, and then recalls an incident where Kovacs had a strong reaction when he saw Coulter with Marge Halpern. There is no mention of the other options (B, C, or D) in the story.",
+            "score": 0.0,
+            "tokens": 8125,
+            "latency_seconds": 221.1477313041687
+        },
+        {
+            "gold_answer": "A",
+            "predicted_answer": "Based on the story, the correct answer is:\n\nB) They were members of the MDC\n\nThe story mentions that Gavir was attacked by Hoppy Davery, a Century-Plus, who was a member of the MDC (Martian Development Corporation).",
+            "score": 0.0,
+            "tokens": 7662,
+            "latency_seconds": 194.96107864379883
+        },
+        {
+            "gold_answer": "C",
+            "predicted_answer": "The correct answer is:\n\nC) There are no situations where unconditional OA applies",
+            "score": 1.0,
+            "tokens": 5045,
+            "latency_seconds": 102.35175466537476
+        },
+        {
+            "gold_answer": "D",
+            "predicted_answer": "The correct answer is A) Humans are happy to bring their women to Mars as another manipulation tactic against the race.\n\nThe story states that humans do not bring their women to Mars as a manipulation tactic, which is the opposite of what is stated in option A.",
+            "score": 0.0,
+            "tokens": 8998,
+            "latency_seconds": 227.4199297428131
+        },
+        {
+            "gold_answer": "D",
+            "predicted_answer": "The correct answer is D) that huge problems can come from not having proper defenses in place on the internet.\n\nThe author is concerned that the increasing fragmentation of the internet, driven by governments' desire to control the flow of information and protect their citizens from cyber-attacks, may lead to the creation of separate, national internets, resulting in a \"splinternet\" where different countries have their own, isolated online spaces, making it difficult for people to access information and communicate across borders.",
+            "score": 1.0,
+            "tokens": 3944,
+            "latency_seconds": 70.68017387390137
+        },
+        {
+            "gold_answer": "A",
+            "predicted_answer": "The correct answer is C) Communication with other species and cultures is a delicate process that needs to be done with care.\n\nThe story highlights the importance of understanding and respecting the cultures and ways of other species, and the need for caution when exploring the unknown. The crew's discovery of the Arzians being used as bait for the octopods' hunting games serves as a cautionary tale about the importance of being mindful of the cultural and social norms of other species, and not disrupting their natural balance.",
+            "score": 0.0,
+            "tokens": 5267,
+            "latency_seconds": 104.28455805778503
+        }
+    ]
+}

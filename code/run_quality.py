@@ -13,7 +13,7 @@ TASK_REQUIREMENT = "You are provided a story and a multiple-choice question with
 
 def compute_exact_match_letter(gold, predicted):
     """Quality outputs a single letter (A, B, C, or D)."""
-    if gold is None:
+    if gold is None or predicted is None:
         return 0.0
     
     gold = gold.strip().upper()
